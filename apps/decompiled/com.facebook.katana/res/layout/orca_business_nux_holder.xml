@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.business.common.view.BusinessNuxView android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/business_nux_holder" android:paddingLeft="@dimen/business_nux_padding_width" android:paddingRight="@dimen/business_nux_padding_width" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/business_nux_top_margin" android:layout_marginBottom="@dimen/business_nux_bottom_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

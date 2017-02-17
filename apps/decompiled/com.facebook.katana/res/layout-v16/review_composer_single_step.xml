@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/review_composer_single_step_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/rating_container_height">
+        <com.facebook.widget.ratingbar.AnimatedRatingBar android:layout_gravity="center" android:id="@id/single_step_rating_bar" android:paddingTop="@dimen/rating_default_vertical_padding" android:paddingBottom="@dimen/rating_rating_bar_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:activeStarDrawable="@drawable/blue_rating_star" fb:inactiveStarDrawable="@drawable/gray_rating_star" fb:numStars="5" fb:horizontalStarPadding="4.0dip" />
+    </FrameLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textColor="@color/review_text_medium" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/single_step_rating_bar_bottom_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/composer_status_wrapper_padding" android:layout_marginRight="@dimen/composer_status_wrapper_padding" android:layout_marginBottom="@dimen/rating_default_vertical_padding" android:includeFontPadding="false" android:fontFamily="roboto" />
+    <View android:layout_gravity="bottom" android:background="?android:textColorTertiary" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

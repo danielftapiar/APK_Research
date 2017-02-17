@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/product_group_large_image_container" android:background="@drawable/feed_attachment_background_box" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/product_group_user_interactions_image" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <com.facebook.fbui.widget.text.GlyphWithTextView android:id="@id/product_group_user_interactions_share_button" android:background="@color/fbui_bluegrey_40_40a" android:padding="@dimen/fbui_padding_one_fourth_standard" android:visibility="gone" android:layout_width="@dimen/cta_share_link_button_height" android:layout_height="@dimen/cta_share_link_button_height" android:layout_margin="@dimen/fbui_padding_standard" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" fb:drawable="@drawable/ufi_icon_share" fb:glyphColor="@color/fbui_bluegrey_30" style="@style/ufi_button_text" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</merge>

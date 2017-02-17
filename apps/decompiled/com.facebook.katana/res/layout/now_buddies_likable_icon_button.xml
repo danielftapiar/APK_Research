@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.now.icons.NowIconView android:layout_gravity="center" android:id="@id/now_buddy_regular_icon_view" android:layout_width="@dimen/now_presence_row_glyph_size_total" android:layout_height="@dimen/now_presence_row_glyph_size_total" android:layout_margin="@dimen/now_standard_padding" android:scaleType="centerInside" fb:iconSize="@dimen/now_presence_row_glyph_size_internal" fb:backgroundCornerRadius="@dimen/now_icon_view_corner_radius" />
+    <com.facebook.now.icons.NowIconView android:layout_gravity="center" android:id="@id/now_buddy_large_icon_view" android:layout_width="@dimen/now_presence_row_glyph_large_size_total" android:layout_height="@dimen/now_presence_row_glyph_large_size_total" android:layout_margin="@dimen/now_standard_padding_half" android:scaleType="centerInside" fb:iconSize="@dimen/now_presence_row_glyph_large_size_internal" fb:backgroundCornerRadius="@dimen/now_icon_view_corner_radius" fb:imageCornerRadius="@dimen/now_icon_view_image_corner_radius" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/now_buddy_icon_like" android:visibility="gone" android:layout_width="@dimen/now_presence_row_like_icon_size" android:layout_height="@dimen/now_presence_row_like_icon_size" android:src="@drawable/now_like" />
+</merge>

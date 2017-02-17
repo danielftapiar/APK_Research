@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.resources.ui.FbTextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ask_friends_write_answer_text_left_margin" android:layout_marginRight="@dimen/ask_friends_write_answer_text_right_margin" android:minHeight="@dimen/ask_friends_write_answer_height" android:text="@string/ask_friends_answer_prompt" android:layout_weight="1.0" style="@style/AskFriendsWriteAnswerButton" />
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center_vertical" android:id="@id/tag_friends" android:background="@drawable/transparent_drawable" android:paddingLeft="@dimen/ask_friends_tag_friends_icon_padding_horizontal" android:paddingTop="@dimen/ask_friends_tag_friends_icon_padding_vertical" android:paddingRight="@dimen/ask_friends_tag_friends_icon_padding_horizontal" android:paddingBottom="@dimen/ask_friends_tag_friends_icon_padding_vertical" android:layout_width="@dimen/ask_friends_tag_friends_icon_width" android:layout_height="@dimen/ask_friends_tag_friends_icon_height" android:src="@drawable/fbui_friend_add_l" android:layout_weight="0.0" android:contentDescription="@string/ask_friends_tag_button_description" fb:glyphColor="@color/grey40" />
+    </LinearLayout>
+    <View android:background="@color/fbui_bluegrey_5" android:layout_width="fill_parent" android:layout_height="@dimen/ask_friends_attachment_border_width" />
+</merge>

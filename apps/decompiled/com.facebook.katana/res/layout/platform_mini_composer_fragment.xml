@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:background="@color/target_picker_background_color" android:paddingLeft="@dimen/composer_padding" android:paddingRight="@dimen/composer_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/composer_container" android:background="@android:drawable/dialog_holo_light_frame" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_container" android:background="@color/fbui_blue_90" android:paddingLeft="@dimen/composer_padding" android:paddingRight="@dimen/composer_padding" android:layout_width="fill_parent" android:layout_height="@dimen/composer_header_height">
+            <ViewStub android:id="@id/composer_titlebar" android:inflatedId="@id/composer_titlebar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/cancel_view" android:background="@android:color/transparent" android:clickable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/composer_cancel" android:scaleType="center" />
+        </LinearLayout>
+        <include layout="@layout/mini_composer_privacy_bar" />
+        <include layout="@layout/mini_composer_status_container" />
+        <FrameLayout android:id="@id/composer_preview_container" android:paddingLeft="@dimen/feed_attachement_padding" android:paddingRight="@dimen/feed_attachement_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/mini_composer_preview_container" />
+    </LinearLayout>
+</FrameLayout>

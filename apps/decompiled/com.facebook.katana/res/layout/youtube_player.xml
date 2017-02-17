@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/yt_logo_light" android:layout_width="80.0dip" android:layout_height="50.0dip" android:src="@drawable/yt_logo_light" android:layout_above="@id/youtube_player_fragment" android:layout_alignParentRight="true" />
+    <fragment android:name="com.facebook.video.youtubeplayer.YouTubePlayerFragment" android:id="@id/youtube_player_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

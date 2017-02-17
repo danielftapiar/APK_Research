@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.now.ui.NowTitleBarView android:gravity="center_vertical" android:id="@id/now_divebar_title" android:background="@drawable/now_titlebar_text_bg_selector" android:layout_width="fill_parent" android:layout_height="@dimen/now_title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

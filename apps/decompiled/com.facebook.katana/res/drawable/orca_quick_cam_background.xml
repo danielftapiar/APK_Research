@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:gravity="center" android:background="@color/orca_quick_cam_media_tray_container_background" android:src="@drawable/msgr_ic_camera"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_today" android:title="Today" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_search" android:title="Search" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_nav" android:title="Show     >">
+        <menu>
+            <group android:id="@id/menu_nav_group" android:checkableBehavior="single">
+                <item android:id="@id/menu_nav_all" android:checked="true" android:title="All" />
+                <item android:id="@id/menu_nav_in" android:title="In" />
+                <item android:id="@id/menu_nav_out" android:title="Out" />
+            </group>
+        </menu>
+    </item>
+</menu>

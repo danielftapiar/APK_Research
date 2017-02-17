@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/list_view_item_horizontal_spacer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RatingBar android:id="@id/channelRating" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/list_view_item_horizontal_spacer" android:stepSize="1.0" android:layout_weight="1.0" android:layout_marginEnd="@dimen/list_view_item_horizontal_spacer" style="?android:attr/ratingBarStyleSmall" />
+    <TextView android:textStyle="bold" android:textColor="@color/channel_number" android:id="@id/channelNumber" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.75" android:layout_marginStart="@dimen/list_view_item_horizontal_spacer" android:layout_marginEnd="@dimen/list_view_item_horizontal_spacer" />
+    <TextView android:textStyle="bold" android:textColor="@color/connected" android:id="@id/accessPointCount" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.75" />
+</LinearLayout>

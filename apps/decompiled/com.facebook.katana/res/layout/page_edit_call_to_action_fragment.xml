@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.FbScrollView android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.pages.common.surface.calltoaction.ui.PageCallToActionConfigurationView android:orientation="vertical" android:id="@id/page_edit_call_to_action_configuration_view" android:background="@color/fbui_white" android:paddingLeft="@dimen/fbui_content_view_horizontal_padding" android:paddingRight="@dimen/fbui_content_view_horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PageCTASubContentView" />
+        <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fbui_padding_standard" fb:showDividers="middle" fb:divider="@color/fbui_border_dark" fb:dividerThickness="@dimen/one_px">
+            <com.facebook.pages.common.surface.calltoaction.ui.PageCallToActionEditActionView android:id="@id/page_edit_call_to_action_type" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:text="@string/page_change_call_to_action_type" fb:showChevron="true" style="@style/PageCTAEditActionView" />
+            <com.facebook.pages.common.surface.calltoaction.ui.PageCallToActionEditActionView android:id="@id/page_edit_call_to_action_delete" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:text="@string/page_delete_call_to_action" fb:showChevron="false" style="@style/PageCTAEditActionView" />
+        </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
+    </LinearLayout>
+</com.facebook.widget.FbScrollView>

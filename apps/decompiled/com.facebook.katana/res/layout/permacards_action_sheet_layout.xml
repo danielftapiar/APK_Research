@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.now.permacards.ui.PermaCardsLauncherButton android:id="@id/permacards_message_button" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:permaCardsLauncherButtonImage="@drawable/fbui_messenger_l" fb:permaCardsLauncherButtonText="@string/timeline_actionbar_message" />
+    <com.facebook.now.permacards.ui.PermaCardsLauncherButton android:id="@id/permacards_call_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:permaCardsLauncherButtonImage="@drawable/fbui_phone_l" fb:permaCardsLauncherButtonText="@string/timeline_actionbar_call" />
+    <com.facebook.now.permacards.ui.PermaCardsLauncherButton android:id="@id/permacards_launch_profile_button" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:permaCardsLauncherButtonImage="@drawable/fbui_neutral_l" fb:permaCardsLauncherButtonText="@string/permacards_launch_profile" />
+</LinearLayout>

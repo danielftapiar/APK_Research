@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/raven_sticker_promo_button_press" />
+            <stroke android:width="1.0dip" android:color="@color/raven_sticker_promo_button_press" />
+            <corners android:radius="@dimen/raven_sticker_promo_button_radius" />
+            <padding android:left="@dimen/raven_sticker_promo_small_margin" android:top="@dimen/raven_sticker_promo_small_margin" android:right="@dimen/raven_sticker_promo_small_margin" android:bottom="@dimen/raven_sticker_promo_small_margin" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="@color/raven_sticker_promo_button_background" android:endColor="@color/raven_sticker_promo_button_background" android:angle="270.0" />
+            <stroke android:width="1.0dip" android:color="@color/raven_sticker_promo_button_background" />
+            <corners android:radius="@dimen/raven_sticker_promo_button_radius" />
+            <padding android:left="@dimen/raven_sticker_promo_small_margin" android:top="@dimen/raven_sticker_promo_small_margin" android:right="@dimen/raven_sticker_promo_small_margin" android:bottom="@dimen/raven_sticker_promo_small_margin" />
+        </shape>
+    </item>
+</selector>

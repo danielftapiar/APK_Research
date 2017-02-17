@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/d_root" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0dip" android:textColor="#ffff0000" android:id="@id/tv_otra_loc_title" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/buscar_otra_loc" />
+    <LinearLayout android:orientation="vertical" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <EditText android:id="@id/et_otra_loc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:lines="1" android:inputType="text" android:imeOptions="actionSearch" />
+            <LinearLayout android:gravity="center" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_otra_loc_cancelar" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancelar" android:layout_weight="1.0" />
+                <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_otra_loc_buscar" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/buscar" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_pb_geocoding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:id="@id/pb_geocoding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ListView android:id="@id/lv_otra_loc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/transparent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

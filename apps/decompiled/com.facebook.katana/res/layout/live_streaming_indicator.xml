@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center|left" android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/live_streaming_backdrop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/broadcast_icon_64" />
+    <ImageView android:gravity="center" android:id="@id/live_streaming_outer_ring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/broadcast_icon_outer_ring" />
+    <ImageView android:gravity="center" android:id="@id/live_streaming_inner_ring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/broadcast_icon_inner_ring" />
+</FrameLayout>

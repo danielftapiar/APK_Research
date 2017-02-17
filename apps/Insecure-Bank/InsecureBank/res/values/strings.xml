@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">InsecureBankActivity!</string>
+    <string name="app_name">InsecureBank</string>
+    
+    <string name="paladiontitle">InsecureBank : Paladion</string>
+    <string name="loginscreen_username">Username:</string>
+    <string name="loginscreen_password">Password:</string>
+    
+    <string name="loginscreen_username_loggedin">WelcomeUser</string>
+    
+</resources>

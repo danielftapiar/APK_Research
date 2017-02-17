@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/throwback_polaroid_waiting" />
+    <item android:id="@id/throwback_polaroid_bitmap" android:drawable="@drawable/throwback_polaroid_waiting" />
+</transition>

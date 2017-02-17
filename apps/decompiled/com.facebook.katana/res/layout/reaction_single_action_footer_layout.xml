@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.SegmentedLinearLayout android:gravity="center" android:orientation="vertical" android:background="?reactionCardPrimaryBackground" android:paddingTop="@dimen/reaction_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showDividers="beginning" fb:divider="?reactionCardFooterSeparatorBackground" fb:dividerThickness="@dimen/one_px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textSize="?reactionCardTextSizeMedium" android:textColor="@color/reaction_card_footer_text" android:ellipsize="end" android:gravity="center" android:id="@id/reaction_footer_text" android:paddingLeft="?reactionCardPadding" android:paddingTop="@dimen/reaction_padding_small" android:paddingRight="?reactionCardPadding" android:layout_width="wrap_content" android:layout_height="@dimen/reaction_action_text_height" android:maxLines="1" style="@style/reaction_text_with_chevron_s" />
+</com.facebook.fbui.widget.layout.SegmentedLinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/review_composer_single_step" />
+    <include layout="@layout/review_composer_multi_step" />
+</merge>

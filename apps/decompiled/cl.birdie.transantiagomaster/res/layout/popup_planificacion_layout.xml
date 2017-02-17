@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" style="@style/popUpParadero"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cl.birdie.toolkit.TypefacedTextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="left" android:id="@id/txtItinerarios" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="Itinerario 1 de 3" android:layout_weight="4.0" tsm:typeface="TSMapGruesa.otf"
+              xmlns:tsm="http://schemas.android.com/apk/res/cl.birdie.transantiagomaster" />
+        </LinearLayout>
+        <ImageView android:id="@id/imgClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close48" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutPasos" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

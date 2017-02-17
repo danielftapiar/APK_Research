@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/fbui_content_view_tw3l_thumbnail_width_height_caspian"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.contentview.ContentView android:id="@id/pages_launchpoint_header_with_button_item_view_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" fb:titleTextAppearance="@style/TextAppearance.Caspian.XLarge" fb:thumbnailSize="small" style="?attr/contentViewStyleCondensed" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.facebook.fbui.widget.text.GlyphWithTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_accent_blue" android:layout_gravity="center_vertical" android:id="@id/pages_launchpoint_header_with_button_item_view_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" />
+</com.facebook.widget.CustomLinearLayout>

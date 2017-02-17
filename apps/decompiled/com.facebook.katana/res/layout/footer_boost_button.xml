@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="bold" android:textColor="@color/schedule_post_time_text_color" android:ellipsize="end" android:gravity="end|center" android:id="@id/boost_button" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/composer_footer_bar_height" android:text="@string/ad_interfaces_boost_post" android:singleLine="true" android:drawableRight="@drawable/arrow" android:drawablePadding="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

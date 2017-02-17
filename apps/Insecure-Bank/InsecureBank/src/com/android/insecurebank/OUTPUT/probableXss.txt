@@ -1,0 +1,1 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_probableXss.txt:1:C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java:38:wView.getSettings().setJavaScriptEnabled(true);

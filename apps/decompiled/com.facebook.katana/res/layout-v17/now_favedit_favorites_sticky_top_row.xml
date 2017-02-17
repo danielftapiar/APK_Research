@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:background="@color/now_divebar_medium_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/bottom_divider" android:background="@color/divebar_contact_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_width" android:layout_alignParentBottom="true" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_bluegrey_40" android:gravity="center" android:padding="@dimen/now_standard_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/now_favedit_profile_pic_size" android:layout_marginRight="@dimen/now_favedit_profile_pic_size" android:text="@string/now_editfav_favorites_sticky_top_row" android:layout_centerInParent="true" android:lineSpacingExtra="@dimen/fbui_padding_half_text" android:layout_marginStart="@dimen/now_favedit_profile_pic_size" android:layout_marginEnd="@dimen/now_favedit_profile_pic_size" fb:fontFamily="roboto" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/cover_frame_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.instagram.creation.video.widget.scrubber.IgScrubberProgressIndicator android:id="@id/cover_frame_progress_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
+    <FrameLayout android:paddingLeft="@dimen/scrubber_film_strip_left_right_padding" android:paddingRight="@dimen/scrubber_film_strip_left_right_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/cover_frame_film_strip" android:layout_width="fill_parent" android:layout_height="@dimen/scrubber_film_strip_height" />
+        <SeekBar android:layout_gravity="center_vertical" android:id="@id/scrubber_seekbar" android:paddingLeft="@dimen/scrubber_seek_bar_left_right_padding" android:paddingRight="@dimen/scrubber_seek_bar_left_right_padding" android:layout_width="fill_parent" android:layout_height="@dimen/scrubber_seek_bar_height" android:progressDrawable="@null" />
+    </FrameLayout>
+</LinearLayout>

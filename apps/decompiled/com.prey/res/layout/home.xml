@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView" android:layout_width="100.0dip" android:layout_height="wrap_content" android:src="@drawable/prey_logo_b_mono2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" android:layout_marginBottom="100.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:gravity="left" android:id="@id/larr" android:layout_width="50.0dip" android:layout_height="400.0dip" android:layout_below="@id/imageView" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="180.0dip" android:src="@drawable/larr" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:id="@id/rarr" android:layout_width="50.0dip" android:layout_height="400.0dip" android:layout_below="@id/imageView" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="180.0dip" android:src="@drawable/rarr" />
+    </LinearLayout>
+    <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/buttonHome" android:background="#ff2a5e93" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="50.0dip" android:text="@string/home_button" android:layout_alignParentBottom="true" />
+    <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/linkHome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/home_subtitle" android:layout_alignParentBottom="true" />
+</RelativeLayout>

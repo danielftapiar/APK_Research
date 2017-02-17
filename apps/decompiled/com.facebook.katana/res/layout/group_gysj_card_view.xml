@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/group_tab_card_view" android:background="@drawable/feed_attachment_background" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/group_tab_gysj_card_cover_photo" android:layout_width="@dimen/groups_tab_suggestions_unit_image_width" android:layout_height="@dimen/groups_tab_gysj_cover_photo_height" android:tileMode="repeat" fb:placeholderImageScaleType="none" fb:actualImageScaleType="none" />
+    </FrameLayout>
+    <com.facebook.fbui.widget.layout.ImageBlockLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/group_tab_gysj_card_bottom_view_container" android:paddingLeft="@dimen/groups_tab_suggestions_unit_buttom_container_side_padding" android:layout_width="fill_parent" android:layout_height="@dimen/groups_tab_suggestions_unit_bottom_part_height">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/fbui_bluegrey_80" android:layout_gravity="center" android:id="@id/group_tab_gysj_card_title" android:paddingTop="3.0dip" android:layout_width="@dimen/groups_tab_suggestions_unit_buttom_container_size" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        <com.facebook.widget.text.BetterTextView android:layout_gravity="center" android:id="@id/group_tab_gysj_card_friends" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" />
+        <com.facebook.groups.widget.membersbar.MembersBarView android:id="@id/group_tab_membersbar" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showAddMemberPog="false" />
+        <com.facebook.groups.groupstab.ui.GroupsTabButton android:layout_gravity="center_vertical" android:id="@id/groups_tab_gysj_join_button" android:background="@color/transparent" android:layout_width="@dimen/groups_tab_suggestions_unit_action_button_view_width" android:layout_height="fill_parent" android:src="@drawable/nav_groups" android:scaleType="center" fb:layout_useAsAuxView="true" />
+    </com.facebook.fbui.widget.layout.ImageBlockLayout>
+</LinearLayout>

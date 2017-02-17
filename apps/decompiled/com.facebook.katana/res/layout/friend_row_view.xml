@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:layout_useAsAuxView="true">
+        <com.facebook.fbui.widget.text.ImageWithTextView android:id="@id/friend_view_messenger_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="0.0dip" fb:drawable="@drawable/jewel_messenger_button_glyph" style="?attr/buttonRegularSmall" />
+        <ImageView android:id="@id/friend_view_overflow_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/overflow_button_glyph" android:contentDescription="@string/abc_action_menu_overflow_description" />
+    </LinearLayout>
+</merge>

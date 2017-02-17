@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/now_buddy_profile_pic" android:padding="@dimen/one_px" android:layout_width="@dimen/now_profile_pic_size" android:layout_height="@dimen/now_profile_pic_size" android:layout_margin="@dimen/now_standard_padding" fb:layout_useAsThumbnail="true" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_white" android:ellipsize="end" android:id="@id/now_buddy_presence_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/now_standard_padding" android:maxLines="1" android:includeFontPadding="false" fb:fontFamily="roboto" fb:fontWeight="medium" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_bluegrey_20" android:id="@id/now_buddy_presence_update" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="regular" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_all_caps" android:textColor="@color/fbui_bluegrey_40" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/now_buddy_presence_context" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginBottom="@dimen/now_standard_padding" />
+    <com.facebook.now.ui.BuddyLikableIconButtonView android:layout_gravity="center_vertical" android:id="@id/now_buddy_icon_button" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:layout_useAsAuxView="true" />
+</merge>

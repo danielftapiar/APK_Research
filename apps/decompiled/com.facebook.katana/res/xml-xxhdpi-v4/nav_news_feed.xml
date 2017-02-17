@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<region fbui:density="480" fbui:atlas="@drawable/apptab_icons" fbui:left="0.0px" fbui:top="0.0px" fbui:right="72.0px" fbui:bottom="62.0px" fbui:paddingLeft="0.0px" fbui:paddingTop="5.0px" fbui:paddingRight="0.0px" fbui:paddingBottom="5.0px" fbui:atlasWidth="72.0px" fbui:atlasHeight="234.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto" />

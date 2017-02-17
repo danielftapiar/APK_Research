@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrcaNeueActionBar.Home" parent="@style/OrcaNeueActionBar">
+        <item name="navigationMode">tabMode</item>
+        <item name="displayOptions">forceEmbeddedTabs</item>
+    </style>
+</resources>

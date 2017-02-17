@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/leadgen_medium_font_size" android:textColor="@color/leadgen_title_color" android:id="@id/inline_select_title" android:paddingLeft="@dimen/leadgen_form_field_padding" android:paddingRight="@dimen/leadgen_form_field_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/leadgen_radio_button_top_bottom_margin" />
+    <RadioGroup android:orientation="vertical" android:id="@id/lead_gen_radio_group" android:paddingLeft="@dimen/leadgen_form_field_padding" android:paddingRight="@dimen/leadgen_form_field_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/inline_select_title" />
+</merge>

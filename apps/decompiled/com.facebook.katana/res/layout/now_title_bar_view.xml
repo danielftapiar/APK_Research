@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/dummy_focus_elt" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <com.facebook.fbui.glyph.GlyphView android:gravity="center_vertical" android:id="@id/title_bar_up_button" android:paddingLeft="@dimen/now_standard_padding_double" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/caspian_titlebar_icon_up" android:contentDescription="@string/generic_back" fbui:glyphColor="@color/now_title_bar_glyph_color" />
+    <ViewFlipper android:gravity="center_vertical" android:id="@id/title_search_bar_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/now_standard_padding_double" android:measureAllChildren="false" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:layout_weight="1.0">
+        <com.facebook.ui.search.SearchEditText android:layout_gravity="center_vertical" android:id="@id/now_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NowSearchBar" />
+        <com.facebook.widget.text.SimpleVariableTextLayoutView android:id="@id/now_titlebar_text" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NowTitlebarTitleText" />
+    </ViewFlipper>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/fbui_white" android:gravity="center_vertical" android:id="@id/now_titlebar_right_button" android:paddingLeft="@dimen/now_standard_padding_double" android:paddingRight="@dimen/now_standard_padding_double" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/generic_skip" android:drawablePadding="0.0dip" />
+</merge>

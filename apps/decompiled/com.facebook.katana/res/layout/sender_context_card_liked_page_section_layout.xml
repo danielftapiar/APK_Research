@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/liked_page_section_container" android:padding="@dimen/sender_context_card_section_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_all_caps" android:textColor="@color/fbui_bluegrey_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sender_context_card_liked_page" fb:allCaps="true" fb:fontFamily="roboto" fb:fontWeight="medium" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_bluegrey_80" android:id="@id/liked_page_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sender_context_card_content_margin_top" fb:fontFamily="roboto" fb:fontWeight="regular" />
+</LinearLayout>

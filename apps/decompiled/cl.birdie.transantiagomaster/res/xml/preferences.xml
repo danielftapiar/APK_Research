@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/OPCIONES_USAR_RED" android:key="UsarRed" android:summary="@string/OPCIONES_USAR_RED_SUMM" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/OPCIONES_USAR_GPS" android:key="UsarGPS" android:summary="@string/OPCIONES_USAR_GPS_SUMM" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/OPCIONES_MANOS_LIBRES" android:key="CapturarMediaButton" android:summary="@string/OPCIONES_MANOS_LIBRES_SUMM" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/OPCIONES_USAR_VIBRACION" android:key="Vibracion" android:summary="@string/OPCIONES_USAR_VIBRACION_SUMM" android:defaultValue="true" />
+    <ListPreference android:entries="@array/mapa_estilos" android:title="@string/MAPA_ESTILO" android:key="MapaEstilo" android:summary="@string/MAPA_ESTILO_SUMM" android:defaultValue="@string/MAPA_ESTILO_DEFAULT" android:dialogTitle="@string/MAPA_ESTILO" android:entryValues="@array/mapa_estilos_values" />
+    <CheckBoxPreference android:title="@string/OPCIONES_ZOOM" android:key="BotonesZoom" android:summary="@string/OPCIONES_ZOOM_SUMM" android:defaultValue="true" />
+    <Preference android:title="@string/OPCIONES_SITIO_WEB" android:key="sitioWeb" android:summary="http://www.transantiagomaster.cl" />
+    <Preference android:title="@string/SPEECH_INSTALAR_SOPORTE_VOZ" android:key="instalaSoporteVoz" android:summary="@string/OPCIONES_INSTALAR_SOPORTE_VOZ_SUMM" />
+    <Preference android:title="@string/DESCARGAR_BASE_DATOS" android:key="descargaBaseDatos" android:summary="@string/OPCIONES_DESCARGAR_BASE_DATOS_SUMM" />
+    <Preference android:title="@string/FACEBOOK_FAVORITE_RESTORE" android:key="restauraFavoritos" android:summary="@string/OPCIONES_FACEBOOK_FAVORITE_RESTORE_SUMM" />
+    <Preference android:title="@string/ENVIANOS_UN_EMAIL" android:key="enviaEmail" android:summary="@string/OPCIONES_ENVIANOS_EMAIL_SUMM" />
+    <Preference android:title="@string/VERSION" android:key="version" android:summary="@string/DESARROLLADO_POR" />
+</PreferenceScreen>

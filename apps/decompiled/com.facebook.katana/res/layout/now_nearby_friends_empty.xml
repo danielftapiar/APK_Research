@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/now_buddies_nearby_empty_content" />
+    <com.facebook.resources.ui.FbButton android:id="@id/now_nearby_friends_empty_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/now_nearby_friends_empty_views_padding" android:text="@string/now_buddies_nearby_empty_button" style="?attr/buttonRegularSmall" />
+</merge>

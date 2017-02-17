@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uib="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/fbui_compose_l" android:id="@id/groups_feed_composer_status" android:title="@string/groups_feed_publisher_post" uib:showAsAction="ifRoom" />
+    <item android:icon="@drawable/fbui_camera_l" android:id="@id/groups_feed_composer_photo" android:title="@string/groups_feed_publisher_photo" uib:showAsAction="ifRoom" />
+</menu>

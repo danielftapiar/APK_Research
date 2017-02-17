@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_nav2" android:title="Show     >">
+        <menu>
+            <group android:id="@id/menu_nav_group2" android:checkableBehavior="single">
+                <item android:id="@id/menu_all" android:checked="true" android:title="All" />
+                <item android:id="@id/menu_filter" android:title="Filter" />
+            </group>
+        </menu>
+    </item>
+</menu>

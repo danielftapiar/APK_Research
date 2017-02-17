@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ff97af22" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip">
+            <LinearLayout android:orientation="vertical" android:background="#ff00766e" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageView1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/esquina_superior_izq" android:scaleType="fitXY" android:layout_weight="0.05" />
+                <ImageView android:id="@id/imageView2" android:layout_width="fill_parent" android:layout_height="20.0dip" android:src="@drawable/latera_superior" android:scaleType="fitXY" android:layout_weight="0.9" />
+                <ImageView android:id="@id/imageView3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/esquina_superior_derch" android:scaleType="fitXY" android:layout_weight="0.05" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageView1" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/lateral_izq" android:scaleType="fitXY" android:layout_weight="0.05" />
+                <LinearLayout android:background="#ff97af22" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.9">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="4.0">
+                        <cl.birdie.transantiagomaster.utils.ResizableImageView android:id="@id/PhotoOfComment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/abs__ab_stacked_solid_dark_holo" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/imageView4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:src="@drawable/flechaamarilla" android:scaleType="fitStart" />
+                            <TextView android:textColor="#ff1a1a1a" android:id="@id/UserComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textColor="#ff1a1a1a" android:id="@id/TextOfComment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                            <TextView android:textColor="#ff1a1a1a" android:id="@id/name_of_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                            <cl.birdie.transantiagomaster.utils.ResizableImageView android:id="@id/imagen_subida" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/descargando" android:layout_weight="4.0" />
+                            <TextView android:textColor="#ff1a1a1a" android:id="@id/TextOfCaption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="4.0">
+                            <LinearLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@id/imgLikeCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/megusta_item" />
+                                <TextView android:textColor="#ff00767e" android:id="@id/txtLikeCounts" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:id="@id/imageView3" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/lateral_derch" android:scaleType="fitXY" android:layout_weight="0.05" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageView1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/esquina_inferior_izq" android:scaleType="fitXY" android:layout_weight="0.05" />
+                <ImageView android:id="@id/imageView2" android:layout_width="fill_parent" android:layout_height="20.0dip" android:src="@drawable/lateral_inferior" android:scaleType="fitXY" android:layout_weight="0.9" />
+                <ImageView android:id="@id/imageView3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/esquina_inferior_derch" android:scaleType="fitXY" android:layout_weight="0.05" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ContentLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="20.0dip">
+                <EditText android:textColor="#ff333333" android:id="@id/txtForComment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="@string/HINT_TXT_FOR_COMMENT" android:ems="10" android:layout_weight="1.0" android:inputType="textMultiLine">
+                    <requestFocus />
+                </EditText>
+                <ImageView android:layout_gravity="right" android:id="@id/btnComentar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/agregar_comentario_icon" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

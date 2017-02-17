@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/RelativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/ly_bloque" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/textView1" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/numero_deposito" />
+                <TextView android:textColor="#ff000000" android:id="@id/tv_page_dap_cobro_n_deposito" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="TextView" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/textView2" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tipo_deposito" />
+                <TextView android:textColor="#ff000000" android:id="@id/tv_page_dap_cobro_t_deposito" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="TextView" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ly_cobrable" android:background="#a8333333" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/ly_bloque" android:layout_alignTop="@id/ly_bloque" android:layout_alignRight="@id/ly_bloque" android:layout_alignBottom="@id/ly_bloque" />
+    </RelativeLayout>
+</LinearLayout>

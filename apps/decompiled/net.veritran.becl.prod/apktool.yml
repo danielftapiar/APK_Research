@@ -1,0 +1,38 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: net.veritran.becl.prod.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles:
+  org/spongycastle/mail/smime/validator/SignedMailValidatorMessages.properties: '8'
+  org/spongycastle/mail/smime/validator/SignedMailValidatorMessages_de.properties: '8'
+  org/spongycastle/x509/CertPathReviewerMessages_de.properties: '8'
+  org/spongycastle/x509/CertPathReviewerMessages.properties: '8'
+  org/osmdroid/center.png: '8'
+  org/osmdroid/direction_arrow.png: '8'
+  org/osmdroid/ic_menu_compass.png: '8'
+  org/osmdroid/ic_menu_mapmode.png: '8'
+  org/osmdroid/ic_menu_mylocation.png: '8'
+  org/osmdroid/ic_menu_offline.png: '8'
+  org/osmdroid/marker_default.png: '8'
+  org/osmdroid/marker_default_focused_base.png: '8'
+  org/osmdroid/navto_small.png: '8'
+  org/osmdroid/next.png: '8'
+  org/osmdroid/person.png: '8'
+  org/osmdroid/previous.png: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '30813'
+  versionName: 5.0.1.30813

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/search_edit_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GraphSearchTitleLinearLayout">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/search_mag_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/graph_search_box_icon" fbui:glyphColor="?titleBarPrimaryColor" style="@style/GraphSearchTitleSearchGlass" />
+        <com.facebook.ui.search.SearchEditText android:id="@id/search_edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="textNoSuggestions" android:imeOptions="actionSearch|flagNoExtractUi" style="@style/GraphSearchTitleTextView" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/clear_text" android:paddingLeft="@dimen/graph_search_box_padding" android:paddingRight="@dimen/graph_search_box_padding" android:paddingBottom="@dimen/graph_search_box_padding_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/graph_search_clear_click_target" android:layout_weight="0.0" android:contentDescription="@string/graph_search_clear_query_text" fbui:glyphColor="?searchBarHintColor" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/search_line" android:background="?searchBarLineColor" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginRight="@dimen/graph_search_box_margin" android:layout_marginBottom="2.0dip" android:layout_marginEnd="@dimen/graph_search_box_margin" />
+</merge>

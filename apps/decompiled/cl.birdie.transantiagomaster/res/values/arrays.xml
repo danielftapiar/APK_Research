@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mapa_estilos">
+        <item>Online (Google Maps)</item>
+        <item>Offline (OSMDroid/MapsForge)</item>
+    </string-array>
+    <string-array name="mapa_estilos_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="spin_modoplanificacion">
+        <item>Bus and Subway</item>
+        <item>Subway only</item>
+        <item>Bus only</item>
+    </string-array>
+    <string-array name="spin_planificador">
+        <item>My location</item>
+        <item>"The place that's on the map right now"</item>
+        <item>Specify an address or place</item>
+    </string-array>
+    <string-array name="spin_planificador_gmaps">
+        <item>My location</item>
+        <item>The place I pinned on the map</item>
+        <item>Specify an address or place</item>
+        <item>Selected bus stop</item>
+    </string-array>
+    <string-array name="paradero_appwidget_duraciones">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/now_divebar_search_list" android:background="@color/now_divebar_medium_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.now.search.NowContactPickerListView android:id="@id/friends_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/now_search_view_clickable_bg" android:cacheColorHint="@color/now_divebar_medium_background_color" android:divider="@null" android:overScrollMode="never" />
+    <com.facebook.widget.listview.EmptyListViewItem android:id="@id/friends_list_empty_item" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?contactPickerEmptyListItemStyle" />
+</LinearLayout>

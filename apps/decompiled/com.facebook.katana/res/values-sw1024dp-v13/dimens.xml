@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="richdocument_grid_unit_xs">12.0dip</dimen>
+    <dimen name="richdocument_grid_unit_s">24.0dip</dimen>
+    <dimen name="richdocument_grid_unit_m">32.0dip</dimen>
+    <dimen name="richdocument_grid_unit_l">45.0dip</dimen>
+    <dimen name="richdocument_grid_unit_xl">69.0dip</dimen>
+    <dimen name="richdocument_grid_unit_xs_1_5">18.0dip</dimen>
+    <dimen name="richdocument_grid_unit_xs_plus_xl">81.0dip</dimen>
+    <dimen name="richdocument_grid_unit_xs_plus_l">57.0dip</dimen>
+    <dimen name="richdocument_text_size_caption_large">25.0sp</dimen>
+    <dimen name="richdocument_text_size_subtitle">25.0sp</dimen>
+    <dimen name="richdocument_text_size_caption_medium">22.0sp</dimen>
+    <dimen name="richdocument_text_size_title">34.0sp</dimen>
+    <dimen name="richdocument_text_size_h2">25.0sp</dimen>
+    <dimen name="richdocument_text_size_related_articles_title">20.0sp</dimen>
+    <dimen name="richdocument_text_size_h1">26.0sp</dimen>
+    <dimen name="richdocument_text_size_body_text">22.0sp</dimen>
+    <dimen name="richdocument_text_size_small_text">17.0sp</dimen>
+    <dimen name="richdocument_text_size_mini_label">14.0sp</dimen>
+    <dimen name="richdocument_text_size_kicker">17.0sp</dimen>
+    <dimen name="richdocument_text_size_caption_xlarge">32.0sp</dimen>
+    <dimen name="richdocument_text_size_caption_small">18.0sp</dimen>
+</resources>

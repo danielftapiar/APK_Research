@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/richdocument_header_logo_and_like" android:layout_width="fill_parent" android:layout_height="@dimen/richdocument_grid_unit_xs_plus_xl" style="@style/richdocument_block"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center_vertical" android:id="@id/richdocument_header_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="0.0" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.facebook.richdocument.view.widget.PressStateButton android:layout_gravity="center_vertical" android:id="@id/richdocument_header_like_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/richdocument_ufi_to_like" android:layout_weight="0.0" fb:drawable="@drawable/like_small" style="@style/richdocument_ufi_text" />
+</LinearLayout>

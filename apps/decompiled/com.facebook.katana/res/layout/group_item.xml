@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/group_item_image" android:layout_width="@dimen/image_size" android:layout_height="@dimen/image_size" android:layout_marginLeft="@dimen/image_left_margin" android:layout_marginTop="@dimen/image_top_margin" android:layout_marginRight="@dimen/image_right_margin" android:layout_marginBottom="@dimen/image_bottom_margin" fb:placeholderImage="@color/fbui_grey_50" fb:placeholderImageScaleType="center" fb:actualImageScaleType="center" fb:backgroundImage="@color/fbui_grey_50" fb:roundAsCircle="true" fb:roundingBorderWidth="@dimen/image_circle_stroke_width" fb:roundingBorderColor="@color/image_border_color" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/item_name_font_size" android:textColor="@color/fbui_black" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/group_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lines="2" android:singleLine="false" />
+    </LinearLayout>
+</merge>

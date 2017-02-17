@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cl.santander.smartphone.CustomScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bt_select" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0dip" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/origen" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/box_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <android.support.v4.view.ViewPager android:id="@id/vp_transferencias_origen" android:layout_width="fill_parent" android:layout_height="110.0dip" />
+                        <com.viewpagerindicator.CirclePageIndicator android:id="@id/vpi_transferencias_origen" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/lista_degradado" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip">
+                <TextView android:textSize="12.0dip" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/destino" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textSize="11.0dip" android:textColor="@color/grey_texts" android:id="@id/bt_transferencias_eproductos" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/entre_mis_productos" android:layout_weight="3.0" />
+                    <Button android:textSize="11.0dip" android:textColor="@color/grey_texts" android:id="@id/bt_transferencias_terceros" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a_terceros" android:layout_weight="3.0" />
+                    <Button android:textSize="11.0dip" android:textColor="@color/grey_texts" android:id="@id/bt_transferencias_supergiros" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/supergiros" android:layout_weight="3.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ft_destino" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <Button android:textColor="@color/grey_texts" android:id="@id/bt_transferencias_aceptar" android:tag="black" android:background="@drawable/button_select" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/aceptar" />
+            </LinearLayout>
+        </LinearLayout>
+    </cl.santander.smartphone.CustomScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/friends_nearby_row_action_button" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:scaleType="center" android:layout_centerVertical="true" fbui:layout_useAsAuxView="true" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/fbui_content_view_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" fbui:layout_useViewAs="subtitle" style="?attr/contentViewSubtitleStyle" />
+</merge>

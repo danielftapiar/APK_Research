@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/txtParadero" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/paradero_appwidget_hint" android:ems="10" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paradero_appwidget_desde" />
+            <TimePicker android:layout_gravity="center_horizontal" android:id="@id/timePickerDesde" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paradero_appwidget_hasta" />
+            <Spinner android:id="@id/spnDuracion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paradero_appwidget_footer" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@id/btnOk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/paradero_appwidget_anadir" />
+</LinearLayout>

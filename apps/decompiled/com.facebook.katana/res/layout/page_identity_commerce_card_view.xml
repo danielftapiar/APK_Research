@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:id="@id/page_identity_commerce_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Pages.CardTitleStyle.WithChevron" />
+    <com.facebook.feed.ui.attachments.MosaicGridLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/page_identity_commerce_photos" android:background="@color/white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/page_identity_commerce_card_bottom_margin" />
+</merge>

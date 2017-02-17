@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>Driving</item>
+        <item>Walking</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tipo_deposito">
+        <item>Seleccione tipo de depósito</item>
+        <item>Fijo</item>
+        <item>Renovable</item>
+    </string-array>
+    <string-array name="tipo_reajuste">
+        <item>Seleccione</item>
+        <item>UF</item>
+        <item>Pesos</item>
+    </string-array>
+    <string-array name="tipos_precio_acciones">
+        <item>Tipo de precio</item>
+        <item>Con un Precio Límite (Mínimo)</item>
+        <item>A Precio Mercado (Precio Actual Referencial)</item>
+    </string-array>
+    <string-array name="tipos_precio_acciones_compra">
+        <item>Tipo de precio</item>
+        <item>Con un Precio Límite (Máximo)</item>
+        <item>A Precio Mercado (Precio Actual Referencial)</item>
+    </string-array>
+    <string-array name="seleccione_numero_dias">
+        <item>Seleccione número de días</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="seleccione_monto_o_cantidad">
+        <item>Seleccione monto o cantidad de acciones</item>
+        <item>Monto estimado a Comprar</item>
+        <item>Cantidad de Acciones</item>
+    </string-array>
+</resources>

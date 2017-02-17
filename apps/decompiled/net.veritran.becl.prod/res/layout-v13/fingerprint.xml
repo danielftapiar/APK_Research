@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/fingerprint_dialog_bg" android:layout_width="300.0dip" android:layout_height="260.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="110.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/img_fp_auth" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="37.0dip">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/contents_text" android:id="@id/dlgTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Autentica tu huella" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/contents_text" android:gravity="center_horizontal" android:id="@id/dlgMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Toca el sensor" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="1.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#ffe5e3e0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="1.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#ffd6d3ce" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <Button android:textSize="18.0sp" android:textColor="#ff616161" android:layout_gravity="center_horizontal" android:id="@id/dlgCancelBtn" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancelar" android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

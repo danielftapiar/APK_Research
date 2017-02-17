@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ly_home_buttonlogin" android:background="@drawable/box1_transfer" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="26.0dip" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_home_logon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/acceso" />
+        <TextView android:textSize="10.0dip" android:textColor="#ff222222" android:id="@id/tv_home_tomobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/banca_movil" />
+        <ImageView android:id="@id/iv_home_candado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/candado" />
+    </LinearLayout>
+</LinearLayout>

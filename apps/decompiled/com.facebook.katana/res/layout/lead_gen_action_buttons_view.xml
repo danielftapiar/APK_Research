@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/leadgen_medium_font_size" android:gravity="center" android:id="@id/prev_action" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/action_button_to_go_back" android:layout_weight="1.0" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/leadgen_medium_font_size" android:textColor="@color/orca_neue_primary" android:gravity="center" android:id="@id/next_action" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/action_button_to_go_to_next" android:layout_weight="1.0" />
+    <com.facebook.resources.ui.FbAutoFitTextView android:textSize="@dimen/leadgen_medium_font_size" android:textColor="@color/orca_neue_primary" android:gravity="center" android:id="@id/one_button" android:paddingLeft="@dimen/leadgen_unit_one_button_padding" android:paddingRight="@dimen/leadgen_unit_one_button_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+</merge>

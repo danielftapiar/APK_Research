@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/gysj_swipe_unit_view" android:background="@drawable/feed_attachment_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/gysc_cover_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/gysc_cover_photo" android:layout_width="@dimen/groups_tab_suggestions_unit_image_width" android:layout_height="@dimen/groups_tab_suggestions_unit_image_height" android:tileMode="repeat" fb:placeholderImageScaleType="none" fb:actualImageScaleType="none" />
+            </LinearLayout>
+        </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="@dimen/groups_tab_suggestions_unit_image_width" android:layout_height="@dimen/groups_tab_suggestions_unit_bottom_part_height">
+            <LinearLayout android:orientation="vertical" android:id="@id/gysc_suggestion_name_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/black" android:id="@id/gysc_group_name" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:singleLine="true" android:includeFontPadding="false" />
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_tiny" android:textColor="@color/feed_story_dark_gray_text_color" android:id="@id/gysc_suggest_friends_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+            <View android:background="@color/light_grey" android:layout_width="@dimen/one_px" android:layout_height="fill_parent" android:layout_weight="0.0" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/gysj_suggestion_action_button_container" android:layout_width="@dimen/groups_tab_suggestions_unit_action_button_view_width" android:layout_height="fill_parent" android:layout_marginBottom="3.0dip" android:scaleType="center">
+                <ImageButton android:layout_gravity="center_vertical" android:background="@color/suggestion_unit_background" android:paddingLeft="1.0dip" android:paddingRight="2.0dip" android:layout_width="@dimen/groups_tab_suggestions_unit_action_button_view_width" android:layout_height="fill_parent" android:src="@drawable/nav_groups" android:scaleType="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

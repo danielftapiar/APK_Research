@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="com_facebook_picker_place_image_size">64.0dip</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64.0dip</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180.0dip</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10.0dip</dimen>
+    <dimen name="abs__config_prefDialogWidth">320.0dip</dimen>
+    <dimen name="abs__action_bar_default_height">48.0dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">8.0dip</dimen>
+    <dimen name="abs__action_bar_title_text_size">18.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">14.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">5.0dip</dimen>
+    <dimen name="abs__action_button_min_width">56.0dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_left">8.0dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_right">8.0dip</dimen>
+    <dimen name="abs__dropdownitem_icon_width">32.0dip</dimen>
+    <dimen name="abs__search_view_text_min_width">160.0dip</dimen>
+    <dimen name="abs__search_view_preferred_width">320.0dip</dimen>
+    <dimen name="slidingmenu_offset">60.0dip</dimen>
+    <dimen name="list_padding">10.0dip</dimen>
+    <dimen name="shadow_width">15.0dip</dimen>
+    <dimen name="banner_height">50.0dip</dimen>
+    <dimen name="widget_margin">8.0dip</dimen>
+</resources>

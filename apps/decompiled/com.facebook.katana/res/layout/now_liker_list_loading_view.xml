@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar android:gravity="center" android:padding="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/now_composer_icon_size" android:maxHeight="@dimen/now_composer_icon_size" android:minWidth="@dimen/now_composer_icon_size" android:minHeight="@dimen/now_composer_icon_size" style="@style/FbProgressCircular"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

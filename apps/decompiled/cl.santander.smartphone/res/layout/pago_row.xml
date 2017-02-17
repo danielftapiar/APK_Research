@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/TableRowPagos" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_weight="4.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/black_texts" android:id="@id/tv_row_pagos_title_empresa" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/empresa" android:layout_weight="3.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black_texts" android:id="@id/tv_row_pagos_title_desc" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/descripcion" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/grey_texts" android:gravity="right" android:id="@id/tv_row_pagos_empresa" android:tag="normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Autopista Central S.A" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/grey_texts" android:gravity="right" android:id="@id/tv_row_pagos_descripcion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Town country" android:layout_weight="3.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/flecha" android:scaleType="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

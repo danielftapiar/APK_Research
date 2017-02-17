@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/_section_header" style="?attr/sectionHeaderStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:id="@id/section_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" orca:adjustLRGravityByTextDirectionCompat="true" style="?attr/sectionHeaderTextStyle" />
+    <View android:layout_gravity="bottom|center|left" style="?attr/sectionHeaderDividerStyle" />
+</FrameLayout>

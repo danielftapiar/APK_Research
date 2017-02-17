@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/raiz" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/vp_imagenes_estado_cuenta" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.viewpagerindicator.CirclePageIndicator android:id="@id/vpi_imagenes_estado_cuenta" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

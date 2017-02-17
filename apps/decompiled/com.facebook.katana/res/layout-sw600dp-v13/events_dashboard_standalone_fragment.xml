@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:background="@color/feed_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/events_megaphone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/events_megaphone">
+        <com.facebook.widget.refreshableview.RefreshableListViewContainer android:id="@id/events_dashboard_container" android:background="@color/fbui_white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.facebook.widget.refreshableview.RefreshableViewOverflowItem android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.facebook.widget.refreshableview.RefreshableViewItem android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.facebook.widget.listview.BetterListView android:id="@id/events_dashboard_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        </com.facebook.widget.refreshableview.RefreshableListViewContainer>
+        <FrameLayout android:id="@id/event_permalink_fragment_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    </LinearLayout>
+    <com.facebook.feed.ui.GenericNotificationBanner android:id="@id/error_banner" android:layout_width="fill_parent" android:layout_height="@dimen/feed_top_bar_height" android:layout_alignParentTop="true" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="CaptureTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ResultButton">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ShareButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SimpleSpinnerDialogStyle">
+        <item name="android:fullDark">@color/transparent</item>
+        <item name="android:topDark">@color/transparent</item>
+        <item name="android:centerDark">@color/transparent</item>
+        <item name="android:bottomDark">@color/transparent</item>
+        <item name="android:fullBright">@color/transparent</item>
+        <item name="android:topBright">@color/transparent</item>
+        <item name="android:centerBright">@color/transparent</item>
+        <item name="android:bottomBright">@color/transparent</item>
+        <item name="android:bottomMedium">@color/transparent</item>
+        <item name="android:centerMedium">@color/transparent</item>
+    </style>
+    <style name="SimpleSpinnerTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:textColorPrimary">@color/transparent</item>
+        <item name="android:alertDialogStyle">@style/SimpleSpinnerDialogStyle</item>
+    </style>
+    <style name="SimpleSpinnerThemeHolo" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:alertDialogStyle">@style/SimpleSpinnerDialogStyle</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

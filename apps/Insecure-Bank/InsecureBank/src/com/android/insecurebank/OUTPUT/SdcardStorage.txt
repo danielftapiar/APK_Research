@@ -1,0 +1,3 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\..\..\..\..\AndroidManifest.xml:29:<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+C:\OWASP\InsecureBank\src\com\android\insecurebank\PostLogin.java:70:    	 statementdirectory=Environment.getExternalStorageDirectory().toString()+"/statements/";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java:25:	String statementdirectory=Environment.getExternalStorageDirectory().toString()+"/statements/";

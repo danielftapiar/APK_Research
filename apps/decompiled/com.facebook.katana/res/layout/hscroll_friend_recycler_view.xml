@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/hscroll_friend_list_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

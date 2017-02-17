@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/open_publisher_bg" android:top="@dimen/open_publisher_top_bottom_padding" android:bottom="@dimen/open_publisher_top_bottom_padding" />
+</layer-list>

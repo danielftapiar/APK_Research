@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/composer_audience_container" android:background="@color/fbui_blue_90" android:paddingLeft="@dimen/composer_padding" android:paddingRight="@dimen/composer_padding" android:layout_width="fill_parent" android:layout_height="@dimen/composer_privacy_section_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_white_80" android:layout_gravity="center|left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/target_picker_friends" />
+    <com.facebook.widget.CustomFrameLayout android:id="@id/composer_privacy_container" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:traceAs="ComposerPrivacyBar"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+        <com.facebook.platform.targetpicker.privacy.MiniComposerSelectablePrivacyView android:id="@id/composer_selectable_privacy" style="@style/privacy_bar_view" />
+        <com.facebook.platform.targetpicker.privacy.MiniComposerFixedPrivacyView android:id="@id/composer_fixed_privacy" android:visibility="gone" style="@style/privacy_bar_view" />
+    </com.facebook.widget.CustomFrameLayout>
+</FrameLayout>

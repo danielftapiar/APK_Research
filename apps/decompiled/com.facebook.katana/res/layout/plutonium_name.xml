@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/plutonium_remembering_label_stub" android:layout="@layout/remembering_label" android:inflatedId="@id/plutonium_remembering_label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/plutonium_profile_name" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/timeline_profile_name" />
+</LinearLayout>

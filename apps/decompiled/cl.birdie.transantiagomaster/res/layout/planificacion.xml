@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_pattern_gris_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/LUGAR_DE_ORIGEN" style="@style/itemMenuLabel" />
+            <Spinner android:id="@id/spinOrigen" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <EditText android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:id="@id/editOrigen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/DIRECCION_ORIGEN" android:singleLine="true" />
+            <ImageView android:id="@id/imagenOrigen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/buscar" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/LUGAR_DE_DESTINO" style="@style/itemMenuLabel" />
+            <Spinner android:id="@id/spinDestino" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <EditText android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:id="@id/editDestino" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/DIRECCION_DESTINO" android:singleLine="true" />
+            <ImageView android:id="@id/imagenDestino" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/buscar" />
+            <Spinner android:id="@id/spinModo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <CheckBox android:id="@id/chkEvitarTransbordos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/PLANIFICAR_EVITAR_TRANSBORDOS" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <Button android:id="@id/btnPlanTrip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="10.0dip" android:text="@string/PLANIFICAR_MI_VIAJE" android:layout_weight="1.0" style="@style/BtnGeneral" />
+                <Button android:id="@id/btnCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/CANCELAR" android:layout_weight="1.0" style="@style/BtnGeneral" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

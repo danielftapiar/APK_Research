@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.facepile.FacepileGridView android:layout_gravity="center_vertical" android:id="@id/now_search_facepile_view" android:layout_width="@dimen/now_profile_pic_size" android:layout_height="@dimen/now_profile_pic_size" fb:layout_useAsThumbnail="true" fb:horizontalPadding="1.0dip" fb:verticalPadding="1.0dip" fb:numCols="2" fb:numRows="2" fb:cellWidth="24.0dip" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_white" android:ellipsize="end" android:id="@id/now_search_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" fb:fontFamily="roboto" fb:fontWeight="medium" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_bluegrey_20" android:ellipsize="end" android:id="@id/now_search_row_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" fb:fontFamily="roboto" fb:fontWeight="regular" />
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center_vertical" android:layout_width="@dimen/now_presence_row_messenger_icon_size" android:layout_height="@dimen/now_presence_row_messenger_icon_size" android:src="@drawable/now_orca_icon" android:scaleType="centerInside" fb:layout_useAsAuxView="true" fb:glyphColor="@color/fbui_bluegrey_40" />
+</merge>

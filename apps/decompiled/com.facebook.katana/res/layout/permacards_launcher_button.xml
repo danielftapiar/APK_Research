@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:background="@drawable/permacards_launcher_button_ring" android:layout_width="@dimen/permacards_launcher_button_ring_dim" android:layout_height="@dimen/permacards_launcher_button_ring_dim" android:layout_margin="@dimen/permacards_launcher_button_layout_margin">
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/permacards_launcher_button_icon" android:layout_width="@dimen/permacards_launcher_button_glyph_dim" android:layout_height="@dimen/permacards_launcher_button_glyph_dim" android:scaleType="fitXY" fb:glyphColor="@color/fbui_white" />
+    </FrameLayout>
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_white" android:id="@id/permacards_launcher_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="light" />
+</merge>

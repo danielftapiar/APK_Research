@@ -1,0 +1,2 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_Toast.txt:9:C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java:200:            Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_Toast.txt:12:C:\OWASP\InsecureBank\src\com\android\insecurebank\PostLogin.java:205:            Toast.makeText(this,"Please enter valid amount", Toast.LENGTH_SHORT).show();

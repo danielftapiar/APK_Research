@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView1" android:background="@drawable/bg_pattern_gris_layout" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/itemMenuLateral">
+            <LinearLayout android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="52.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_item_configuracion" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Opciones" style="@style/itemMenuLabel" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/itemMenuLateral">
+            <LinearLayout android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="52.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_item_compartir" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Compartir" style="@style/itemMenuLabel" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/itemMenuLateral">
+            <LinearLayout android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="52.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_item_ingresarconfacebook" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Ingresar con Facebook" style="@style/itemMenuLabel" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/itemMenuLateral">
+            <LinearLayout android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="52.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_item_microfono" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Comandos de Voz" style="@style/itemMenuLabel" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/itemMenuLateral">
+            <LinearLayout android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="52.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/imageView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_item_recorridos" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Recorridos" style="@style/itemMenuLabel" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/itemMenuLateral">
+            <LinearLayout android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="52.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/imageView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_item_favoritos" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Favoritos" style="@style/itemMenuLabel" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/itemMenuLateral">
+            <LinearLayout android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="52.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/imageView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_item_saldobip" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Saldo Bip!" style="@style/itemMenuLabel" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/itemMenuLateral">
+            <LinearLayout android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="52.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/imageView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_item_buscar" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Buscar" style="@style/itemMenuLabel" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

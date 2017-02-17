@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="audience_picker_selectable_text_view">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/privacy_typeahead_input_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/privacy_typeahead_input_margin_right</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginStart">@dimen/privacy_typeahead_input_margin_left</item>
+        <item name="android:layout_marginEnd">@dimen/privacy_typeahead_input_margin_right</item>
+    </style>
+    <style name="audience_picker_full_custom_header_text_view">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+        <item name="android:textColor">?tokenizedTypeaheadItemTitleColor</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/privacy_custom_header_margin_end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginEnd">@dimen/privacy_custom_header_margin_end</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="audience_picker_full_custom_subheader_text_view">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/privacy_custom_header_margin_end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginEnd">@dimen/privacy_custom_header_margin_end</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="audience_picker_full_custom_add_or_remove_text_view">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+        <item name="android:textColor">@color/fbui_accent_blue</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/privacy_custom_add_or_remove_margin_start</item>
+        <item name="android:layout_marginTop">@dimen/privacy_custom_add_or_remove_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/privacy_custom_add_or_remove_margin_end</item>
+        <item name="android:layout_marginBottom">@dimen/privacy_custom_add_or_remove_margin_bottom</item>
+        <item name="android:minHeight">@dimen/privacy_custom_add_or_remove_min_height</item>
+        <item name="android:layout_marginStart">@dimen/privacy_custom_add_or_remove_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/privacy_custom_add_or_remove_margin_end</item>
+    </style>
+    <style name="audience_picker_full_custom_loading_bar_view">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/privacy_custom_loading_bar_margin_start</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">@dimen/privacy_custom_loading_bar_margin_end</item>
+        <item name="android:layout_marginBottom">9.0dip</item>
+        <item name="android:layout_marginStart">@dimen/privacy_custom_loading_bar_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/privacy_custom_loading_bar_margin_end</item>
+    </style>
+    <style name="audience_picker_full_custom_loading_text_view">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/privacy_custom_loading_text_margin_start</item>
+        <item name="android:text">@string/privacy_selector_loading_token</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/privacy_custom_loading_text_margin_start</item>
+    </style>
+    <style name="audience_picker_custom_autocomplete_input">
+        <item name="android:textSize">@dimen/privacy_typeahead_input_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@color/grey53</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/privacy_typeahead_input_margin_left</item>
+        <item name="android:minHeight">@dimen/privacy_typeahead_input_min_height</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">1</item>
+        <item name="android:completionThreshold">1</item>
+        <item name="android:popupBackground">@drawable/tokenized_autocomplete_popup_background</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:dropDownWidth">fill_parent</item>
+        <item name="android:dropDownAnchor">@id/contact_picker_autocomplete_container</item>
+        <item name="android:imeOptions">actionDone|flagNoFullscreen</item>
+        <item name="android:dropDownVerticalOffset">1.0dip</item>
+        <item name="android:layout_marginStart">@dimen/privacy_typeahead_input_margin_left</item>
+    </style>
+    <style name="audience_picker_loading_icon" parent="@android:style/Widget.ProgressBar.Small.Inverse">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+        <item name="android:layout_marginEnd">15.0dip</item>
+    </style>
+    <style name="audience_picker_right_arrow_view">
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:src">@drawable/chevron</item>
+        <item name="android:contentDescription">@string/typeahead_view_more_description</item>
+        <item name="android:layout_marginStart">10.0dip</item>
+    </style>
+    <style name="audience_picker_fixed_text_view">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/tokenizedtypeahead_icon_margin_x</item>
+        <item name="android:layout_marginStart">5.0dip</item>
+    </style>
+    <style name="Edge2Edge.HScrollChainingViewTitleContainerStyle" parent="@style/Edge2Edge">
+        <item name="android:layout_marginLeft">@dimen/e2e_pivots_title_container_margin</item>
+        <item name="android:layout_marginRight">@dimen/e2e_pivots_title_container_margin</item>
+        <item name="android:layout_marginStart">@dimen/e2e_pivots_title_container_margin</item>
+        <item name="android:layout_marginEnd">@dimen/e2e_pivots_title_container_margin</item>
+    </style>
+    <style name="CardFeed.HScrollChainingViewTitleContainerStyle" parent="@style/CardFeed">
+        <item name="android:layout_marginLeft">@dimen/carded_pivots_title_container_margin</item>
+        <item name="android:layout_marginRight">@dimen/carded_pivots_title_container_margin</item>
+        <item name="android:layout_marginStart">@dimen/carded_pivots_title_container_margin</item>
+        <item name="android:layout_marginEnd">@dimen/carded_pivots_title_container_margin</item>
+    </style>
+    <style name="Edge2Edge.LoadMoreCommentsIconStyle" parent="@style/Edge2Edge">
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+    </style>
+    <style name="CardFeed.LoadMoreCommentsIconStyle" parent="@style/CardFeed">
+        <item name="android:layout_marginLeft">@dimen/carded_ufiservice_flyout_margin_left_right</item>
+        <item name="android:layout_marginStart">@dimen/carded_ufiservice_flyout_margin_left_right</item>
+    </style>
+    <style name="feed_page_post_footer_button">
+        <item name="android:textSize">@dimen/feed_page_post_footer_button_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/roe_footer_button_padding</item>
+        <item name="android:paddingRight">@dimen/roe_footer_button_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_margin">@dimen/feed_page_post_footer_margin</item>
+        <item name="android:layout_marginRight">@dimen/feed_page_post_footer_margin_right</item>
+        <item name="android:minHeight">@dimen/feed_page_post_footer_button_height</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_below">@id/feed_story_horizontal_divider</item>
+        <item name="android:layout_marginEnd">@dimen/feed_page_post_footer_margin_right</item>
+    </style>
+    <style name="LinearComposerTitle">
+        <item name="android:textSize">@dimen/fbui_text_size_large</item>
+        <item name="android:textColor">@color/fbui_white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_marginLeft">1.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginStart">1.0dip</item>
+    </style>
+    <style name="DatePickerRowClearButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:src">@drawable/clear_button</item>
+        <item name="android:layout_marginEnd">4.0dip</item>
+    </style>
+    <style name="Fb4aTitlebarButton">
+        <item name="android:background">@drawable/titlebar_pressable_button_bg_selector</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:layout_marginLeft">-8.0dip</item>
+        <item name="android:layout_marginStart">-8.0dip</item>
+    </style>
+    <style name="PlaceCreationFormRow">
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="PlaceCreationFormEditTextRow">
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:layout_marginStart">12.0dip</item>
+        <item name="android:layout_marginEnd">12.0dip</item>
+    </style>
+    <style name="PlaceCreationFormSectionIcon">
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginStart">4.0dip</item>
+        <item name="android:layout_marginEnd">12.0dip</item>
+    </style>
+    <style name="PlaceCreationFormRowWithoutIcon" parent="@style/PlaceCreationFormRow">
+        <item name="android:layout_marginLeft">56.0dip</item>
+        <item name="android:layout_marginStart">56.0dip</item>
+    </style>
+    <style name="PlaceCreationFormEditTextRowWithoutIcon" parent="@style/Widget.EditText.FBUi">
+        <item name="android:textColor">@color/fbui_text_medium</item>
+        <item name="android:layout_marginLeft">52.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:layout_marginStart">52.0dip</item>
+        <item name="android:layout_marginEnd">12.0dip</item>
+    </style>
+    <style name="LiveConversationsSubTitle" parent="@style/KeywordSearchSubtitle">
+        <item name="android:textSize">@dimen/fbui_text_size_small</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/live_conversations_between_text_vertical</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:drawablePadding">4.0dip</item>
+        <item name="android:layout_marginEnd">12.0dip</item>
+    </style>
+    <style name="ReportAProblem.DialogTitle" parent="@style/ReportAProblem">
+        <item name="android:textSize">@dimen/rap_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/rap_text_dark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/rap_padding_small</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/rap_margin_large</item>
+        <item name="android:layout_marginTop">@dimen/rap_margin_large</item>
+        <item name="android:layout_marginRight">@dimen/rap_margin_large</item>
+        <item name="android:layout_marginStart">@dimen/rap_margin_large</item>
+        <item name="android:layout_marginEnd">@dimen/rap_margin_large</item>
+    </style>
+    <style name="EventCreationAndEditGlyphViewNikumanStyle">
+        <item name="android:layout_marginLeft">@dimen/event_create_row_glyph_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/event_create_row_glyph_right_margin</item>
+        <item name="android:layout_marginStart">@dimen/event_create_row_glyph_left_margin</item>
+        <item name="android:layout_marginEnd">@dimen/event_create_row_glyph_right_margin</item>
+        <item name="glyphColor">@color/fbui_bluegrey_20</item>
+    </style>
+    <style name="EventsDashboard">
+        <item name="android:background">@color/fbui_white</item>
+        <item name="android:layout_marginLeft">?eventsDashboardHorizontalMargin</item>
+        <item name="android:layout_marginRight">?eventsDashboardHorizontalMargin</item>
+        <item name="android:layout_marginStart">?eventsDashboardHorizontalMargin</item>
+        <item name="android:layout_marginEnd">?eventsDashboardHorizontalMargin</item>
+    </style>
+    <style name="EventCreationAndEditRowStyle">
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="taggablegallery_bottom_button_style">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/taggablegallery_bottom_button_margin_width</item>
+        <item name="android:layout_marginRight">@dimen/taggablegallery_bottom_button_margin_width</item>
+        <item name="android:layout_marginStart">@dimen/taggablegallery_bottom_button_margin_width</item>
+        <item name="android:layout_marginEnd">@dimen/taggablegallery_bottom_button_margin_width</item>
+    </style>
+    <style name="privacy_title_var_text_view">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/privacy_typeahead_input_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/privacy_typeahead_input_margin_right</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginStart">@dimen/privacy_typeahead_input_margin_left</item>
+        <item name="android:layout_marginEnd">@dimen/privacy_typeahead_input_margin_right</item>
+    </style>
+    <style name="GreetingCardsEditable">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+        <item name="android:textColor">@color/fbui_text_dark</item>
+        <item name="android:textColorHint">@color/fbui_bluegrey_20</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/hc_padding</item>
+        <item name="android:layout_marginRight">@dimen/hc_padding</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:layout_marginStart">@dimen/hc_padding</item>
+        <item name="android:layout_marginEnd">@dimen/hc_padding</item>
+    </style>
+    <style name="GreetingCardHeader">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/hc_padding</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginRight">@dimen/hc_padding</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:layout_marginStart">@dimen/hc_padding</item>
+        <item name="android:layout_marginEnd">@dimen/hc_padding</item>
+        <item name="textColor">@color/fbui_bluegrey_20</item>
+        <item name="textSize">@dimen/fbui_text_size_medium</item>
+    </style>
+    <style name="SuggestEditsTextField">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">12.0dip</item>
+    </style>
+    <style name="richdocument_recycler">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="richdocument_block">
+        <item name="android:layout_marginLeft">@dimen/richdocument_margin</item>
+        <item name="android:layout_marginRight">@dimen/richdocument_margin</item>
+        <item name="android:layout_marginStart">@dimen/richdocument_margin</item>
+        <item name="android:layout_marginEnd">@dimen/richdocument_margin</item>
+    </style>
+    <style name="richdocument_media" parent="@style/richdocument_block">
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="richdocument_annotation">
+        <item name="android:layout_marginLeft">@dimen/richdocument_margin</item>
+        <item name="android:layout_marginRight">@dimen/richdocument_margin</item>
+        <item name="android:layout_marginStart">@dimen/richdocument_margin</item>
+        <item name="android:layout_marginEnd">@dimen/richdocument_margin</item>
+    </style>
+    <style name="richdocument_ufi_layout">
+        <item name="android:layout_marginLeft">@dimen/richdocument_ufi_margin</item>
+        <item name="android:layout_marginRight">@dimen/richdocument_ufi_margin</item>
+        <item name="android:lineSpacingExtra">2.0dip</item>
+        <item name="android:layout_marginStart">@dimen/richdocument_ufi_margin</item>
+        <item name="android:layout_marginEnd">@dimen/richdocument_ufi_margin</item>
+    </style>
+    <style name="NowTypeaheadText">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+        <item name="android:textColor">@color/now_divebar_composer_search_field_text_color</item>
+        <item name="android:textColorHint">@color/now_divebar_composer_search_field_hint_color</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">@dimen/fbui_padding_half_text</item>
+        <item name="android:paddingRight">@dimen/fbui_padding_half_text</item>
+        <item name="android:paddingBottom">@dimen/fbui_padding_half_text</item>
+        <item name="android:layout_marginLeft">@dimen/fbui_padding_text</item>
+        <item name="android:hint">@string/now_divebar_minutiae_prompt</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:layout_marginStart">@dimen/fbui_padding_text</item>
+    </style>
+    <style name="Payments.Button.ReceiptPadded" parent="@style/Payments.Button">
+        <item name="android:layout_marginLeft">14.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">14.0dip</item>
+        <item name="android:layout_marginBottom">12.0dip</item>
+        <item name="android:layout_marginStart">14.0dip</item>
+        <item name="android:layout_marginEnd">14.0dip</item>
+    </style>
+    <style name="PlaceQuestionText">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">18.0dip</item>
+        <item name="android:layout_marginRight">18.0dip</item>
+        <item name="android:layout_marginStart">18.0dip</item>
+        <item name="android:layout_marginEnd">18.0dip</item>
+    </style>
+    <style name="PagesContactInboxStatusIconStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">@dimen/contact_inbox_request_item_icon_size</item>
+        <item name="android:layout_height">@dimen/contact_inbox_request_item_icon_size</item>
+        <item name="android:layout_marginLeft">@dimen/contact_inbox_request_item_icon_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/contact_inbox_request_item_icon_top_margin</item>
+        <item name="android:layout_marginRight">@dimen/contact_inbox_request_item_icon_horizontal_margin</item>
+        <item name="android:src">@drawable/fbui_groups_confirm_l</item>
+        <item name="android:layout_marginStart">@dimen/contact_inbox_request_item_icon_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/contact_inbox_request_item_icon_horizontal_margin</item>
+    </style>
+</resources>

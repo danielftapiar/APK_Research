@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:id="@id/comment_photo_remix_button" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="@dimen/comment_composer_button_size" android:layout_height="@dimen/comment_composer_button_size" android:src="@drawable/remix_icon"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

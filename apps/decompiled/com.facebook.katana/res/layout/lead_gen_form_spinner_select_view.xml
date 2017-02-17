@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/leadgen_medium_font_size" android:textColor="@color/leadgen_title_color" android:id="@id/spinner_select_title" android:background="@drawable/leadgen_inline_selection_bg" android:paddingLeft="@dimen/leadgen_form_field_padding" android:paddingRight="@dimen/leadgen_form_field_padding" android:paddingBottom="@dimen/leadgen_form_field_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/leadgen_form_field_margin" />
+    <Spinner android:id="@id/lead_gen_spinner" android:paddingLeft="@dimen/leadgen_form_field_padding" android:paddingRight="@dimen/leadgen_form_field_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/spinner_select_title" />
+</merge>

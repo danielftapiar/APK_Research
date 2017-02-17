@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_white" android:id="@id/feed_composer_nux_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/inline_composer_sprout_nux_secondary" android:id="@id/feed_composer_nux_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/feed_composer_nux_clear_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/inline_sprout_clear" fb:layout_useAsAuxView="true" fb:glyphColor="@color/inline_composer_sprout_nux_secondary" />
+</merge>

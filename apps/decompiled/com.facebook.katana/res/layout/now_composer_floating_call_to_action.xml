@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_white" android:layout_gravity="center" android:id="@id/now_composer_call_to_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_button_padding_left_large" android:layout_marginTop="@dimen/fbui_button_padding_top_large" android:layout_marginRight="@dimen/fbui_button_padding_right_large" android:layout_marginBottom="@dimen/fbui_button_padding_bottom_large" android:drawablePadding="@dimen/fbui_padding_standard"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</merge>

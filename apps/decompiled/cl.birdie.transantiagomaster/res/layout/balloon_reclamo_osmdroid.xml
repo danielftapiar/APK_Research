@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/balloon_main_layout" android:background="@drawable/balloon_overlay_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/balloon_inner_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/esquina_superior_izq" android:scaleType="fitXY" android:layout_weight="0.05" />
+            <ImageView android:id="@id/imageView2" android:layout_width="fill_parent" android:layout_height="20.0dip" android:src="@drawable/latera_superior" android:scaleType="fitXY" android:layout_weight="0.9" />
+            <ImageView android:id="@id/imageView3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/esquina_superior_derch" android:scaleType="fitXY" android:layout_weight="0.05" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView1" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/lateral_izq" android:scaleType="fitXY" android:layout_weight="0.05" />
+            <LinearLayout android:background="#ff97af22" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.9">
+                <cl.birdie.transantiagomaster.utils.ResizableImageView android:id="@id/imagePost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/descargando" android:layout_weight="2.0" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageView4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:src="@drawable/flechaamarilla" android:scaleType="fitStart" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textStyle="bold" android:textColor="#ff1a1a1a" android:id="@id/userNamePost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                            <TextView android:textStyle="bold" android:textColor="#ff1a1a1a" android:id="@id/objetoReclamo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold" android:textColor="#ff1a1a1a" android:id="@id/txtTituloMensajes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Últimos mensajes" />
+                        <TextView android:textStyle="bold" android:textColor="#ff1a1a1a" android:id="@id/txtTitulo1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Titulo 1" />
+                        <TextView android:textStyle="italic" android:textColor="#ff1a1a1a" android:id="@id/txtMensaje1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mensaje 1" />
+                        <TextView android:textStyle="bold" android:textColor="#ff1a1a1a" android:id="@id/txtTitulo2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Titulo 2" />
+                        <TextView android:textStyle="italic" android:textColor="#ff1a1a1a" android:id="@id/txtMensaje2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mensaje 2" />
+                        <TextView android:textStyle="bold" android:textColor="#ff1a1a1a" android:id="@id/txtTitulo3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Titulo 3" />
+                        <TextView android:textStyle="italic" android:textColor="#ff1a1a1a" android:id="@id/txtMensaje3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mensaje 3" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textColor="#ff1a1a1a" android:id="@id/bubble_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                        <cl.birdie.transantiagomaster.utils.ResizableImageView android:id="@id/imagen_subida" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/descargando" android:layout_weight="4.0" />
+                        <TextView android:textColor="#ff1a1a1a" android:id="@id/bubble_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                        <TextView android:textColor="#ff1a1a1a" android:id="@id/bubble_subdescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:id="@id/bubble_image" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/balloon_overlay_close" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageView3" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/lateral_derch" android:scaleType="fitXY" android:layout_weight="0.05" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/esquina_inferior_izq" android:scaleType="fitXY" android:layout_weight="0.05" />
+            <ImageView android:id="@id/imageView2" android:layout_width="fill_parent" android:layout_height="20.0dip" android:src="@drawable/lateral_inferior" android:scaleType="fitXY" android:layout_weight="0.9" />
+            <ImageView android:id="@id/imageView3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/esquina_inferior_derch" android:scaleType="fitXY" android:layout_weight="0.05" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

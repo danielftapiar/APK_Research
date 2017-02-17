@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#ff555555" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_servicios_y_emergencias" android:background="#ffbbbbbb" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/balck" android:id="@id/tv_servicio_cliente" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/servicio_cliente" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/tv_vox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/conozca_vox" />
+                    <TextView android:textSize="10.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_horarios" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/horarios_atencion" />
+                    <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/bt_llamar_servicio_cliente" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/llamar_6003203000" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/balck" android:id="@id/tv_emergencias_bancarias" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emergencias_bancarias" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/tv_no_pago_cheques" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/orden_no_pago_cheques" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_emergencias_texto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/no_pago_cheques_texto" />
+                    <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/bt_emergencias_llamar" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/llamar_6003203000" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_bloqueo_tarjetas" android:background="#ffbbbbbb" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/tv_bloqueo_tarjetas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bloqueo_tarjetas" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_llamar_bloqueo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/bloqueo_llame" />
+                    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                        <Button android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/bt_llamar_bloqueo1" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="@string/llamar_800207000" android:layout_weight="1.0" />
+                        <Button android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/bt_llamar_bloqueo2" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/llamar_6003203000" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/divider" android:background="#30eeeeee" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_margin="10.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_desde_extranjero_texto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/llamar_extranjero" />
+                    <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/bt_llamar_extranjero" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/llamar_5623203000" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_o_nums_emergencia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/o_numeros_emergencia" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_mastercard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mastercard" />
+                        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ly_boton_mc_eeuu" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_mc_eeuu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desde_eeuu_canada" />
+                                <TextView android:textSize="10.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_num_mc_eeuu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 800 307 7309" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ly_boton_mc_india" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_mc_india" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desde_india" />
+                                <TextView android:textSize="10.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_num_mc_india" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="000 800 100 1087" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ly_boton_mc_otro" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_mc_otro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desde_otro" />
+                                <TextView android:textSize="10.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_num_mc_otro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 636 722 7111" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_visa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visa" />
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ly_boton_visa_eeuu" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_visa_eeuu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desde_eeuu_canada" />
+                                <TextView android:textSize="10.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_num_visa_eeuu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 800 847 2911" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ly_boton_visa_otro" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_visa_otro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desde_otro" />
+                                <TextView android:textSize="10.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_num_visa_otro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 410 581 0120" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_americanexpress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/americanexpress" />
+                        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ly_boton_ae_eeuu" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_ae_eeuu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desde_eeuu_canada" />
+                                <TextView android:textSize="10.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_num_ae_eeuu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 800 895 8453" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ly_boton_ae_otro" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_ae_otro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desde_otro" />
+                                <TextView android:textSize="10.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_num_ae_otro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 312 935 3699" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_compras_no_reconocidas" android:background="#ffbbbbbb" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip">
+                <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/tv_compras_no_reconocidas_texto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/compras_no_reconocidas" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/tv_llamar_no_reconocidas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/compras_no_reconocidas_texto" />
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <Button android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_llamar_norecon1" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="@string/llamar_800207000" android:layout_weight="1.0" />
+                    <Button android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_llamar_norecon2" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/llamar_6003203000" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

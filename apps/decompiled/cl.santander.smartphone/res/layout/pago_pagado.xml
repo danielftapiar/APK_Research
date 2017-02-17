@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <cl.santander.smartphone.CustomScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/box_arrow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <android.support.v4.view.ViewPager android:id="@id/vp_pago_pagado" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+                    <com.viewpagerindicator.CirclePageIndicator android:id="@id/vpi_pago_pagado" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:id="@id/textView1" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/empresa" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_pagado_empresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="GTD" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:id="@id/textView2" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/descripcion" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_pagado_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="Teléfono GTD" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:id="@id/textView3" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/id_cliente" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_pagado_idcliente" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="965874" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:background="@drawable/sello" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="18.0sp" android:textColor="#ffff0000" android:gravity="center" android:id="@id/tv_pago_pagado_info" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="15.0dip" android:text="@string/deuda_pagada" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+                    <Button android:textColor="@color/grey_texts" android:id="@id/bt_pago_pagado_volver" android:tag="black" android:background="@drawable/button_select" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/volver" />
+                </LinearLayout>
+            </LinearLayout>
+        </cl.santander.smartphone.CustomScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:id="@id/page_select_call_to_action_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.FBUi.CV.Title" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/page_select_call_to_action_description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.FBUi.CV.Content" />
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/page_select_call_to_action_check" android:visibility="invisible" android:layout_width="@dimen/page_select_call_to_action_check_size" android:layout_height="@dimen/page_select_call_to_action_check_size" android:src="@drawable/fbui_check_l" fb:layout_useAsAuxView="true" fb:glyphColor="@color/fbui_accent_blue" />
+</merge>

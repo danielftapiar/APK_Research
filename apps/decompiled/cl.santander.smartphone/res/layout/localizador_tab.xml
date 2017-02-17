@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ly_auto_loc" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_auto_loc" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@android:drawable/ic_menu_mylocation" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_loc_actual" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/loc_actual" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/tv_direccion" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:scrollHorizontally="true" android:keepScreenOn="true" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+            <Button android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_filtros" android:tag="bold" android:background="@drawable/button_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filtros" />
+            <Button android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_otra_loc" android:tag="bold" android:background="@drawable/button_otra_loc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buscar" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/ly_filtros_principales" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <Button android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_suc_caj" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/mostrar_suc_caj" android:layout_weight="1.0" />
+            <Button android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_ofertas" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mostrar_ofertas_imperdibles" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ly_localizador_contenido" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

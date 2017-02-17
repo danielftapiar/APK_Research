@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/de.viktorreiser.androidtoolbox.showcase">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <cl.santander.smartphone.CustomScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_1" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/sr" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_nombre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_2" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/email" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_3" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/fecha" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_fecha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_4" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/hora" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_hora" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_5" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/consulta_n" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_num_consulta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_6" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/cuenta_corriente" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_cuenta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_7" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/monto" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_monto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_8" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/empresa" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_empresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_9" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/descripcion" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_10" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/id_cliente" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_idcliente" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_title_11" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/transaccion_n" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_online_report_num_transaccion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" " />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+                    <Button android:textColor="@color/grey_texts" android:id="@id/bt_pago_online_report_volver" android:tag="black" android:background="@drawable/button_select" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/volver_saldos" />
+                </LinearLayout>
+            </LinearLayout>
+        </cl.santander.smartphone.CustomScrollView>
+    </LinearLayout>
+</LinearLayout>

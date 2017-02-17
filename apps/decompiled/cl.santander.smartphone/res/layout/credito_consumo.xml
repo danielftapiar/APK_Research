@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffffffff" android:id="@id/tv_credito_consumo_title" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="TextView" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_credito_consumo_progress" android:background="@drawable/flechas1" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_credito_consumo_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+        <Button android:textColor="@color/grey_texts" android:id="@id/bt_credito_consumo_next" android:tag="black" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/confirmar_pago" />
+    </LinearLayout>
+</LinearLayout>

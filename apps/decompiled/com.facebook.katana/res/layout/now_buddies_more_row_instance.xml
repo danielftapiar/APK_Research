@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.now.ui.BuddyMoreRowView android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/now_header_row_height" style="@style/now_buddy_row"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

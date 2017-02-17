@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cl.santander.smartphone.CustomVerticalTextView android:textSize="8.0dip" android:textColorHint="#ff222222" android:gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gire_dispositivo" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="12.0dip" android:textColor="#ffff0000" android:ellipsize="end" android:id="@id/TextView02" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/documentos_asociados" android:lines="1" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff333333" android:id="@id/tv_cheque_serie" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="&lt;num>" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center|right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="12.0dip" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_cheque_cuenta" android:tag="normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/saldo_2p" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_cheque_tipo" android:tag="normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:text="@string/linea_2p" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/account_amount_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/tv_pagecheque_head_quantity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/monto_pagado" />
+                <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/tv_pagecheque_quantity" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="12.0dip" android:textColor="#ff333333" android:id="@id/tv_cheque_banco" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="&lt;num>" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center|right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="12.0dip" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_cheque_fecha" android:tag="normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/saldo_2p" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/fbui_bg_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.facebook.widget.titlebar.TitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:hasBackButton="true" />
+        <com.facebook.timeline.refresher.view.ProfileRefresherStepIndicator android:gravity="center" android:id="@id/profile_refresher_step_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/step_indicator_height" />
+        <com.facebook.resources.ui.FbTextView android:textSize="20.0sp" android:textColor="@color/commenter_send_button" android:gravity="center" android:id="@id/profile_refresher_step_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="12.0dip" />
+        <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:textColor="@color/commenter_send_button" android:gravity="center" android:id="@id/profile_refresher_step_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="12.0dip" android:lineSpacingExtra="4.0sp" />
+        <com.facebook.widget.noscrollviewpager.NoScrollViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:gravity="center_horizontal" android:id="@id/profile_refresher_bottom_bar" android:background="@color/fbui_blue_90" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_alignParentBottom="true" fb:showDividers="middle" fb:dividerPadding="6.0dip" fb:divider="@color/fbui_white_20" fb:dividerThickness="0.5dip">
+        <com.facebook.resources.ui.FbButton android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_white" android:gravity="center" android:id="@id/picture_from_album_text" android:background="@drawable/refresher_bottom_bar_bg" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="@string/profile_refresher_select_photo_from_album" android:layout_weight="0.5" />
+        <com.facebook.resources.ui.FbButton android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_white" android:gravity="center" android:id="@id/picture_from_upload_text" android:background="@drawable/refresher_bottom_bar_bg" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="@string/profile_refresher_upload_photo" android:layout_weight="0.5" />
+    </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/composer_title_container" android:background="@color/fbui_blue_90" android:layout_width="fill_parent" android:layout_height="@dimen/composer_header_height">
+        <LinearLayout android:id="@id/secondary_action_button_divider" android:background="@drawable/button_bar_button_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/generic_back"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <ImageView android:id="@id/secondary_action_button" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/composer_title_back" android:scaleType="center" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/logo_image" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fb_white_icon" android:scaleType="center" />
+            <ViewStub android:layout_gravity="center_vertical" android:id="@id/profile_image_stub" android:layout="@layout/profile_image" android:inflatedId="@id/profile_image" android:layout_width="@dimen/composer_harrison_round_profile_width" android:layout_height="@dimen/composer_harrison_round_profile_height" />
+        </LinearLayout>
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_white_80" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/title_text" android:paddingLeft="@dimen/composer_padding" android:paddingRight="@dimen/composer_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_to_your_timeline" android:singleLine="true" android:layout_weight="1.0" fb:maxLines="1" />
+    </LinearLayout>
+</merge>

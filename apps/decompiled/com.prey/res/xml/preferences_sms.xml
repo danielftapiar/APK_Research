@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_sms_category_title" android:key="PREFS_APP">
+        <CheckBoxPreference android:title="@string/preference_sms_checkbox_title" android:key="PREFS_SMS_COMMAND" android:summary="@string/preference_sms_checkbox_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_sms_category_available" android:key="PREFS_APP">
+        <Preference android:title="@string/preference_sms_command_location" android:key="prey_sms_location" android:summary="@string/preference_sms_command_location_summary" />
+        <Preference android:title="@string/preference_sms_command_lock" android:key="prey_sms_lock" android:summary="@string/preference_sms_command_lock_summary" />
+        <Preference android:title="@string/preference_sms_command_unlock" android:key="prey_sms_unlock" android:summary="@string/preference_sms_command_unlock_summary" />
+        <Preference android:title="@string/preference_sms_command_alarm" android:key="prey_sms_alarm" android:summary="@string/preference_sms_command_alarm_summary" />
+        <Preference android:title="@string/preference_sms_command_alert" android:key="prey_sms_alert" android:summary="@string/preference_sms_command_alert_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

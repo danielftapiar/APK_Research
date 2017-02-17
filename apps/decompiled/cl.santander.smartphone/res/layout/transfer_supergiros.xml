@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <TextView android:layout_gravity="center_vertical" android:id="@id/TextView01" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/rut" android:layout_weight="2.0" />
+                <EditText android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/et_transfer_supergiros_rut" android:nextFocusDown="@id/et_transfer_supergiros_monto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="@string/monto_instrucciones" android:maxLines="1" android:lines="1" android:ems="10" android:maxLength="11" android:layout_weight="2.0" android:inputType="text" android:nextFocusForward="@id/et_transfer_supergiros_monto" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <TextView android:layout_gravity="center_vertical" android:id="@id/textView2" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/monto" android:layout_weight="2.0" />
+                <EditText android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/et_transfer_supergiros_monto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="@string/monto_instrucciones" android:lines="1" android:ems="10" android:layout_weight="2.0" android:inputType="number" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_transfer_supergiros_maximo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/monto_maximo" />
+            <TextView android:id="@id/tv_transfer_supergiros_coste_envio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/costo_supergiro_1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

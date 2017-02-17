@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/raven_sticker_promo_title_text_size" android:textStyle="bold" android:textColor="@android:color/black" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/raven_sticker_promo_margin" android:layout_marginBottom="@dimen/raven_sticker_promo_small_margin" android:text="@string/raven_promo_title" />
+            <TextView android:textColor="@color/raven_sticker_promo_description" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/raven_sticker_promo_margin" android:layout_marginRight="@dimen/raven_sticker_promo_margin" android:layout_marginBottom="@dimen/raven_sticker_promo_small_margin" android:text="@string/raven_promo_message" />
+            <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center" android:id="@id/sticker_promotion_image" android:layout_width="@dimen/raven_sticker_promo_width" android:layout_height="@dimen/raven_sticker_promo_image_height" fb:placeholderImage="@drawable/spinner" fb:placeholderImageScaleType="centerInside" fb:actualImageScaleType="focusCrop" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/sticker_promotion_progress_container" android:visibility="gone" android:layout_width="@dimen/raven_sticker_promo_width" android:layout_height="@dimen/raven_sticker_promo_image_height">
+                <ProgressBar android:layout_gravity="center" android:id="@id/sticker_promotion_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/raven_sticker_promo_button_text_size" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/raven_promo_try_it_out" android:background="@drawable/raven_promo_try_it_out_rounded_button" android:layout_width="@dimen/raven_sticker_promo_button_width" android:layout_height="@dimen/raven_sticker_promo_button_height" android:text="@string/raven_promo_button_text" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

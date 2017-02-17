@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="publisher_height">48.0dip</dimen>
+    <dimen name="publisher_height_with_offset">49.0dip</dimen>
+    <dimen name="feed_switcher_bottom_margin">60.0dip</dimen>
+    <dimen name="zero">0.0dip</dimen>
+</resources>

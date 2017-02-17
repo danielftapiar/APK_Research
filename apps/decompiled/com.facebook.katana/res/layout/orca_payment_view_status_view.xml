@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:orientation="horizontal" android:id="@id/message_subtext" android:layout_width="fill_parent" android:layout_height="@dimen/payment_bubble_status_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/payment_bubble_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_grey_30" android:gravity="center|left" android:id="@id/status_title_text" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="@string/payment_bubble_transaction_status_title_text" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/black" android:gravity="center|left" android:id="@id/status_body_text" android:layout_width="wrap_content" android:layout_height="18.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="6.0dip" android:paddingRight="@dimen/payment_bubble_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minWidth="@dimen/payment_bubble_width_half" android:layout_alignParentRight="true">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_grey_30" android:gravity="center|left" android:id="@id/payment_time_title_text" android:layout_width="wrap_content" android:layout_height="18.0dip" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/black" android:gravity="center|left" android:id="@id/payment_time_body_text" android:layout_width="wrap_content" android:layout_height="18.0dip" />
+    </LinearLayout>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

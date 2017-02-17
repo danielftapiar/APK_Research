@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.video.youtubeplayer.layout.YouTubePlayerInterceptTouchLayout android:id="@id/youtube_player_fragment_layout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment" android:id="@id/youtube_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</com.facebook.video.youtubeplayer.layout.YouTubePlayerInterceptTouchLayout>

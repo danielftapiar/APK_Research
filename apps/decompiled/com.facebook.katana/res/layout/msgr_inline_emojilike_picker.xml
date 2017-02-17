@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textColor="@color/orca_neue_light_gray" android:gravity="center" android:layout_gravity="center" android:id="@id/caption_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/msgr_inline_emojilike_picker_caption" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/options_container" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip">
+        <com.facebook.fbui.glyph.GlyphButton android:id="@id/more_emoji_button" android:background="@drawable/orca_attachments_emoji_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/msgr_ic_emoji_more" android:layout_weight="1.0" app:glyphColor="#61000000" />
+    </LinearLayout>
+</merge>

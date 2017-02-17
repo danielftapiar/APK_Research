@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/status_container" android:paddingLeft="@dimen/composer_padding" android:paddingRight="@dimen/composer_padding" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.ScrollingAwareScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <com.facebook.platform.targetpicker.miniComposer.MiniComposerEditText android:textColor="@android:color/black" android:textColorHint="?android:textColorTertiary" android:gravity="start|center|top" android:layout_gravity="start" android:id="@id/status_text" android:background="@null" android:padding="@dimen/composer_padding" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/stream_share_hint" android:completionThreshold="1" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone" />
+    </com.facebook.widget.ScrollingAwareScrollView>
+</FrameLayout>

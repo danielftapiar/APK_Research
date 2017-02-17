@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="0.0dip" android:bottom="0.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/fb_input_border_start" android:endColor="@color/fb_input_border_end" android:angle="-90.0" android:centerColor="@color/fb_input_border_center" />
+            <corners android:radius="1.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#ffffffff" android:endColor="#ffffffff" android:angle="90.0" android:centerColor="#ffffffff" />
+            <corners android:radius="1.0dip" />
+        </shape>
+    </item>
+</layer-list>

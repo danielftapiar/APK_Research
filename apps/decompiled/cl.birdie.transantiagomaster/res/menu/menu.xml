@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/opciones" android:id="@id/opciones" android:title="@string/OPCIONES" />
+    <item android:icon="@drawable/recomendar_icono" android:id="@id/recomendar" android:title="@string/RECOMIENDA_ESTA_APP" />
+</menu>

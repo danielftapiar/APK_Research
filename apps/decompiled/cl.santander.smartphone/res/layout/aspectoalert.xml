@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="30.0dip" android:textColor="#ffff0000" android:id="@id/tv_aspectoalert_title" android:tag="normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_aspectoalert_description" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:textColor="@color/grey_texts" android:id="@id/bt_aspectoalert" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="OK" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

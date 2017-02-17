@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff1e2938" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="595.0dip" android:layout_height="595.0dip" android:src="@drawable/onb_03" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="1.0" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/close_tour1" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/white_close" />
+    </LinearLayout>
+    <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/textView1" android:layout_width="500.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/tour_03_title" android:layout_above="@id/textView2" android:layout_alignParentLeft="true" android:lineSpacingMultiplier="0.8" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/textView2" android:layout_width="500.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/tour_03_subtitle" android:layout_above="@id/buttontour01" android:layout_alignParentLeft="true" android:lineSpacingMultiplier="0.9" />
+    <Button android:textSize="23.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/buttontour01" android:background="#ff2a5e93" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/tour_03_button" android:layout_alignParentBottom="true" />
+</RelativeLayout>

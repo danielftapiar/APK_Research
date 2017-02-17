@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:custom="http://schemas.android.com/apk/res/de.viktorreiser.androidtoolbox.showcase"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <cl.santander.smartphone.CustomScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/tv_recarga_confirm_title" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recarga_de_movil" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/tv_recarga_confirm_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/prepago_y_cuenta" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_title1" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/cuenta" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_recarga_confirm_cc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="-" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_title2" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/saldo_contable" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_recarga_confirm_saldo_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="-" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_title3" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/saldo_disponible" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_recarga_confirm_saldo_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="-" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_title4" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/nro_celular" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_recarga_confirm_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="-" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_title5" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/monto_recargar" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_recarga_confirm_monto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="-" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/tv_recarga_confirm_instrucciones" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_recarga_confirm_coord1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_recarga_confirm_coord2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_recarga_confirm_coord3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_recarga_confirm_1" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_recarga_confirm_2" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_recarga_confirm_3" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+                    <Button android:textColor="@color/grey_texts" android:id="@id/bt_recarga_confirm_confirmar" android:tag="black" android:background="@drawable/button_select" android:focusable="true" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/confirmar" />
+                </LinearLayout>
+            </LinearLayout>
+        </cl.santander.smartphone.CustomScrollView>
+    </LinearLayout>
+</LinearLayout>

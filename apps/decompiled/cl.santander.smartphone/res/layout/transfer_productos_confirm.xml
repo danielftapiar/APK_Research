@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:custom="http://schemas.android.com/apk/res/de.viktorreiser.androidtoolbox.showcase"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cl.santander.smartphone.CustomScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/TextView14" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/transf_mis_productos" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_transfer_productos_confirm_titulomonto" android:tag="black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/monto_a_transferir" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_transfer_productos_confirm_monto" android:tag="black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/TextView11" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/origen" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView12" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/tipo_cuenta" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_transfer_productos_confirm_tipo_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView09" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/nro_cuenta" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_transfer_productos_confirm_numcuenta_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView06" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/saldo" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_transfer_productos_confirm_saldo_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/TextView07" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/destino" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView03" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/tipo_cuenta" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_transfer_productos_confirm_tipo_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView01" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/nro_cuenta" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_transfer_productos_confirm_numcuenta_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView02" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/saldo" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                                <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_transfer_productos_confirm_saldo_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_transfer_productos_confirm_clave" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/title_ingrese_clave" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/ingrese_clave" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                        <EditText android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/et_transfer_productos_confirm_clave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:password="true" android:layout_weight="1.0" android:inputType="numberPassword" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_transfer_productos_confirm_comprobante" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="#ffa0a0a0" android:id="@id/tv_transfer_productos_report_infoemail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/help_transfer_email_1" android:layout_weight="3.0" />
+                </LinearLayout>
+                <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+                    <Button android:textColor="@color/grey_texts" android:id="@id/bt_transfer_productos_confirm_confirmar" android:tag="black" android:background="@drawable/button_select" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/confirmar_transferencia" />
+                </LinearLayout>
+            </LinearLayout>
+        </cl.santander.smartphone.CustomScrollView>
+    </LinearLayout>
+</LinearLayout>

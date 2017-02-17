@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:padding="?pagesDefaultPadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/page_activity_uni_blue_like_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="?pagesDefaultPadding" android:src="@drawable/blue_like_circle" />
+    <com.facebook.resources.ui.FbTextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="?pagesDefaultPadding" android:text="@string/page_ui_uni_page_likes" style="@style/Pages.TextAppearance.Dark.XLarge.Bold" />
+    <com.facebook.resources.ui.FbTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/page_ui_uni_page_likes_description" style="@style/Pages.TextAppearance.Dark" />
+    <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/page_activity_uni_button" android:background="@drawable/fbui_btn_light_regular_large_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?pagesDefaultPadding" android:layout_marginTop="@dimen/page_activity_uni_button_margin" android:layout_marginRight="?pagesDefaultPadding" style="@style/Pages.TextAppearance.Default.Bold" />
+</com.facebook.widget.CustomLinearLayout>

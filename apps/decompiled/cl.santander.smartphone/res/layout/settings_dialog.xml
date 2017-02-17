@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/d_root" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0dip" android:textColor="#ffff0000" android:id="@id/tv_ajustes" android:tag="normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/ajustes" />
+    <LinearLayout android:orientation="vertical" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:background="#ffffffff" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_version_actual" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/version_actual" android:layout_weight="1.0" android:contentDescription="bold" />
+            <TextView android:textColor="#ff666666" android:id="@id/tv_version" android:tag="normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_ruta_defecto" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ruta_defecto_localizador" />
+            <RadioButton android:textColor="#ff666666" android:id="@id/rb_conduciendo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/rb_list_selector" android:text="@string/conduciendo" />
+            <LinearLayout android:orientation="vertical" android:background="#ff666666" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:textColor="#ff666666" android:id="@id/rb_caminando" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/rb_list_selector" android:text="@string/caminando" />
+        </LinearLayout>
+        <LinearLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_loc_activa_home" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loc_activa_home" android:layout_weight="1.0" android:contentDescription="bold" />
+            <CheckBox android:id="@id/cb_auto_loc_home" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_acerca" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/acerca_de" />
+    </LinearLayout>
+</LinearLayout>

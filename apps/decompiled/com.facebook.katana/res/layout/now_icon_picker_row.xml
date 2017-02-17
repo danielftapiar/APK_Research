@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.ListViewFriendlyViewPager android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/now_icon_picker_row" android:paddingLeft="@dimen/now_standard_padding_double" android:paddingRight="@dimen/now_standard_padding_double" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:initializeHeightToFirstItem="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

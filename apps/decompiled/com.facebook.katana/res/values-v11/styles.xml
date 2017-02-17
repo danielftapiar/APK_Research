@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Orca" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/Theme.Orca.ListView</item>
+        <item name="titleBarBackground">@color/fbui_facebook_blue</item>
+        <item name="titleBarPrimaryColor">@color/fbui_white</item>
+        <item name="titleBarButtonTextColor">@color/fbui_titlebar_button_text_color</item>
+        <item name="searchBarHintColor">@color/fbui_white</item>
+    </style>
+    <style name="Theme.Orca.Preferences" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@style/Theme.Orca.ListView</item>
+    </style>
+    <style name="FbProgressCircular" parent="@style/Widget.Holo.ProgressBar.Small.Clockwise" />
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="@android:style/Widget.Holo.ProgressBar.Horizontal" />
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="@android:style/Widget.Holo.ProgressBar" />
+    <style name="Widget.AppCompat.Base.Light.ListView" parent="@android:style/Widget.Holo.Light.ListView" />
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="@android:style/Widget.Holo.AutoCompleteTextView" />
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView" />
+    <style name="Theme.Base" parent="@android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+    </style>
+    <style name="TextAppearance.FacebookHolo.Base" parent="@android:style/TextAppearance" />
+    <style name="Widget.FacebookHolo.Base.EditText" parent="@android:style/Widget.Holo.Light.EditText" />
+    <style name="Theme.FacebookHolo.Base.Light.Dialog" parent="@android:style/Theme.Holo.Light.Dialog" />
+    <style name="Widget" parent="@android:style/Widget.Holo.Light" />
+    <style name="Widget.Button" parent="@android:style/Widget.Holo.Light.Button" />
+    <style name="Widget.ListView" parent="@android:style/Widget.Holo.Light.ListView" />
+    <style name="Widget.CheckBox" parent="@android:style/Widget.Holo.Light.CompoundButton.CheckBox" />
+    <style name="Widget.RadioButton" parent="@android:style/Widget.Holo.Light.CompoundButton.RadioButton" />
+    <style name="Widget.EditText" parent="@android:style/Widget.Holo.Light.EditText" />
+    <style name="Widget.AutoCompleteTextView" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView" />
+    <style name="Widget.Spinner" parent="@android:style/Widget.Holo.Light.Spinner" />
+    <style name="Theme.FBUi.Dialog" parent="@style/Theme.FBUi">
+        <item name="android:windowBackground">@drawable/fbui_popover_light</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/Widget.DialogWindowTitle</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="alertDialogWindowTitleStyle">@style/Widget.DialogWindowTitle</item>
+        <item name="alertDialogMessageStyle">@style/Widget.AlertDialog.Message</item>
+        <item name="alertDialogListViewStyle">@style/Widget.AlertDialog.ListView</item>
+        <item name="alertDialogListItemStyle">@style/Widget.AlertDialog.Message</item>
+        <item name="alertDialogPaddingHorizontal">24.0dip</item>
+        <item name="alertDialogPaddingVertical">18.0dip</item>
+        <item name="alertDialogPaddingVerticalSmall">8.0dip</item>
+        <item name="alertDialogItemMinHeight">48.0dip</item>
+        <item name="alertDialogScrollIndicator">@drawable/fbui_divider_horizontal</item>
+        <item name="alertDialogButtonBarStyle">@style/Widget.AlertDialog.ButtonBar</item>
+        <item name="alertDialogButtonStyle">@style/Widget.AlertDialog.Button</item>
+        <item name="alertDialogPrimaryButtonStyle">@style/Widget.AlertDialog.Button.Primary</item>
+    </style>
+    <style name="Theme.FBUi.Dark.Dialog" parent="@style/Theme.FBUi.Dark">
+        <item name="android:windowBackground">@drawable/fbui_popover_dark</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/Widget.DialogWindowTitle.Dark</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="alertDialogWindowTitleStyle">@style/Widget.DialogWindowTitle.Dark</item>
+        <item name="alertDialogMessageStyle">@style/Widget.AlertDialog.Dark.Message</item>
+        <item name="alertDialogListViewStyle">@style/Widget.AlertDialog.Dark.ListView</item>
+        <item name="alertDialogListItemStyle">@style/Widget.AlertDialog.Dark.Message</item>
+        <item name="alertDialogPaddingHorizontal">24.0dip</item>
+        <item name="alertDialogPaddingVertical">18.0dip</item>
+        <item name="alertDialogPaddingVerticalSmall">8.0dip</item>
+        <item name="alertDialogItemMinHeight">48.0dip</item>
+        <item name="alertDialogScrollIndicator">@drawable/fbui_divider_horizontal_dark</item>
+        <item name="alertDialogButtonBarStyle">@style/Widget.AlertDialog.Dark.ButtonBar</item>
+        <item name="alertDialogButtonStyle">@style/Widget.AlertDialog.Dark.Button</item>
+        <item name="alertDialogPrimaryButtonStyle">@style/Widget.AlertDialog.Dark.Button.Primary</item>
+    </style>
+    <style name="Theme.FBUi.Dialog.Alert" parent="@style/Theme.FBUi.Dialog">
+        <item name="android:windowMinWidthMajor">@dimen/fbui_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/fbui_dialog_min_width_minor</item>
+    </style>
+    <style name="Theme.FBUi.Dark.Dialog.Alert" parent="@style/Theme.FBUi.Dark.Dialog">
+        <item name="android:windowMinWidthMajor">@dimen/fbui_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/fbui_dialog_min_width_minor</item>
+    </style>
+    <style name="Theme.OrcaDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@drawable/orca_panel_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:progressBarStyle">@style/FbProgressCircular</item>
+        <item name="android:progressBarStyleSmall">@style/FbProgressCircular.Small</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:windowMinWidthMinor">96.0%</item>
+    </style>
+    <style name="Theme.FacebookDark" parent="@android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="alertDialogTheme">@style/Theme.FBUi.Dark.Dialog.Alert</item>
+        <item name="alertDialogStyle">@style/Widget.AlertDialog</item>
+    </style>
+    <style name="Theme.Facebook" parent="@style/Theme.FBUi">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:progressBarStyle">@style/Widget.Holo.ProgressBar.Clockwise</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Holo.ProgressBar.Small.Clockwise</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Holo.ProgressBar.Large.Clockwise</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="stickerKeyboardTheme">@style/Theme.Facebook.StickerKeyboard</item>
+        <item name="stickerStoreTheme">@style/Theme.Facebook.StickerStore</item>
+        <item name="tabBackgroundColor">@color/blue_tab_background</item>
+        <item name="browserUpButtonStyle">@style/InAppBrowser.Chrome.UpButton</item>
+        <item name="browserOverflowButtonStyle">@style/InAppBrowser.Chrome.OverflowButton</item>
+        <item name="browserTitleStyle">@style/InAppBrowser.Chrome.Text.Title</item>
+        <item name="browserSubtitleStyle">@style/InAppBrowser.Chrome.Text.Subtitle</item>
+        <item name="browserSharebuttonStyle">@style/InAppBrowser.Chrome.Text.Sharebutton</item>
+    </style>
+    <style name="Theme.Facebook.Caspian" parent="@style/Theme.Caspian">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:progressBarStyle">@style/Widget.Holo.ProgressBar.Clockwise</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Holo.ProgressBar.Small.Clockwise</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Holo.ProgressBar.Large.Clockwise</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="tabbedViewPagerIndicatorStyle">@style/Widget.TabbedViewPagerIndicator.Caspian.FB4A</item>
+        <item name="popoverMenuWindowTheme">@style/Theme.FBUi.PopoverMenuWindow.Caspian</item>
+        <item name="browserUpButtonStyle">@style/InAppBrowser.Chrome.UpButton.Caspian</item>
+        <item name="browserOverflowButtonStyle">@style/InAppBrowser.Chrome.OverflowButton.Caspian</item>
+        <item name="browserTitleStyle">@style/InAppBrowser.Chrome.Text.Title.Caspian</item>
+        <item name="browserSubtitleStyle">@style/InAppBrowser.Chrome.Text.Subtitle.Caspian</item>
+        <item name="browserSharebuttonStyle">@style/InAppBrowser.Chrome.Text.Sharebutton.Caspian</item>
+    </style>
+    <style name="Theme.Facebook.Preferences" parent="@android:style/Theme.Holo.Light">
+        <item name="android:listChoiceIndicatorSingle">@drawable/fbui_radio_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/fbui_checkbox_light</item>
+        <item name="alertDialogPaddingHorizontal">24.0dip</item>
+        <item name="alertDialogPaddingVertical">18.0dip</item>
+        <item name="alertDialogPaddingVerticalSmall">8.0dip</item>
+        <item name="alertDialogItemMinHeight">48.0dip</item>
+        <item name="alertDialogScrollIndicator">@null</item>
+    </style>
+    <style name="progress_bar" parent="@android:style/Widget.Holo.Light.ProgressBar.Inverse" />
+    <style name="Theme.FacebookDialogSimple" parent="@android:style/Theme.Holo.Light.Dialog" />
+    <style name="ReportAProblem.Base" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowMinWidthMajor">60.000004%</item>
+        <item name="android:windowMinWidthMinor">100.0%</item>
+    </style>
+    <style name="PopoverDialogStyle" parent="@style/BasePopoverDialogStyle">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="Theme.Orca.ListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/orca_list_selector_holo_light</item>
+    </style>
+    <style name="Widget.Holo.ProgressBar.Clockwise" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_holo</item>
+    </style>
+    <style name="Widget.Holo.ProgressBar.Large.Clockwise" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_large_holo</item>
+    </style>
+    <style name="Widget.Holo.ProgressBar.Small.Clockwise" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_small_holo</item>
+    </style>
+</resources>

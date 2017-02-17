@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/warning_title" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/warning_title" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/warning_body" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/warning_body" />
+    <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/button_ok" android:background="#ff2a5e93" android:paddingBottom="10.0dip" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/warning_re_approve" android:fontFamily="Avenir Next LT Pro" />
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/button_close" android:background="#ff2a5e93" android:paddingBottom="10.0dip" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/warning_close" android:fontFamily="Avenir Next LT Pro" />
+    </LinearLayout>
+</LinearLayout>

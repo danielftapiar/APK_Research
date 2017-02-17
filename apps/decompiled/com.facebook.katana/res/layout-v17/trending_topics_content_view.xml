@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="top" android:layout_gravity="top" android:id="@id/trending_topic_thumbnail" android:layout_width="@dimen/trending_topic_icon_size" android:layout_height="@dimen/trending_topic_icon_size" android:layout_marginTop="@dimen/trending_topic_icon_top_padding" android:layout_marginRight="@dimen/fbui_content_view_thumbnail_margin_right" android:src="@drawable/graph_search_trending_icon" android:layout_marginEnd="@dimen/fbui_content_view_thumbnail_margin_right" fb:layout_useAsThumbnail="true" />
+    <com.facebook.resources.ui.FbTextView android:gravity="top" android:layout_gravity="top" android:id="@id/trending_topic_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.FBUi.Title" />
+    <com.facebook.resources.ui.EllipsizingTextView android:ellipsize="end" android:id="@id/trending_topic_article_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/TextAppearance.FBUi.Meta" />
+    <com.facebook.resources.ui.EllipsizingTextView android:ellipsize="end" android:id="@id/trending_topic_promotion_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/TrendingTopicPromotedText" />
+</merge>

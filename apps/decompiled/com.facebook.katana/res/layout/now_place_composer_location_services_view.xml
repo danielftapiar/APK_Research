@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/TextAppearance.FBUi.XLarge" android:textStyle="bold" android:textColor="?android:textColorPrimaryInverse" android:gravity="center" android:id="@id/now_place_composer_location_services_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/now_place_composer_location_services_title" />
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/TextAppearance.FBUi.Medium" android:textColor="?android:textColorSecondaryInverse" android:gravity="center" android:id="@id/now_place_composer_location_services_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fbui_padding_half_text" android:text="@string/now_place_composer_location_services_subtitle" />
+    <com.facebook.widget.text.BetterButton android:gravity="center" android:id="@id/now_place_composer_location_services_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fbui_padding_standard" android:text="@string/now_place_composer_location_services_button" fb:allCaps="true" style="?attr/buttonRegularLargeInverse" />
+</merge>

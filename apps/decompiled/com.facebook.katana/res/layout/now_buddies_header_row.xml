@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_bluegrey_40" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/now_buddy_header_title" android:padding="@dimen/now_standard_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentLeft="true" fb:fontFamily="roboto" fb:fontWeight="medium" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_bluegrey_40" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/now_buddy_header_action" android:padding="@dimen/now_standard_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentRight="true" fb:fontFamily="roboto" fb:fontWeight="medium" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/now_buddy_header_toggle_button" android:padding="@dimen/now_standard_padding" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbui_cross_l" android:layout_alignParentTop="true" android:layout_alignParentRight="true" fb:glyphColor="@color/fbui_bluegrey_40" />
+</merge>

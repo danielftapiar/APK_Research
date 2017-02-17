@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.MaxWidthLinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/logo_title_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/fb_logo_up_button" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:contentDescription="@string/titlebar_back_button" fb:glyphColor="?titleBarPrimaryColor" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="@dimen/title_bar_height" style="@style/Fb4aTitlebarTitleText" />
+    </com.facebook.widget.MaxWidthLinearLayout>
+    <FrameLayout android:id="@id/custom_title_wrapper" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/title_bar_height" android:layout_toLeftOf="@id/action_buttons_wrapper" android:layout_toRightOf="@id/logo_title_wrapper" android:layout_toStartOf="@id/action_buttons_wrapper" android:layout_toEndOf="@id/logo_title_wrapper" />
+    <ViewStub android:id="@id/search_box" android:paddingTop="@dimen/graph_search_box_margin" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_buttons_wrapper" android:layout_toRightOf="@id/logo_title_wrapper" android:layout_toStartOf="@id/action_buttons_wrapper" android:layout_toEndOf="@id/logo_title_wrapper" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/action_buttons_wrapper" android:layout_width="wrap_content" android:layout_height="@dimen/title_bar_height" android:minWidth="@dimen/graph_search_box_margin" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ViewStub android:id="@id/search_button" android:layout="@layout/titlebar_search_button" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/primary_action_text_stub" android:layout="@layout/titlebar_primary_action_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/primary_action_button_stub" android:layout="@layout/titlebar_primary_action_button" android:layout_width="@dimen/titlebar_button_width" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/secondary_action_text_stub" android:layout="@layout/titlebar_secondary_action_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/secondary_action_button_stub" android:layout="@layout/titlebar_secondary_action_button" android:layout_width="@dimen/titlebar_button_width" android:layout_height="fill_parent" />
+    </LinearLayout>
+</merge>

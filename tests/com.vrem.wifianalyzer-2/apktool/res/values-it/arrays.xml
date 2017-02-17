@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ap_view_array">
+        <item>Completare</item>
+        <item>Compatto</item>
+    </string-array>
+    <string-array name="graph_legend_array">
+        <item>Sinistra</item>
+        <item>Destra</item>
+        <item>Nascondi</item>
+    </string-array>
+    <string-array name="group_by_array">
+        <item>Non Raggruppare</item>
+        <item>SSID</item>
+        <item>Canale</item>
+    </string-array>
+    <string-array name="sort_by_array">
+        <item>Potenza Segnale</item>
+        <item>SSID</item>
+        <item>Canale</item>
+    </string-array>
+    <string-array name="theme_array">
+        <item>Scuro</item>
+        <item>Chiaro</item>
+    </string-array>
+</resources>

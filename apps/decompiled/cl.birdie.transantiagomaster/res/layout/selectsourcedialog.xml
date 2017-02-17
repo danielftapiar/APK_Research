@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/lblComentario" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblSelectSource" />
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btnSourceGallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sourceGallery" android:layout_weight="1.0" />
+        <Button android:id="@id/btnSourceCamera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sourceCamera" android:layout_weight="1.0" />
+        <Button android:id="@id/btnCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CANCELAR" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

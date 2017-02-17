@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ap_view_array">
+        <item>Komplett</item>
+        <item>Kompakt</item>
+    </string-array>
+    <string-array name="graph_legend_array">
+        <item>Links</item>
+        <item>Rechts</item>
+        <item>Verstecken</item>
+    </string-array>
+    <string-array name="group_by_array">
+        <item>Nicht Gruppieren</item>
+        <item>SSID</item>
+        <item>Kanal</item>
+    </string-array>
+    <string-array name="sort_by_array">
+        <item>Signalstärke</item>
+        <item>SSID</item>
+        <item>Kanal</item>
+    </string-array>
+    <string-array name="theme_array">
+        <item>Dunkel</item>
+        <item>Hell</item>
+    </string-array>
+</resources>

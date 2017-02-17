@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="start|bottom|center" android:id="@id/standard_header_profile_pic_container" android:layout_width="@dimen/standard_header_profile_pic_size" android:layout_height="@dimen/standard_header_profile_pic_size" android:layout_marginLeft="@dimen/standard_header_profile_pic_margin_left" android:layout_marginBottom="@dimen/standard_header_profile_pic_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/standard_header_profile_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.caspian.ui.standardheader.StandardProfileImageView android:id="@id/standard_header_profile_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/standard_header_profile_picture_expiration_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/standard_header_profile_pic_icon_experiment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/standard_header_profile_edit_icon_exp_margin" />
+</FrameLayout>

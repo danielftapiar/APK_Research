@@ -1,0 +1,14 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-113-	    username_text = Username_Text.getText().toString();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-114-	    password_text = Password_Text.getText().toString();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java:115:		editor.putString("Username", username_text);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java:116:		editor.putString("Password",password_text);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-117-		String mypassword=password_text;
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-118-	    String base64password =new String(Base64.encodeToString(mypassword.getBytes(),4));
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java:119:	    editor.putString("encryptedpassword",base64password );
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-120-	    editor.commit();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-121-		    
+C:\OWASP\InsecureBank\src\com\android\insecurebank\Preferences.java-23-    public void onCreate(Bundle savedInstanceState) {
+C:\OWASP\InsecureBank\src\com\android\insecurebank\Preferences.java-24-        super.onCreate(savedInstanceState);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\Preferences.java:25:        addPreferencesFromResource(R.xml.preferences);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\Preferences.java-26-    }  
+C:\OWASP\InsecureBank\src\com\android\insecurebank\Preferences.java-27-

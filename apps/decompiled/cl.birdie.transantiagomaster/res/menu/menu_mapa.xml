@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/abs__ic_search" android:id="@id/buscar_lugar" android:title="@string/BUSCAR_LUGAR" android:showAsAction="always|collapseActionView" android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+    <item android:icon="@drawable/reclamar" android:id="@id/reclamar" android:title="@string/RECLAMAR" android:showAsAction="always" />
+</menu>

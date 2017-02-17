@@ -1,0 +1,5 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-109-		SharedPreferences mySharedPreferences; 
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-110-        
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java:111:        mySharedPreferences=getSharedPreferences(MYPREFS,Activity.MODE_PRIVATE);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-112-	    SharedPreferences.Editor editor = mySharedPreferences.edit();
+C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java-113-	    username_text = Username_Text.getText().toString();

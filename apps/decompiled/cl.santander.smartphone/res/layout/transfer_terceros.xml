@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/bt_transfer_terceros_destinatarios" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ultimos_destinatarios" />
+            <LinearLayout android:orientation="vertical" android:background="#ff555555" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <Spinner android:id="@id/sp_transfer_terceros_banco" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <Spinner android:id="@id/sp_transfer_terceros_tipocuenta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <TextView android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/TextView03" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/rut" android:layout_weight="1.0" />
+                <EditText android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/et_transfer_terceros_rut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="@string/monto_instrucciones" android:lines="1" android:ems="10" android:maxLength="11" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <TextView android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/TextView02" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/nombre" android:layout_weight="1.0" />
+                <EditText android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/et_transfer_terceros_nombre" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:lines="1" android:ems="10" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionNext" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <TextView android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/TextView01" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/cuenta" android:layout_weight="1.0" />
+                <EditText android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/et_transfer_terceros_cuenta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:lines="1" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <TextView android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/TextView00" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/monto" android:layout_weight="1.0" />
+                <EditText android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/et_transfer_terceros_monto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="@string/monto_instrucciones" android:lines="1" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/leadgen_medium_font_size_2" android:textColor="@color/leadgen_question_label_color" android:ellipsize="end" android:id="@id/leadgen_form_explicit_label_view" android:paddingLeft="@dimen/leadgen_form_field_padding" android:paddingRight="@dimen/leadgen_form_field_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/leadgen_label_margin_top" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/leadgen_medium_font_size" android:textStyle="bold" android:textColor="@color/leadgen_non_editable_field_color" android:id="@id/lead_gen_form_non_editable_text_view" android:background="@drawable/non_editable_text_view_bottom_border" android:paddingLeft="@dimen/leadgen_form_non_editable_field_padding" android:paddingRight="@dimen/leadgen_form_non_editable_field_padding" android:paddingBottom="@dimen/leadgen_form_field_bottom_padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" android:layout_below="@id/leadgen_form_explicit_label_view"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</merge>

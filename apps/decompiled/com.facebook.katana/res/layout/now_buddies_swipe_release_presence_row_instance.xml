@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.now.ui.SwipableFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" fb:releaseLength="120.0dip" fb:dragThreshold="120.0dip" fb:dragFriction="0.0%" fb:alwaysCloseAfterSwipe="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.now.ui.BuddyPresenceRowView android:layout_width="fill_parent" android:layout_height="wrap_content" fb:layout_position_z="front" style="@style/now_presence_row" />
+    <com.facebook.now.ui.BuddyOpenMessengerView android:textColor="@color/fbui_white" android:ellipsize="none" android:gravity="center|left" android:id="@id/now_self_status_clear_button" android:background="@color/fbui_accent_blue" android:paddingLeft="@dimen/fbui_padding_text" android:paddingTop="@dimen/fbui_padding_text" android:paddingBottom="@dimen/fbui_padding_text" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/now_release_to_message" android:singleLine="true" fb:layout_position_z="behind" fb:prefixIconPadding="@dimen/now_presence_context_icon_padding" fb:prefixIconSize="@dimen/now_presence_row_messenger_icon_size" />
+</com.facebook.now.ui.SwipableFrameLayout>

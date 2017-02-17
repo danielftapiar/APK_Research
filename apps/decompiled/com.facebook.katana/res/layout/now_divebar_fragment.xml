@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:orientation="vertical" android:background="@color/now_divebar_dark_background_color" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/now_divebar_title" layout="@layout/now_divebar_title" />
+    <ViewFlipper android:id="@id/now_composer_entry_point_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="false" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:layout_below="@id/now_divebar_title">
+        <LinearLayout android:orientation="vertical" android:id="@id/now_entry_point_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <com.facebook.now.ui.SwipableFrameLayout android:orientation="vertical" android:id="@id/now_entry_point_swipe_container" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:releaseLength="100.0dip" fb:dragThreshold="100.0dip" fb:dragFriction="79.99999%">
+                <com.facebook.now.ui.NowComposerEntryPointView android:id="@id/now_divebar_entry_point" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:layout_position_z="front" style="@style/now_presence_row" />
+                <com.facebook.now.ui.NowSelfViewClearStatusButton android:textColor="@color/fbui_white" android:ellipsize="none" android:gravity="center" android:id="@id/now_self_status_clear_button" android:background="@color/fbui_red" android:paddingLeft="@dimen/fbui_padding_text" android:paddingTop="@dimen/fbui_padding_text" android:paddingBottom="@dimen/fbui_padding_text" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/now_clear_status" android:singleLine="true" fb:layout_position_z="behind" />
+            </com.facebook.now.ui.SwipableFrameLayout>
+            <com.facebook.now.ui.NowLikeSentenceView android:textSize="@dimen/fbui_text_size_small" android:id="@id/now_like_sentence_view" android:paddingLeft="@dimen/now_like_sentence_view_left_padding" android:paddingTop="@dimen/now_standard_padding" android:paddingRight="@dimen/fbui_padding_half_text" android:paddingBottom="@dimen/now_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/now_standard_padding" />
+        </LinearLayout>
+        <com.facebook.now.composer.NowComposerHeaderView android:id="@id/now_composer_header_view" android:padding="@dimen/now_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ViewFlipper>
+    <com.facebook.now.composer.NowComposerView android:id="@id/now_composer" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/now_composer_entry_point_flipper" />
+    <com.facebook.now.composer.NowComposerCallToActionView android:id="@id/now_composer_call_to_action" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/now_composer_entry_point_flipper" layout="@layout/now_divebar_updates_list" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

@@ -1,0 +1,24 @@
+Insecure Bank setup
+===================
+
+There should be two folders 
+-InsecureBank
+-AndroidLabServer
+
+1.First install the insecureBank apk which can be found at --> "path-t0-InsecureBank-Folder/bin/InsecureBank.apk"
+After installing, start the app, go to "preferences" and set the server ip and port ( which is basically, ip of the pc where server is running)
+
+2.Traverse to the AndroidLabServer folder and you will find "app.py". Run this file with following command --> "python app.py"
+
+3.To see the database contents of server, traverse to AndroidLabServer and there would be a file named "test.db".
+To see its content, use sqlite3.
+
+
+There are three users, one of them is:
+username : "dinesh"
+password : "dinesh@123$"
+
+
+====>You can login for InsecureBank app with these credentials
+
+

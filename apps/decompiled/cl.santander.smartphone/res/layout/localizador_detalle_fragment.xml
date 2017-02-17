@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="8.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_poi_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/santander1" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_estrellita_oferta_det" android:background="@drawable/estrella" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_estrellita_1_det" android:tag="bold" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_estrellita_2_det" android:tag="bold" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_estrellita_3_det" android:tag="bold" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </LinearLayout>
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/tv_detalle_name_poi" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="ND" />
+                    <TextView android:textColor="@color/grey_texts" android:id="@id/tv_detalle_info_oficina" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Santa Maria" />
+                    <TextView android:textColor="@color/grey_texts" android:id="@id/tv_detalle_tel_poi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Telf: ND" />
+                    <TextView android:textColor="@color/grey_texts" android:id="@id/tv_detalle_dir_poi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Dirección: ND" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_divisor_detalle" android:background="@drawable/box1_transfer" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/tv_detalle_poi_label_descripcion" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_detalle_contenido_descripcion" android:background="@drawable/deg_grey_details" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/grey_texts" android:id="@id/tv_detalle_descripcion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_detalle_poi_ruta" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/como_llegar" style="@drawable/button_select_not_pressed" />
+    </LinearLayout>
+</LinearLayout>

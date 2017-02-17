@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/agent" android:key="agent_settings">
+        <EditTextPreference android:title="@string/custom_uid" android:key="agent:uid" android:summary="@string/custom_uid_summary" android:defaultValue="" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/embedded_server" android:key="server_settings">
+        <EditTextPreference android:numeric="integer" android:title="@string/embedded_server_port" android:key="server:port" android:summary="@string/embedded_server_port_summary" android:defaultValue="31415" />
+        <EditTextPreference android:title="@string/embedded_server_password" android:key="server:password" android:summary="@string/embedded_server_password_summary" android:defaultValue="" />
+        <CheckBoxPreference android:title="@string/ssl_enable" android:key="server:ssl" android:summary="@string/ssl_enable_description" android:disableDependentsState="false" />
+        <EditTextPreference android:title="@string/ssl_keystore_path" android:key="server:ks:path" android:summary="@string/ssl_keystore_path_description" android:dependency="server:ssl" android:defaultValue="/data/data/com.mwr.dz/files/agent.bks" />
+        <EditTextPreference android:title="@string/ssl_keystore_password" android:key="ssl:ks:password" android:summary="@string/ssl_keystore_password_description" android:dependency="server:ssl" android:defaultValue="drozer" />
+        <EditTextPreference android:title="@string/ssl_key_password" android:key="server:key:password" android:summary="@string/ssl_key_password_description" android:dependency="server:ssl" android:defaultValue="drozer" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/endpoint_settings" android:key="endpoint_settings" />
+    <PreferenceCategory android:title="@string/system_settings" android:key="system_settings">
+        <Preference android:title="@string/title_about" android:key="about_drozer" android:summary="@string/about_summary" />
+        <CheckBoxPreference android:title="@string/restore_after_crash" android:key="restore_after_crash" android:summary="@string/restore_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

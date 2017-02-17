@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/edge_to_edge_background_color" />
+    <item android:top="@dimen/feed_divider_top_padding">
+        <shape>
+            <solid android:color="@color/feed_story_divider_color" />
+        </shape>
+    </item>
+    <item android:drawable="@color/edge_to_edge_background_color" android:top="@dimen/top_padding" />
+</layer-list>

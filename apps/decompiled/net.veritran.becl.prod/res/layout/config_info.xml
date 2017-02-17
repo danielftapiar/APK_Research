@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff0087ba" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="#ffffffff" android:id="@id/bDeleteConfig" android:background="#ff057196" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_margin="10.0dip" android:text="BORRAR CONFIGURACIÓN" />
+    <TextView android:textSize="25.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="CONSTANTES" />
+    <ListView android:id="@id/lvInfoConstants" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="#ff0087ba" />
+</LinearLayout>

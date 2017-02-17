@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layTileParadero" android:background="#ff000000" android:padding="@dimen/widget_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/txtCodigoParadero" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtMensaje" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paradero_appwidget_configurando" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imgRefrescar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/refresh" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/subtituloParaderoBG">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff000000" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paradero_appwidget_codigo" android:layout_weight="1.0" style="@style/subtituloParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff000000" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paradero_appwidget_tiempo" android:layout_weight="1.0" style="@style/subtituloParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo1" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo1" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo2" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo2" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo3" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo3" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo4" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo4" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo5" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo5" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo6" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo6" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo7" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo7" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo8" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo8" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo9" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo9" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo10" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo10" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo11" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo11" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo12" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo12" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo13" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo13" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo14" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo14" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtCodigo15" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtTiempo15" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/infoParaderoBGFont" />
+    </LinearLayout>
+</LinearLayout>

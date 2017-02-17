@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cl.santander.smartphone">
+    <compatible-screens>
+        <screen android:screenDensity="mdpi" android:screenSize="small"/>
+        <screen android:screenDensity="hdpi" android:screenSize="small"/>
+        <screen android:screenDensity="xhdpi" android:screenSize="small"/>
+        <screen android:screenDensity="mdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="hdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="xhdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="xxhdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="mdpi" android:screenSize="large"/>
+        <screen android:screenDensity="hdpi" android:screenSize="large"/>
+        <screen android:screenDensity="xhdpi" android:screenSize="large"/>
+    </compatible-screens>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.telephony"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/Theme.Santander">
+        <uses-library android:name="com.google.android.maps"/>
+        <activity android:name="net.hockeyapp.android.UpdateActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".SeleccionaEntorno" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".Main" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".BancaActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".localizador.DetalleActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:label="@string/app_name" android:name=".help.FAQS">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:label="@string/app_name" android:name=".help.Contact">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:label="@string/app_name" android:name=".help.LegalInformation">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:label="@string/app_name" android:name=".branches.DetailsWindow">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".Carga" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="cl.santander.smartphone.Preferencias" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="cl.santander.smartphone.ImagenesCheque">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.VIEWER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

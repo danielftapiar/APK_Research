@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="2.0dip" android:bottom="2.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/fb_border_start" android:endColor="@color/fb_border_end" android:angle="-90.0" android:centerColor="@color/fb_border_center" />
+            <corners android:topLeftRadius="6.0dip" android:topRightRadius="6.0dip" android:bottomLeftRadius="6.0dip" android:bottomRightRadius="6.0dip" />
+        </shape>
+    </item>
+    <item android:left="2.0dip" android:top="4.0dip" android:right="2.0dip" android:bottom="4.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/fb_selected_start" android:endColor="@color/fb_selected_end" android:angle="90.0" android:centerColor="@color/fb_selected_center" />
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+        </shape>
+    </item>
+</layer-list>

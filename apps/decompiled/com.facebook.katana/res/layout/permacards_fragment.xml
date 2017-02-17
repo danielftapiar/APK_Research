@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/permacards_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:dragDirections="down"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.now.permacards.ui.PermaCardsProfilePictureView android:id="@id/permacards_profile_picture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <View android:id="@id/permacards_profile_picture_gradient" android:background="@drawable/permacards_gradient_drawable" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.fbui.draggable.widget.DismissibleFrameLayout android:id="@id/permacards_dismissible_frame" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:dragDirections="down">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/permacards_name_and_action_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+                <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_xxxlarge_1" android:textColor="@color/permacards_name_color" android:gravity="center" android:id="@id/permacards_name" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="light" />
+                <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/permacards_context_color" android:gravity="center" android:id="@id/permacards_context" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.4" fb:fontFamily="roboto" fb:fontWeight="regular" />
+                <include android:id="@id/permacards_action_sheet_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/permacards_action_sheet_margin" layout="@layout/permacards_action_sheet_layout" />
+            </LinearLayout>
+            <com.facebook.now.permacards.ui.PermaCardsStoryLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/permacards_story_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/permacards_story_layout_margin" android:layout_weight="0.5" />
+        </LinearLayout>
+    </com.facebook.fbui.draggable.widget.DismissibleFrameLayout>
+</FrameLayout>

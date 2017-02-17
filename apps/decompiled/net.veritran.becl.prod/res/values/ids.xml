@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    <item type="id" name="launch_product_query" />
+    <item type="id" name="quit" />
+    <item type="id" name="restart_preview" />
+    <item type="id" name="return_scan_result" />
+    <item type="id" name="app_picker_list_item_icon">false</item>
+    <item type="id" name="app_picker_list_item_label">false</item>
+    <item type="id" name="bookmark_title">false</item>
+    <item type="id" name="bookmark_url">false</item>
+    <item type="id" name="preview_view">false</item>
+    <item type="id" name="viewfinder_view">false</item>
+    <item type="id" name="result_view">false</item>
+    <item type="id" name="barcode_image_view">false</item>
+    <item type="id" name="format_text_view">false</item>
+    <item type="id" name="type_text_view">false</item>
+    <item type="id" name="time_text_view">false</item>
+    <item type="id" name="meta_text_view_label">false</item>
+    <item type="id" name="meta_text_view">false</item>
+    <item type="id" name="contents_text_view">false</item>
+    <item type="id" name="contents_supplement_text_view">false</item>
+    <item type="id" name="result_button_view">false</item>
+    <item type="id" name="status_view">false</item>
+    <item type="id" name="bDeleteConfig">false</item>
+    <item type="id" name="lvInfoConstants">false</item>
+    <item type="id" name="image_view">false</item>
+    <item type="id" name="dlgTitle">false</item>
+    <item type="id" name="dlgMsg">false</item>
+    <item type="id" name="dlgCancelBtn">false</item>
+    <item type="id" name="footer">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="help_contents">false</item>
+    <item type="id" name="history_title">false</item>
+    <item type="id" name="history_detail">false</item>
+    <item type="id" name="logo">false</item>
+    <item type="id" name="mainFrameLayout">false</item>
+    <item type="id" name="mainLayout">false</item>
+    <item type="id" name="body">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="snippet">false</item>
+    <item type="id" name="query_text_view">false</item>
+    <item type="id" name="query_button">false</item>
+    <item type="id" name="result_list_view">false</item>
+    <item type="id" name="page_number_view">false</item>
+    <item type="id" name="snippet_view">false</item>
+    <item type="id" name="share_app_button">false</item>
+    <item type="id" name="share_bookmark_button">false</item>
+    <item type="id" name="share_contact_button">false</item>
+    <item type="id" name="share_clipboard_button">false</item>
+    <item type="id" name="share_text_view">false</item>
+    <item type="id" name="txtVersion">false</item>
+    <item type="id" name="imgLogoSplash">false</item>
+    <item type="id" name="prgProgress">false</item>
+    <item type="id" name="txtProgressPercentage">false</item>
+    <item type="id" name="txtProgressMessage">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/groups_groupgriditem_unseen_outer_color" />
+    <stroke android:width="@dimen/groups_groupgriditem_unseen_count_overlay_stoke_width" android:color="@color/groups_groupgriditem_unseen_inner_color" />
+    <corners android:radius="@dimen/groups_groupgriditem_unseen_count_radius" />
+</shape>

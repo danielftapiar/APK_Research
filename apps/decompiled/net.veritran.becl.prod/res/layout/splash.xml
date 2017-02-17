@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff38a00" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="right" android:id="@id/txtVersion" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="1.7.11320" android:layout_weight="20.0" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/imgLogoSplash" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/img_logo_splash_2" android:layout_weight="50.0" />
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="25.0">
+        <ProgressBar android:layout_gravity="center" android:id="@id/prgProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/txtProgressPercentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(95%)" android:layout_below="@id/prgProgress" android:layout_centerHorizontal="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/txtProgressMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Por favor espere..." android:layout_below="@id/txtProgressPercentage" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

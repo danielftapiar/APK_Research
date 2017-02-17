@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/txtItinerarioRecorrido" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="TextView" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/txtDescripcionRecorrido" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="TextView" />
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <TextView android:id="@id/txtSentido" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SENTIDO" android:layout_weight="1.0" />
+        <ToggleButton android:id="@id/btnSentido" android:layout_width="130.0dip" android:layout_height="wrap_content" android:textOn="@string/REGRESO" android:textOff="@string/IDA" android:text="ToggleButton" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="left" android:id="@id/btn_paradero_mas_cercano" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/PARADERO_MAS_CERCANO" android:layout_weight="1.0" />
+        <Button android:layout_gravity="right" android:id="@id/btn_cancelar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CANCELAR" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

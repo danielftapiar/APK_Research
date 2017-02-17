@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/de.viktorreiser.androidtoolbox.showcase">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <cl.santander.smartphone.CustomScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_confirm_title_1" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/cuenta_corriente" android:layout_weight="2.0" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_pago_confirm_cc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="2.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_confirm_title_2" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/saldo_disponible" android:layout_weight="2.0" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_pago_confirm_saldo_disponible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="2.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_confirm_title_3" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/empresa" android:layout_weight="2.0" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_pago_confirm_empresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="2.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_confirm_title_4" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/descripcion" android:layout_weight="2.0" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_pago_confirm_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="2.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_confirm_title_5" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/id_cliente" android:layout_weight="2.0" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_pago_confirm_idcliente" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="2.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_confirm_title_6" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/fecha_de_pago" android:layout_weight="2.0" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_pago_confirm_fecha_pago" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="2.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_confirm_title_7" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/a_pagar" android:layout_weight="2.0" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_pago_confirm_cantidad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="2.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_pago_confirm_title_8" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/vence" android:layout_weight="2.0" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_pago_confirm_fecha_vencimiento" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="2.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_pago_confirm_coord1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_pago_confirm_coord2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_pago_confirm_coord3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_pago_confirm_1" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_pago_confirm_2" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_pago_confirm_3" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+                    <Button android:textColor="@color/grey_texts" android:id="@id/bt_pago_confirm_confirmarPago" android:tag="black" android:background="@drawable/button_select" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/confirmar_pago" />
+                </LinearLayout>
+            </LinearLayout>
+        </cl.santander.smartphone.CustomScrollView>
+    </LinearLayout>
+</LinearLayout>

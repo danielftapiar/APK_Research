@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: agent.apk
+compressionType: false
+doNotCompress:
+- arsc
+- bks
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '18'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '5'
+  versionName: 2.3.3

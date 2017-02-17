@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/admin_shop_adapter_horizontal_padding" android:paddingRight="@dimen/admin_shop_adapter_horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_text_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/admin_shop_layout_margin_top_medium" android:text="@string/commerce_publishing_select_your_shop_currency" fb:fontFamily="roboto" fb:fontWeight="regular" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_text_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/admin_shop_layout_margin_top_tiny" android:text="@string/commerce_publishing_select_your_shop_currency_description" fb:fontFamily="roboto" fb:fontWeight="regular" />
+        <com.facebook.commerce.publishing.adapter.AdminShopCurrencySelectorView android:textSize="@dimen/fbui_text_size_large" android:id="@id/currency_selector_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/admin_shop_layout_margin_top_large" fb:fontFamily="roboto" fb:fontWeight="regular" style="@style/AdminShopCurrencySelectorStyle" />
+    </LinearLayout>
+</ScrollView>

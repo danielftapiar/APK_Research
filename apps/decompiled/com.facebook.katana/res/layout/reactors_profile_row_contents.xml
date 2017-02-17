@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uib="http://schemas.android.com/apk/res-auto">
+    <com.facebook.feedback.reactions.ui.widget.ReactorsFaceView android:layout_gravity="bottom" android:id="@id/reactors_profile_facepile_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="4.0dip" uib:placeholderImage="@drawable/no_avatar" uib:layout_useAsThumbnail="true" uib:reactorsFaceSize="@dimen/facepileview_face_size" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/flyout_text_body_color" android:id="@id/reactors_profile_name_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" uib:layout_useViewAs="title" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/ufiservices_story_dark_gray_text_color" android:id="@id/reactors_profile_extra_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" uib:layout_useViewAs="subtitle" />
+    <com.facebook.ufiservices.flyout.views.FlyoutLikerViewFriendingButtonContainer android:id="@id/reactors_profile_friend_button_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_friend_icon" uib:activeSrc="@drawable/friends_icon" uib:inactiveSrc="@drawable/add_friend_icon" />
+</merge>

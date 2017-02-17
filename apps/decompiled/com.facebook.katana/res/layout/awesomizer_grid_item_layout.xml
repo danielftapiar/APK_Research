@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center_horizontal" android:id="@id/avatar" android:layout_width="@dimen/awesomizer_avatar_size" android:layout_height="@dimen/awesomizer_avatar_size" android:layout_marginBottom="@dimen/awesomizer_padding_between_text" fb:placeholderImageScaleType="centerCrop" fb:actualImageScaleType="fitCenter" fb:roundAsCircle="true" />
+    <com.facebook.resources.ui.FbTextView android:layout_gravity="center_horizontal" android:id="@id/avatar_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AwesomizerAvatarNameText" />
+    <com.facebook.resources.ui.FbTextView android:layout_gravity="center_horizontal" android:id="@id/avatar_context" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AwesomizerAvatarContextText" />
+</merge>

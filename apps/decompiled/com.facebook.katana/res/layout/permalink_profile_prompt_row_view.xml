@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbButton android:gravity="center" android:id="@id/make_profile_picture_button" android:background="@drawable/permalink_profile_photo_prompt_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/permalink_profile_photo_prompt_height" android:text="@string/view_photo_make_profile_pic" style="@style/ufi_button_text" />
+    <com.facebook.feed.rows.permalink.PermalinkProfilePhotoDismissiblePromptView android:orientation="horizontal" android:id="@id/dismissible_prompt" android:background="@drawable/permalink_profile_photo_dismissible_prompt_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/permalink_profile_photo_prompt_height" />
+</merge>

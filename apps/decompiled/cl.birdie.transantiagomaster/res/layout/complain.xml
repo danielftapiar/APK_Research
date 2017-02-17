@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Qué es lo que te molesta?" />
+            <Spinner android:id="@id/spnMolestia" android:background="@drawable/spinner_reclamo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+            <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A qué paradero o servicio te refieres?" />
+            <Spinner android:id="@id/spnObjeto" android:background="@drawable/spinner_reclamo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+            <TextView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quieres escribir algún comentario adicional?" />
+            <EditText android:id="@id/edtComentario" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/SOCIAL_COMPLAIN_MESSAGE_HINT" android:ems="10" android:inputType="textAutoComplete|textCapSentences|textMultiLine">
+                <requestFocus />
+            </EditText>
+            <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Deseas compartir una foto?" />
+            <ImageButton android:layout_gravity="center" android:id="@id/imgSubirFoto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/subir_imagen_icono" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/imgFoto" android:layout_width="128.0dip" android:layout_height="128.0dip" android:scaleType="fitCenter" />
+            <TextView android:id="@id/txtSocialNetwork" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_weight="0.0">
+                <Button android:id="@id/btnOk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enviar" android:layout_weight="1.0" />
+                <Button android:id="@id/btnCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancelar" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

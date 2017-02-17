@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.titlebar.TitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:title="@string/temp_profile_pic_titlebar_title" fb:navless="true" />
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.timeline.tempprofilepic.ImageWithTextViewAndFooterLine android:textColor="@color/fbui_accent_blue" android:gravity="center" android:id="@id/new_profile_picture_expiration" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@null" fb:drawable="@null" style="?attr/buttonRegularMedium" />
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/new_profile_picture" android:padding="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" fb:viewAspectRatio="1.0" fb:actualImageScaleType="fitCenter" />
+        <com.facebook.fbui.widget.text.ImageWithTextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/fbui_bluegrey_30" android:gravity="center" android:id="@id/new_profile_picture_privacy" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/temp_profile_pic_privacy_label" android:layout_below="@id/new_profile_picture" fb:drawable="@null" style="?attr/buttonRegularMedium" />
+        <ImageView android:id="@id/uploading_profile_pic_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</LinearLayout>

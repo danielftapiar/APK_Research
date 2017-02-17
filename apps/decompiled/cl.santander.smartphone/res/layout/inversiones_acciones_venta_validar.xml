@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cl.santander.smartphone.CustomScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_datos" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView11" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/valor" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_valor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView14" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/monto_vender_estimado" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_monto_vender_estimado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView05" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/cantidad_acciones" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_cantidad_acciones" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView07" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/tipo_de_precio" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_tipo_precio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView13" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/precio" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_precio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView01" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/comision_corredora" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_comision_corredora" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView03" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/derecho_bolsa" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_derecho_bolsa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView12" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/iva" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_iva" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView09" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/gasto_total_estimado" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_gasto_total_estimado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/TextView04" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/monto_estimado_recibir" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                        <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:id="@id/tv_inv_acc_val_monto_estimado_recibir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_cuenta_cargo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seleccione_cuenta_abono" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/box1_transfer" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <android.support.v4.view.ViewPager android:id="@id/vp_inv_acc_val_cargo" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+                        <com.viewpagerindicator.CirclePageIndicator android:id="@id/vpi_inv_acc_val_cargo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_contacto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/informacion_contacto" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/box1_transfer" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold" android:textColor="#ff000000" android:id="@id/TextView08" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/email" android:layout_weight="1.0" />
+                        <EditText android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/et_inv_acc_val_mail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/email_hint" android:lines="1" android:layout_weight="1.0" android:inputType="textEmailAddress">
+                            <requestFocus />
+                        </EditText>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                        <TextView android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_inv_acc_val_cel" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/telefono" android:layout_weight="1.0" />
+                        <EditText android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/et_inv_acc_val_celular" android:nextFocusDown="@id/et_inv_acc_val_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/telefono_hint" android:lines="1" android:layout_weight="1.0" android:inputType="number" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_terminos_y_condiciones" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/terminos_y_condiciones" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/box1_transfer" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textColor="#ff000000" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/he_leido_y_acepto_terminos" />
+                        <CheckBox android:id="@id/cb_inv_acc_val_terminos_condiciones" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_inv_acc_val_terminos" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/ver_terminos_condiciones" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_coordenadas" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/tv_inv_acc_val_instrucciones" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/help_recarga_1" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_inv_acc_val_coord1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_inv_acc_val_coord2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_inv_acc_val_coord3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_inv_acc_val_1" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_inv_acc_val_2" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                            <EditText android:gravity="center_horizontal" android:id="@id/et_inv_acc_val_3" android:background="@drawable/bt_coordenadas" android:layout_width="48.0dip" android:layout_height="wrap_content" android:maxLength="2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_acciones_compra_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#ffa0a0a0" android:id="@id/tv_acciones_compra_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/help_compra_acciones" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/ly_confirmar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+                <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_inv_acc_val_confirmar" android:tag="bold" android:background="@drawable/button_select" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/confirmar" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </cl.santander.smartphone.CustomScrollView>
+</LinearLayout>

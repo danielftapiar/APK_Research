@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/nux_profile_info_item_privacy_selector_separator" android:background="@color/fbui_bluegrey_10" android:layout_width="1.0px" android:layout_height="30.0dip" android:layout_marginLeft="6.0dip" android:layout_marginStart="6.0dip" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/nux_profile_info_item_privacy_selector_image" android:layout_width="@dimen/user_account_nux_step_profile_info_item_privacy_icon_size" android:layout_height="@dimen/user_account_nux_step_profile_info_item_privacy_icon_size" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/nux_profile_info_item_privacy_selector_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow" />
+</merge>

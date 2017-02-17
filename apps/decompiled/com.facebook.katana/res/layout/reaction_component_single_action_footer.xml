@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComponentLayout components:flex_direction="row" components:flex_alignItems="center" xmlns:components="http://schemas.android.com/apk/res-auto">
+    <ComponentLayout components:flex_id="@id/background" />
+    <ComponentLayout components:flex_direction="row" components:flex_alignItems="center" components:flex_grow="1.0" components:flex_marginLeft="?reactionCardPadding" components:flex_marginRight="?reactionCardPadding">
+        <ComponentLayout components:flex_id="@id/message" components:flex_grow="1.0" components:flex_padding="@dimen/reaction_padding_large" />
+        <ComponentLayout components:flex_id="@id/chevron" components:flex_marginRight="@dimen/reaction_padding_large" />
+    </ComponentLayout>
+</ComponentLayout>

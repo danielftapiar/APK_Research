@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_horizontal" android:id="@id/txtBirdiemaps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DESARROLLADO_POR" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/edtCompiladoPara" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/COMPILACION_PARA" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btnURLBirdie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/URL_BIRDIE" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btnRefrescar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/REFRESCAR_MAPA" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btnInstalarSoporteVoz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SPEECH_INSTALAR_SOPORTE_VOZ" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btnDescargarBaseDatos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DESCARGAR_BASE_DATOS" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btnFavoritosFacebook" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FACEBOOK_FAVORITE_RESTORE" />
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OPCIONES_USAR_GPS" />
+            <ToggleButton android:id="@id/toggleUsarGPS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OPCIONES_USAR_RED" />
+            <ToggleButton android:id="@id/toggleUsarRed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OPCIONES_ZOOM" />
+            <ToggleButton android:id="@id/toggleBotonesZoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OPCIONES_MANOS_LIBRES" />
+            <ToggleButton android:id="@id/toggleUsarManosLibres" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ESTADO_DE_REGISTRO_TWITTER" />
+            <ToggleButton android:id="@id/toggleEstadoTwitter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/btnRegistrarTwitter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/REGISTRAR_EN_TWITTER" />
+            <Button android:id="@id/btnDesconectarTwitter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ANULAR_REGISTRO_TWITTER" />
+        </LinearLayout>
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btnEnviarEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ENVIANOS_UN_EMAIL" />
+    </LinearLayout>
+</ScrollView>

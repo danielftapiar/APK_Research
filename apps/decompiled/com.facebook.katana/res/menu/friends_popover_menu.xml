@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/fbui_compose_l" android:id="@id/post_on_timeline_item" android:title="@string/friend_list_post_on_timeline" />
+    <item android:icon="@drawable/fbui_location_l" android:id="@id/check_in_item" android:title="@string/friend_list_check_in_together" />
+    <item android:icon="@drawable/fbui_friend_list_l" android:id="@id/see_all_friends_item" android:title="@string/friend_list_see_all_friends" />
+    <item android:icon="@drawable/fbui_friendsoffriends_l" android:id="@id/edit_friend_list_item" android:title="@string/friend_list_see_mutual_friends" />
+</menu>

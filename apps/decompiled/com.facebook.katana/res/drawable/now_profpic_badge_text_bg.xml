@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/now_profpic_badge_text_bg_color" />
+    <stroke android:width="@dimen/now_profpic_badge_text_bg_padding" android:color="@color/now_divebar_medium_background_color" />
+    <corners android:radius="@dimen/now_profpic_badge_text_bg_corner_radius" />
+    <padding android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="0.0dip" />
+</shape>

@@ -1,0 +1,15 @@
+    /** Called when the activity is first created. */
+    /** Called when the activity is first created. */
+			/* Delete this in production
+			 username_text ="testuser";
+			 password_text ="testpassword@123$";
+			 statusCode = restClient.performLogin(serverip, serverport, username_text, password_text);
+			 */
+    /** Called when the activity is first created. */
+		/*fromtext = from.getText().toString();
+		  totext = to.getText().toString();
+		  fromtext=123456789;
+		  totext=987654321; */
+    /** Called when the activity is first created. */
+    /** Called when the activity is first created. */
+    /** Called when the activity is first created. */

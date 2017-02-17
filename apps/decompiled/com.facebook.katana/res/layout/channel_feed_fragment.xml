@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/channel_feed_container" android:background="@drawable/channel_feed_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.listview.BetterListView android:id="@id/channel_feed_list" android:paddingTop="@dimen/channel_feed_header_height" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+    <com.facebook.video.channelfeed.ChannelFeedHeaderView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/white" android:gravity="center" android:layout_gravity="top" android:id="@id/channel_feed_header" android:background="@drawable/channel_feed_header_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/channel_feed_header_height" />
+</FrameLayout>

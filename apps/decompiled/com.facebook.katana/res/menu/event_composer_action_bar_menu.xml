@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uib="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/publisher_status_icon" android:id="@id/event_permalink_composer_status" android:title="@string/composer_action_bar_post" uib:showAsAction="ifRoom" />
+    <item android:icon="@drawable/publisher_photo_icon" android:id="@id/event_permalink_composer_photo" android:title="@string/composer_action_bar_photo" uib:showAsAction="ifRoom" />
+</menu>

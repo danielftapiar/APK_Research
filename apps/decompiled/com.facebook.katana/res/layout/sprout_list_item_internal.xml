@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:ellipsize="end" android:id="@id/sprout_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@style/TextAppearance.Caspian.Title" />
+</merge>

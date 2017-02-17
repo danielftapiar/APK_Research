@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/about_drozer" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/about_description" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_about" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/about_copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_copyright" android:layout_below="@id/about_description" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/about_license" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_license" android:layout_below="@id/about_copyright" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

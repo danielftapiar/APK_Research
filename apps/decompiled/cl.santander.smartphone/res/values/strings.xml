@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Banca</string>
+    <string name="pull_to_refresh_pull_label">Desliza hacia abajo para refrescar...</string>
+    <string name="pull_to_refresh_release_label">Suelta para refrescar...</string>
+    <string name="pull_to_refresh_refreshing_label">Cargando...</string>
+    <string name="pull_to_refresh_tap_label">Toque para refrescar...</string>
+    <string name="hello">Hello World, SectionListActivity!</string>
+    <string name="standard_list">Standard</string>
+    <string name="empty_list">Empty</string>
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_menu_overflow_description">More options</string>
+    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with_application">Share with %s</string>
+    <string name="estimado">Estimado(a):</string>
+    <string name="home">HOME</string>
+    <string name="banca">MI BANCO</string>
+    <string name="localizador">LOCALIZADOR</string>
+    <string name="ayuda">AYUDA</string>
+    <string name="acceso">Acceso</string>
+    <string name="banca_movil">a la Banca Móvil</string>
+    <string name="err_login_no_text">Por favor introduzca su nombre de usuario y clave de acceso.</string>
+    <string name="header_login">Acceso a Banca Santander</string>
+    <string name="cuenta_corriente">Cuenta corriente</string>
+    <string name="saldo_disponible">Saldo disponible</string>
+    <string name="buscar_por_fecha">Buscar por fecha</string>
+    <string name="todos">Todos</string>
+    <string name="abonos">Abonos</string>
+    <string name="cargos">Cargos</string>
+    <string name="total_saldo_disponible">Total saldo disponible:</string>
+    <string name="total_cupo_disponible">Total cupo disponible:</string>
+    <string name="indicators_day">Del día</string>
+    <string name="indicadores_bajas">Mayores bajas</string>
+    <string name="indicadores_alzas">Mayores alzas</string>
+    <string name="date">FECHA</string>
+    <string name="indicator">INDICADOR</string>
+    <string name="value">VALOR</string>
+    <string name="var">VAR. %</string>
+    <string name="tasas_captacion">TASAS DE CAPTACIÓN</string>
+    <string name="cuenta_origen">Cuenta de origen</string>
+    <string name="cuenta_destino">Cuenta de destino</string>
+    <string name="ok">OK</string>
+    <string name="cargando">Cargando...</string>
+    <string name="mapa">Mapa</string>
+    <string name="lista">Lista</string>
+    <string name="Seleccion_entorno">Selección de entorno</string>
+    <string name="entorno_homologacion">Homologación</string>
+    <string name="entorno_produccion">Producción</string>
+    <string name="nacional">Nacional</string>
+    <string name="internacional">Internacional</string>
+    <string name="nombre_comercio">Nombre del comercio</string>
+    <string name="tipo_transaccion">Tipo de transacción</string>
+    <string name="rubro_comercio">Rubro comercio</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="tipo_beneficiario">Tipo de beneficiario</string>
+    <string name="entre_mis_productos">Propios</string>
+    <string name="a_terceros">A terceros</string>
+    <string name="supergiros">Supergiros</string>
+    <string name="monto">Monto</string>
+    <string name="monto_instrucciones">Sin puntos ni guiones</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="compras_no_reconocidas">Compras no reconocidas</string>
+    <string name="compras_no_reconocidas_texto">Llame al 800 20 7000 o (600) 320 3000 o bien directamente a través de la sucursal</string>
+    <string name="llamar_800207000">Llamar al 800 20 7000</string>
+    <string name="llamar_6003203000">Llamar al (600) 320 3000</string>
+    <string name="llamar_extranjero">Desde el extranjero llame al (562) 2320 3000</string>
+    <string name="llamar_5623203000">Llamar al (562) 2320 3000</string>
+    <string name="o_numeros_emergencia">O a los números de emergencia de cada marca</string>
+    <string name="mastercard">MasterCard</string>
+    <string name="visa">VISA</string>
+    <string name="americanexpress">American Express</string>
+    <string name="desde_eeuu_canada">Desde EEUU y Canadá</string>
+    <string name="desde_india">Desde India</string>
+    <string name="desde_otro">Desde otro país</string>
+    <string name="bloqueo_tarjetas">Bloqueo Tarjetas de Débito (Redbanc / RedCompra)</string>
+    <string name="bloqueo_llame">Desde Chile llame al 800 20 7000 o (600) 320 3000</string>
+    <string name="emergencias_bancarias">Emergencias Bancarias</string>
+    <string name="orden_no_pago_cheques">Orden de No Pago Cheques</string>
+    <string name="no_pago_cheques_texto">"Debe llamar a VOX (600) 320 3000 o bien en forma personal en cualquier sucursal del Banco.
+Además se debe hacer una denuncia policial"</string>
+    <string name="servicio_cliente">Servicio al Cliente</string>
+    <string name="conozca_vox">Conozca todo lo que puede hacer en VOX</string>
+    <string name="horarios_atencion">"Horarios de Atención:
+Días hábiles: 8:00 - 21:00 hrs · Días no hábiles: 9:00 - 18:00 hrs"</string>
+    <string name="loc_actual">Localización:</string>
+    <string name="filtros">Filtros</string>
+    <string name="otra_localizacion">Otra localización</string>
+    <string name="mostrar_suc_caj">Sucursales y cajeros</string>
+    <string name="mostrar_ofertas_imperdibles">Súper Descuentos</string>
+    <string name="empresa">Empresa</string>
+    <string name="descripcion">Descripción</string>
+    <string name="cuentas">CUENTAS</string>
+    <string name="tarjetas_credito">TARJETAS DE CRÉDITO</string>
+    <string name="linea_credito">LINEAS DE CRÉDITO</string>
+    <string name="inversiones">INVERSIONES</string>
+    <string name="credito_consumo">CRÉDITO DE CONSUMO</string>
+    <string name="solicitelo_aqui">Solicítelo aquí</string>
+    <string name="inst_recarga1">Recarga de móvil prepago y cuenta controlada</string>
+    <string name="inst_recarga2">Ingrese código más número de celular</string>
+    <string name="inst_recarga3">Ej: 81234567 (8 dígitos)</string>
+    <string name="numero">Número</string>
+    <string name="email">E-mail</string>
+    <string name="email_hint">Ingrese E-mail</string>
+    <string name="seleccione_operador">Seleccione operador</string>
+    <string name="recarga_de_movil">Recarga de Móvil</string>
+    <string name="prepago_y_cuenta">Prepago y cuenta controlada</string>
+    <string name="saldo_contable">Saldo contable</string>
+    <string name="saldo_contable_2p">Saldo contable:</string>
+    <string name="s_contable_2p">S.Contable:</string>
+    <string name="monto_recargar">Monto a recargar</string>
+    <string name="help_recarga_1">Asegúrese de que el número de su Super Clave es</string>
+    <string name="help_recarga_2">y luego ingrese las coordenadas solicitadas</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="sr">Sr(a)</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="codigo_trans">Código transacción</string>
+    <string name="help_report_recarga1">Hemos enviado el comprobante de pago a la dirección de email</string>
+    <string name="help_report_recarga2">ingresada por usted al momento de inscribir esta cuenta.</string>
+    <string name="volver_saldos">Volver a Saldos Consolidados</string>
+    <string name="volver">Volver</string>
+    <string name="id_cliente">Id. Cliente</string>
+    <string name="deuda_pagada">Estimado cliente, la deuda que está consultando se encuentra pagada</string>
+    <string name="fecha_de_pago">Fecha de pago</string>
+    <string name="a_pagar">A pagar</string>
+    <string name="vence">Vence</string>
+    <string name="pagar">Pagar</string>
+    <string name="confirmar_pago">Confirmar pago</string>
+    <string name="consulta_n">Consulta Nº</string>
+    <string name="transaccion_n">Transacción Nº</string>
+    <string name="ultimos_destinatarios">Últimos destinatarios</string>
+    <string name="banco">Banco</string>
+    <string name="tipo_cuenta">Tipo de cuenta</string>
+    <string name="tipo_cuenta_2p">Tipo de cuenta:</string>
+    <string name="rut">Rut</string>
+    <string name="nombre">Nombre</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="monto_maximo">Su monto máximo a transferir en este día es de $200.000</string>
+    <string name="costo_supergiro_1">Este envío de dinero tiene un costo de $990</string>
+    <string name="costo_supergiro_2">IVA incluido, los que serán cargados en su cuenta corriente o cuenta vista, una vez retirado el dinero del cajero automático.</string>
+    <string name="validar_monto_supergiro">El monto debe estar entre $5.000 y $200.000</string>
+    <string name="validar_monto_supergiro_multiplo">Estimado Cliente: El monto a transferir debe ser múltiplo de 5.000</string>
+    <string name="transf_mis_productos">Transferencia a mis productos</string>
+    <string name="monto_a_transferir">Monto a transferir</string>
+    <string name="origen">Origen</string>
+    <string name="destino">Destino</string>
+    <string name="nro_cuenta">Nº Cuenta</string>
+    <string name="saldo">Saldo</string>
+    <string name="saldo_2p">Saldo:</string>
+    <string name="linea_2p">Línea:</string>
+    <string name="ingrese_clave">Ingrese Clave</string>
+    <string name="confirmar_transferencia">Confirmar transferencia</string>
+    <string name="moneda">Moneda:</string>
+    <string name="envio_comprobante">Envío de comprobante</string>
+    <string name="su_email">Su e-mail</string>
+    <string name="destinatario">Destinatario</string>
+    <string name="comentario">Comentario</string>
+    <string name="ingrese_comentario">Ingrese su comentario (opcional)</string>
+    <string name="monto_transferido">Monto transferido</string>
+    <string name="help_transfer_email_1">Hemos enviado el comprobante a la dirección de email</string>
+    <string name="help_transfer_email_2">ingresada por usted al momento de inscribir esta cuenta.</string>
+    <string name="transferencia_a_terceros">Transferencia a terceros</string>
+    <string name="id_transfer">ID</string>
+    <string name="help_clave_3_1">Hemos enviado una CLAVE 3.0 a su teléfono celular</string>
+    <string name="help_clave_3_1_mail">Hemos enviado una CLAVE 3.0 a su email</string>
+    <string name="help_clave_3_2">registrado en el Banco. Esta clave es válida sólo para esta operación y debe ser ingresada en los próximos minutos en esta misma pantalla. Esta clave no es la clave de acceso a internet. No cierre esta página hasta ingresar la CLAVE 3.0, de lo contrario esta operación no se realizará.</string>
+    <string name="id">ID</string>
+    <string name="Ingrese_clave_3">Ingrese aquí la CLAVE 3.0</string>
+    <string name="help_codigo_supergiro">Éste es el código Supergiro que le debes entregar al destinatario de la transferencia, recuerda que el uso y resguardo de esta clave es de tu responsabilidad.</string>
+    <string name="cupo_autorizado">Cupo autorizado:</string>
+    <string name="cupo_utilizado">Cupo utilizado:</string>
+    <string name="cupo_disponible">Cupo disponible</string>
+    <string name="saldo_inicial">Saldo inicial</string>
+    <string name="saldo_inicial_2p">Saldo inicial:</string>
+    <string name="cheques_o_cargos">Cheques o Cargos</string>
+    <string name="depositos_o_abonos">Depósitos o Abonos</string>
+    <string name="saldo_final">Saldo final</string>
+    <string name="saldo_vencimiento">Saldo Vencimiento</string>
+    <string name="monto_credito">Monto del crédito</string>
+    <string name="plazo_credito">Plazo del crédito</string>
+    <string name="hint_plazo_credito">Debe ser de 12 a 60 meses</string>
+    <string name="confirme_datos">Confirme datos:</string>
+    <string name="rut_cliente">Rut cliente</string>
+    <string name="nombre_cliente">Nombre cliente</string>
+    <string name="nro_celular">Número celular</string>
+    <string name="credito_title_1">Datos del crédito (1/3)</string>
+    <string name="credito_title_2">Datos del cliente (2/3)</string>
+    <string name="credito_title_3">Solicitud recibida (3/3)</string>
+    <string name="conectando">Conectando...</string>
+    <string name="pin_error">El pin debe tener 4 dígitos numéricos</string>
+    <string name="error_generico_ws">Se produjo un error al procesar su solicitud. Por favor, inténtelo más tarde</string>
+    <string name="salir">Salir</string>
+    <string name="no_salir">No salir</string>
+    <string name="desconectar">Cerrar sesión</string>
+    <string name="seguro_salir_banca">¿Está seguro(a) de que desea salir de la Banca Móvil Santander?</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="version_actual">Versión actual</string>
+    <string name="ruta_defecto_localizador">Ruta por defecto en el localizador</string>
+    <string name="conduciendo">Conduciendo</string>
+    <string name="caminando">Caminando</string>
+    <string name="loc_activa_home">Localización activa en home</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="informacion_legal">Información Legal</string>
+    <string name="informacion_legal_texto">"&lt;P align=justify>Las Presentes Condiciones de uso del portal del Banco Santander Chile www.santander.cl (portal) y sus aplicaciones para dispositivos móviles (aplicaciones), contiene los términos, condiciones, y políticas que regulan el uso del portal y aplicaciones (Políticas Generales). Asimismo proporciona a sus visitantes diversa información, contenido, productos y/o servicios (Servicios). &lt;/P> 
+ &lt;BR/> &lt;P align=justify>&lt;B>Bienvenidos&lt;/B> &lt;/P>
+ &lt;P align=justify>El acceso a y/o uso de los Servicios que Banco Santander Chile pone a disposición de todo aquel que utiliza el Portal (Usuario) está sujeto a las presentes Condiciones Generales desde el momento del ingreso del Usuario al Portal y Aplicaciones. Por el sólo hecho de ingresar al Portal y Aplicaciones, el Usuario declara haber leído y aceptado previamente y sin reservas a todos y cada uno de los términos, condiciones y estipulaciones de las presentes Políticas Generales. En caso que el Usuario no esté de acuerdo con la totalidad de lo establecido en estas Políticas Generales, deberá abstenerse de utilizar el o los Servicios del Portal y Aplicaciones. &lt;/P>
+ &lt;P align=justify>El Usuario entiende y acepta que los términos, de estas Políticas Generales, pueden ser modificados en cualquier momento, sin notificación o autorización previa del Usuario y a su solo arbitrio por el Banco. Sin perjuicio de lo anterior cualquier nuevo servicio, modificación, supresión o ampliación de los servicios vigentes será informado por El Banco en el portal. &lt;/P>
+ &lt;P align=justify>El acceso a y/o la utilización de ciertos Servicios ofrecidos al Usuario en el Portal y Aplicaciones se encuentran sometidos a ciertas condiciones particulares que, según los casos, sustituyen, completan y/o modifican las Políticas Generales (Contratos Particulares). &lt;/P>
+ &lt;P align=justify>Cualquier comunicación que deba hacerle al Banco, deberá hacerla el Usuario enviando una carta certificada a nombre de Banco Santander Chile, a Bandera 140, piso 16, comuna de Santiago. El Usuario expresamente autoriza al Banco para ceder los derechos y obligaciones establecidas bajo estas Política Generales, ya sea, a un tercero extraño o a una persona relacionada del Grupo Santander. &lt;/P>
+ &lt;BR/> 
+ &lt;P align=justify>&lt;B>Condiciones de Acceso&lt;/B> &lt;/P>
+ &lt;P align=justify>Es de cargo del Usuario obtener el acceso a Internet y/o World Wide Web (Red), así como obtener e implementar los equipos (entiéndese hardware), programas (entiéndase software), modems u otros elementos y/o instrumentos que le permitan el acceso a la Red; de tal manera, que el Usuario debe proveerse de todo lo necesario para el adecuado uso del Portal y Aplicaciones, debiendo pagar cualquier gasto asociado a ello. &lt;/P>
+ &lt;P align=justify>El Banco podrá por motivos de mantención de los sistemas, problemas técnicos, corte operacional, corte de energía eléctrica y, en general, además, por cualquier caso fortuito o de fuerza mayor, suspender temporalmente el servicio del portal y aplicaciones. El Usuario entiende y acepta que el banco no es responsable de la imposibilidad en el uso del Servicio, de la demora en la obtención de la información, fracaso al guardar la información, interferencia en la comunicación o cualquier otro error u omisión producto de problemas de telecomunicaciones, técnicos o de los sistemas computacionales, cualesquiera sea la causa que los ocasione. &lt;/P>
+ &lt;P align=justify>El Usuario deberá utilizar los procedimientos y/o medios de seguridad, identificación e integridad que El Banco ha implementado o ponga en uso en el futuro, y que pudieren estar asociados a los elementos requeridos para su utilización. El Usuario entiende y acepta que la obtención de información de o a través del Portal y Aplicaciones es de su exclusiva responsabilidad, y deberá tomar los resguardos necesarios para evitar que las transferencias realizadas estén libres de propiedades contaminantes o destructivas, tales como, virus, infecciones, caballos de Troya. &lt;/P>
+&lt;BR/> &lt;P align=justify>&lt;B>Servicios&lt;/B> &lt;/P>
+ &lt;P align=justify>El Banco provee al Usuario diversos Servicios financieros, de entretención, de inversión y otros; el Usuario acepta que el Banco no presta asesoría en materia legal, tributario, contable, ni en general, señala acciones a seguir, de tal manera que el Usuario es libre de actuar y lo hace bajo su propia responsabilidad. &lt;/P>
+ &lt;P align=justify>El Banco se reserva el derecho a determinar, modificar, suprimir, suspender y/o ampliar, en cualquier momento y sin aviso previo, el contenido del Portal y Aplicaciones y los Servicios que se ofrecen en o a través del mismo. Sin perjuicio de lo anterior cualquier nuevo servicio, modificación, supresión o ampliación de los servicios vigentes será informado por El Banco en el portal. &lt;/P>
+ &lt;P align=justify>Todo nuevo servicio podrá incorporarse, tácita o expresamente, a los Contratos Particulares que cada Usuario haya celebrado con el Banco o con los terceros que prestan Servicios a través del Portal. La sola utilización del Portal y sus Servicios importan aceptación. &lt;/P>
+ &lt;P align=justify>El Usuario entiende y acepta que alguno o algunos de los Servicios presentados en o a través del Portal y Aplicaciones son desarrollados y/o entregados por terceros. &lt;/P>
+ &lt;P align=justify>La mayoría de los Servicios que son otorgados por o a través del Portal y Aplicaciones son de carácter oneroso y se accede a ellos a través de una clave secreta que ha sido proporcionada al Usuario de acuerdo a lo señalado en el correspondiente Contrato Particular y/o a los contratos particulares que el Usuario haya celebrado con los diversos dueños de links, banner publicitarios o hipervínculos que existen en el Portal y Aplicaciones u otros terceros que presten Servicios a través del Portal, en los cuales no tiene injerencia alguna el Banco y respecto de los cuales no podrá responder de manera alguna. &lt;/P>
+ &lt;P align=justify>El Usuario deberá notificar al Banco cuando crea que su identificación, firma electrónica, cuenta y/o clave secreta ha sido utilizada por un tercero. &lt;/P>
+ &lt;P align=justify>En tal sentido el Usuario debe leer íntegramente y a conciencia cada una de las políticas de uso, términos legales u otros avisos, carteles, anuncios o comunicaciones establecidas en el portal, los sitios y/o portales a los cuales se accede a través del mismo. &lt;/P>
+ &lt;P align=justify>Es de exclusiva responsabilidad del Usuario el ingreso de las instrucciones al Sistema y el uso y manejo de la clave secreta, debiendo manejarla con la debida confidencialidad; dicha clave será considerada como firma electrónica para los efectos de realizar las operaciones en el Portal y son constancia que el Usuario ha solicitado la información entregada, bajo su exclusiva conveniencia y responsabilidad. &lt;/P>
+ &lt;P align=justify>En caso alguno, la gratuidad de uno o varios Servicios que sean otorgados en o a través de este Portal dará derecho al Usuario para exigir su mantención en tal carácter; el banco mantendrá, en todo momento, el derecho a cobrar por los Servicios que están incorporados actualmente o que se incorporen con posterioridad al Portal, ya sea, al Usuario, a los terceros que prestan Servicios o a ambos conforme a la normativa que al respecto hubiere impartido o publique en el futuro la Superintendencia de Bancos e Instituciones Financieras. &lt;/P>
+ &lt;P align=justify>El Usuario declara y acepta que el Banco no puede garantizar la disponibilidad, continuidad y/o calidad del Servicio y declara conocer que por o a través del Portal no necesariamente satisfacerá los requerimientos tenidos en vista por el Usuario para ingresar al mismo. &lt;/P>
+&lt;BR/> &lt;P align=justify>&lt;B>Confidencialidad&lt;/B> &lt;/P>
+ &lt;P align=justify>El Banco declara que ha tomado las medidas necesarias en sus instalaciones y sistemas que garantizan la confidencialidad de los datos ingresados por el Usuario al Portal. &lt;/P>
+ &lt;P align=justify>El Usuario podrá modificar o rectificar los datos por él ingresados enviando la información correcta a la dirección del Banco, señalado más arriba. &lt;/P>
+ &lt;P align=justify>El Usuario se obliga a proporcionar información auténtica, cierta, verdadera, fidedigna, completa y actualizada cuando así sea requerido en o a través del Portal. &lt;/P>
+ &lt;P align=justify>El Banco tratará los datos de carácter personal, que sean ingresados por el Usuario o aquellos que obran en poder del Banco por cualquier causa, con la debida confidencialidad y de acuerdo a las normas vigentes. &lt;/P>
+ &lt;P align=justify>Para los efectos de la ley 19.628 Sobre Protección de Datos de Carácter personal el Cliente autoriza al Banco a divulgar a las autoridades competentes o compartir exclusivamente con terceros con quienes suscriba alianzas o acuerdos comerciales, ciertos datos personales como el número de Rut, domicilio, actividad, correo electrónico, actividad o información relacionada a productos contratados con el Banco que no se encuentren sujeto a secreto bancario, cuando ello se realice con el propósito de facilitar el desarrollo, materialización y/o implementación de acciones comerciales, sean de carácter general o personal, cuando ello fuere necesario o conveniente a fin de agregar nuevos atributos o beneficios a sus clientes o mejorar la calidad de prestación de servicios y/o productos del banco. &lt;/P>
+ &lt;P align=justify>El Usuario declara conocer y aceptar que parte de la información contenida en o presentada a través de este Portal está amparada por la reserva y secreto bancario, de tal manera, que ésta es entregada solicitud de Usuario y bajo su propia responsabilidad, bastando como prueba de ello los antecedentes informáticos correspondientes. &lt;/P>
+ &lt;P align=justify>La información obtenida por o a través del Portal y/o cualesquiera de los Servicios que por este medio se ofrece u otorga es para el uso personal del Usuario, obligándose éste a mantener la debida confidencialidad; le queda prohibida al Usuario la cesión, reproducción, recirculación, retransmisión, comercialización y/o distribución, en todo o parte, y cualquier forma de los contenidos del Portal. &lt;/P>
+&lt;BR/> 
+ &lt;P align=justify>&lt;B>Modo de Uso&lt;/B> &lt;/P>
+ &lt;P align=justify>El uso de los Servicios ofrecidos en o a través del Portal y/o su contenido es de exclusiva responsabilidad del Usuario, quedando, por ende, Multimedios liberado de toda responsabilidad por daños y perjuicios que provengan de la mala información y/o mala utilización que pudiere otorgársele al Portal y/o los Servicios, ya sea, por parte del Usuario o de terceros. &lt;/P>
+ &lt;P align=justify>El Usuario es responsable de toda la información, programas, documentos, contenido, productos u otros que baja, publique y/o transmite por cualquier medio. &lt;/P>
+ &lt;P align=justify>El uso del Portal y/o los Servicios esta condicionado a que el Usuario los utilice de acuerdo a la moral, las buenas costumbres, al orden público, legislación vigente, Políticas Generales y Contratos Particulares; y para acceder a ellos deberá emplear los procedimientos establecidos o, en su defecto, los que generalmente se emplean en Internet, pero, en caso alguno, podrá poner en riesgo el Portal, los Servicios y/o contenido del mismo. &lt;/P>
+ &lt;P align=justify>El Usuario acepta y se hace responsable de los daños y perjuicios provenientes del empleo del Portal y los Servicios para fines contrarios a las leyes, las buenas costumbres, orden público, legislación vigente o fines ilícitos o fines que perjudiquen los derechos o intereses de terceros, liberando de cualquier responsabilidad a Multimedios y todo otro tercero que preste Servicio y/o entregue algún contenido en o a través del Portal. &lt;/P>
+ &lt;P align=justify>Medios de Prueba. Las partes acuerdan que los documentos, archivos y, en general, los registros computacionales del Portal y sus Servicios o de terceros que presten Servicios a través del Portal, constituirán prueba suficiente de la utilización y/o realización de operaciones en el Portal. &lt;/P>
+&lt;BR/> 
+ &lt;P align=justify>&lt;B>Responsabilidad&lt;/B> &lt;/P>
+ &lt;P align=justify>El Usuario expresamente acepta que responderá por todos los daños y perjuicios de toda naturaleza que el Banco sufra como consecuencia de cualquier incumplimiento de cualesquiera de las obligaciones establecidas en las Políticas Generales. &lt;/P>
+ &lt;P align=justify>El Banco se reserva la facultad de retirar, en cualquier momento y sin aviso previo, o denegar el acceso al Portal, sus contenidos y/o Servicios al Usuario que incumplan cualquiera de las estipulaciones contenidas en estas Políticas Generales, los respectivos Contratos Particulares o la normativa vigente. &lt;/P>
+ &lt;P align=justify>Las obligaciones contenidas en las Políticas Generales serán exigibles a los sucesores del Usuario. &lt;/P>
+&lt;BR/> &lt;P align=justify>&lt;B>Competencia&lt;/B> &lt;/P>
+ &lt;P align=justify>La legislación aplicable será la de la República de Chile. &lt;/P>
+ &lt;P align=justify>El Usuario y el Banco fijan su domicilio en Santiago de Chile, y por este acto se someten a la jurisdicción de sus tribunales ordinarios de Justicia. &lt;/P>
+ &lt;P align=justify>La ilegalidad, invalidación y/o nulidad de alguna o algunas de las cláusulas contenidas en estas Políticas Generales no invalidará o anulará las demás. &lt;/P>
+"</string>
+    <string name="ingrese_email">Ingrese E-mail</string>
+    <string name="solicitud_recibida">Su solicitud ha sido recibida.</string>
+    <string name="ejecutivo_contacto">Dentro de las próximas 24 horas un ejecutivo se pondrá en contacto con usted</string>
+    <string name="continuar">Continuar</string>
+    <string name="consolidado">Consolidado</string>
+    <string name="acciones">Acciones</string>
+    <string name="depositos_plazo">Depósitos a plazo</string>
+    <string name="validacion_cel">Introduzca correctamente el celular</string>
+    <string name="validacion_mail">Introduzca correctamente el email</string>
+    <string name="validacion_monto">Introduzca correctamente el monto</string>
+    <string name="validacion_plazo">Introduzca correctamente el plazo</string>
+    <string name="ab_credito_consumo">Crédito de Consumo</string>
+    <string name="ab_movimientos_cc">Últ. movimientos Cuenta Corriente</string>
+    <string name="ab_operaciones_cuenta">Operativa de Producto</string>
+    <string name="ab_indicadores_economicos">Indicadores económicos</string>
+    <string name="ab_movimientos_linea">Últ. movimientos Línea Crédito</string>
+    <string name="ab_operaciones_linea">Información Línea Crédito</string>
+    <string name="ab_resumen_linea">Resumen Línea Crédito</string>
+    <string name="ab_movimientos_cc_detalle">Últ. movimientos detalle</string>
+    <string name="ab_movimientos_linea_detalle">Últ. movimientos detalle</string>
+    <string name="ab_movimientos_tarjeta_detalle">Últ. movimientos detalle</string>
+    <string name="ab_consolidado_inversiones">Consolidado de Inversiones</string>
+    <string name="ab_movimientos_tarjeta">Últ. movimientos Tarjeta</string>
+    <string name="ab_operaciones_tarjeta">Información Tarjeta Crédito</string>
+    <string name="ab_detalle_poi">Detalle de localización</string>
+    <string name="ab_pagos_en_linea">Pagos en Línea</string>
+    <string name="ab_resumen_pagos_en_linea">Resumen Pagos en Línea</string>
+    <string name="ab_comprobante_pagos_en_linea">Comprobante Pagos en Línea</string>
+    <string name="ab_recarga_de_celulares">Recarga de Celulares</string>
+    <string name="ab_comprobante_recarga_celulares">Comprobante Recarga de Celulares</string>
+    <string name="ab_como_llegar">Cómo llegar</string>
+    <string name="ab_inversiones_fm">Información Fondos Mutuos</string>
+    <string name="ab_inversiones_ahr">Información Cuentas Ahorro</string>
+    <string name="ab_inversiones_dep">Información Depositos Plazo</string>
+    <string name="ab_inversiones_apv">Información APV</string>
+    <string name="ab_inversiones_acciones">Información Acciones</string>
+    <string name="ab_transferencias">Transferencias</string>
+    <string name="ab_transferencias_confirm">Resumen Transferencias</string>
+    <string name="seleccione_desde">Seleccione fecha desde</string>
+    <string name="seleccione_hasta">Seleccione fecha hasta</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ultimos_movimientos">Últimos movimientos</string>
+    <string name="detalle_movimiento">Detalle del movimiento</string>
+    <string name="importe_movimiento">Importe Movimiento</string>
+    <string name="numero_movimiento">Número movimiento</string>
+    <string name="observacion">Observación</string>
+    <string name="referencia">Referencia</string>
+    <string name="informar_movimiento">¿Le gustaría informar sobre este movimiento?</string>
+    <string name="informar_movimiento_text">Puede enviar los detalles del movimiento a quien decida vía email. Seleccione dividir monto para dividir el mismo entre varias personas.</string>
+    <string name="documentos_asociados">Documentos Asociados</string>
+    <string name="monto_pagado">Monto Pagado</string>
+    <string name="enviar_mail">Enviar Email</string>
+    <string name="dividir_monto">Dividir monto</string>
+    <string name="separar_varios">En caso de varios, sepárelos por punto y coma.</string>
+    <string name="cuanta_gente_compartir">¿Cuanta gente a compartir?</string>
+    <string name="cada_uno">Cada uno:</string>
+    <string name="seleccione_app_mail">Seleccione aplicación de emails</string>
+    <string name="total_inversion_pesos">Total inversión en pesos:</string>
+    <string name="el_cuentas_ahorro">CUENTAS DE AHORRO</string>
+    <string name="el_depositos_plazo">DEPÓSITOS A PLAZO</string>
+    <string name="el_fondos_mutuos">FONDOS MUTUOS</string>
+    <string name="el_apv">APV</string>
+    <string name="el_acciones">ACCIONES</string>
+    <string name="no_hay_datos">No presenta inversiones de este tipo</string>
+    <string name="asunto_mail">Detalle de movimiento</string>
+    <string name="asunt_split">Información de monto dividido</string>
+    <string name="body_mail_1">"Estimado(a), te adjunto el detalle de uno de mis movimientos bancarios:
+"</string>
+    <string name="body_split_1">"Estimado(a), te informo el monto dividido de uno de mis movimientos bancarios:
+"</string>
+    <string name="body_mail_titular">"
+Titular:"</string>
+    <string name="body_mail_monto">"
+Importe total del movimiento:"</string>
+    <string name="body_mail_fecha">"
+Fecha del movimiento:"</string>
+    <string name="body_mail_num_mov">"
+Número de movimiento:"</string>
+    <string name="body_mail_descripcion">"
+Descripción :"</string>
+    <string name="body_mail_observacion">"
+Observación :"</string>
+    <string name="body_mail_referencia">"
+Referencia :"</string>
+    <string name="body_split_titular">"
+Titular:"</string>
+    <string name="body_split_fecha">"
+Fecha del movimiento:"</string>
+    <string name="body_split_monto">"
+Importe total del movimiento:"</string>
+    <string name="body_split_personas">"
+Cantidad de personas:"</string>
+    <string name="body_split_monto_persona">"
+Monto por persona:"</string>
+    <string name="usar_loc">¿Quiere usar la localización automática?</string>
+    <string name="localizacion">Localización</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="servicios_loc">¿Quiere activar los servicios de localización de su dispositivo?</string>
+    <string name="loc_auto_desactivada">Localización automática desactivada</string>
+    <string name="buscar_ubicacion">Buscando ubicación...</string>
+    <string name="llamar">Llamar</string>
+    <string name="no_llamar">No llamar</string>
+    <string name="at_cliente">Servicio al Cliente (VOX)</string>
+    <string name="seguro_llamar_6003202000">¿Está seguro de que desea llamar al (600)320 3000?</string>
+    <string name="producto_cuenta_corriente">Cuenta Corriente</string>
+    <string name="producto_cuenta_corriente_dolares">Cuenta Corriente en dólares</string>
+    <string name="producto_cuenta_vista">Cuenta Vista</string>
+    <string name="producto_linea_credito">Línea de Crédito</string>
+    <string name="producto_linea_credito_dolares">Línea de Crédito en dólares</string>
+    <string name="producto_tarjeta_credito">Tarjeta de Crédito</string>
+    <string name="producto_deposito_plazo">Depósito a Plazo</string>
+    <string name="producto_cuenta_ahorro">Cuenta de Ahorro</string>
+    <string name="producto_chequera_electronica">Chequera Electrónica</string>
+    <string name="buscar">Buscar</string>
+    <string name="filtros_busqueda">Filtros de búsqueda</string>
+    <string name="como_llegar">¿Cómo llegar?</string>
+    <string name="descripcion_terminos_oferta">Descripción y términos de la oferta</string>
+    <string name="horario_de_atencion">Horario de atención</string>
+    <string name="telf">Telf:</string>
+    <string name="dir">Dirección:</string>
+    <string name="empezar">Empezar</string>
+    <string name="distancia">Distancia:</string>
+    <string name="tiempo">Tiempo:</string>
+    <string name="atencion">Atención</string>
+    <string name="aviso">Aviso</string>
+    <string name="err_celular">Por favor, introduzca un número de celular válido.</string>
+    <string name="err_monto">Por favor, introduzca un monto de recarga válido.</string>
+    <string name="err_monto_movistar">Por favor,ingrese un monto entre $ 1.000 y $ 20.000.</string>
+    <string name="err_monto_movistar_bandaAncha">Por favor,ingrese un monto entre $ 1.500 y $ 20.000.</string>
+    <string name="err_email">La dirección de e-mail no es correcta.</string>
+    <string name="err_operador">Por favor, indique el operador de su celular.</string>
+    <string name="buscar_otra_loc">Buscar otra localización</string>
+    <string name="gire_dispositivo">Para ver la imágen del documento, gire su dispositivo.</string>
+    <string name="conexion_datos">Se requiere conexión de datos</string>
+    <string name="banco_chile">Banco de Chile / Edwards-Citi</string>
+    <string name="banco_internacional">Banco Internacional</string>
+    <string name="banco_estado">Banco Estado</string>
+    <string name="banco_scotiabank">Scotiabank</string>
+    <string name="banco_creditoinversiones">Banco Crédito e Inversiones</string>
+    <string name="banco_corpbanca">Corpbanca</string>
+    <string name="banco_bice">Banco BICE</string>
+    <string name="banco_hsbcbank">HSBC Bank</string>
+    <string name="banco_santander">Banco Santander</string>
+    <string name="banco_santanderbanefe">Banco Santander Banefe</string>
+    <string name="banco_itau">Banco Itaú</string>
+    <string name="banco_security">Banco Security</string>
+    <string name="banco_falabella">Banco Falabella</string>
+    <string name="banco_ripley">Banco Ripley</string>
+    <string name="banco_rabobank">Rabobank</string>
+    <string name="banco_consorcio">Banco Consorcio</string>
+    <string name="banco_paris">Banco Paris</string>
+    <string name="banco_bbva">Banco BBVA</string>
+    <string name="banco_desarrollo">Banco del Desarrollo</string>
+    <string name="title_error_exception">Error</string>
+    <string name="title_soap_exception">Atención</string>
+    <string name="title_info_exception">Atención</string>
+    <string name="encuentre_ofertas">Encuentre las mejores ofertas cerca de usted</string>
+    <string name="active_geolocalizador">Active su geolocalizador y localice negocios y sucursales</string>
+    <string name="oficina_cercana">Sucursal más cercana</string>
+    <string name="oferta_cercana">Oferta más cercana</string>
+    <string name="autorizado">Autorizado:</string>
+    <string name="no_ruta">No es posible encontrar una ruta para llegar al destino</string>
+    <string name="tap">Toque para refrescar...</string>
+    <string name="pull">Desliza hacia abajo para refrescar...</string>
+    <string name="release">Suelta para refrescar...</string>
+    <string name="loading">Cargando...</string>
+    <string name="desconexion">Cerrar sesión</string>
+    <string name="sesion_expirada">Su sesión de banca online ha expirado</string>
+    <string name="no_hay_movimientos">No hay movimientos</string>
+    <string name="problema_salir">Ha ocurrido un error, vuelva a desconectar para cerrar la sesión</string>
+    <string name="numero_acciones_2p">Número Acciones:</string>
+    <string name="saldo_acciones">Saldo de las Acciones</string>
+    <string name="no_existe_pago_asociado">No existe ningún pago asociado</string>
+    <string name="ab_dep_plazo">Depósitos a plazo</string>
+    <string name="ab_dep_plazo_inv">Depósitos a plazo: Inversión</string>
+    <string name="ab_dep_plazo_sim_inv">Depósitos a plazo: Simulación Inversión</string>
+    <string name="ab_dep_plazo_conf_inv">Depósitos a plazo: Resumen Inversión</string>
+    <string name="ab_dep_plazo_rep_inv">Depósitos a plazo: Comprobante Inversión</string>
+    <string name="ab_acciones">Acciones</string>
+    <string name="help_report_dap_cobrar">Hemos enviado el comprobante de Cobro de depósito a plazo a la dirección de email</string>
+    <string name="tiene_riesgo">"Actualmente, usted no cuenta con perfil de Inversionista
+¿Desea continuar?"</string>
+    <string name="tipo_deposito">Tipo de depósito</string>
+    <string name="tipo_reajuste">Tipo de reajuste</string>
+    <string name="monto_a_invertir">Monto a invertir</string>
+    <string name="plazo_dias">Plazo en días</string>
+    <string name="solo_numeros">Solo números</string>
+    <string name="simular">Simular</string>
+    <string name="volver_simular">Volver a simular</string>
+    <string name="invertir_ahora">Invertir ahora</string>
+    <string name="tasa_interes">Tasa de interés (mensual lineal, base 30 días)</string>
+    <string name="tasa_interes_anual">Tasa de interés (anual lineal, base 360 días)</string>
+    <string name="monto_a_cobrar">Monto a cobrar</string>
+    <string name="intereses_a_ganar">Intereses a ganar</string>
+    <string name="fecha_vencimiento">Fecha de vencimiento</string>
+    <string name="fecha_inversion">Fecha de inversión</string>
+    <string name="enviar_comprobante_deposito">Enviar comprobante de depósito</string>
+    <string name="seleccione_cuenta_cargo">Seleccione la cuenta de cargo</string>
+    <string name="resultado_simulacion_deposito_plazo">Resultado simulación de depósito a plazo</string>
+    <string name="comprobante_deposito_plazo">Comprobante depósito a plazo</string>
+    <string name="numero_deposito">Nº depósito</string>
+    <string name="cuenta_cargo">Cuenta de Cargo</string>
+    <string name="monto_invertido">Monto invertido</string>
+    <string name="tasa_interes_plazo_solicitado">Tasa de interés del plazo solicitado</string>
+    <string name="seleccione_accion_vender">Seleccione Acción a vender</string>
+    <string name="precio_actual_referencia">Precio Actual Referencial</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="monto_o_cantidad_acciones_vender">Cantidad de Acciones a Vender</string>
+    <string name="cantidad_acciones">Cantidad de acciones</string>
+    <string name="monto_estimado_venta">Monto estimado a Venta</string>
+    <string name="tipo_precio">Seleccione Tipo de Precio</string>
+    <string name="ingrese_monto">Ingrese monto</string>
+    <string name="monto_a_comprar_solicitado">Monto a Comprar Solicitado</string>
+    <string name="help_compra_acciones">Los precios informados como “Precio Actual Referencial”, corresponden al precio en Línea informado por la Bolsa de Comercio de Santiago y si eventualmente la orden fuese ingresada fuera de horario bursátil, el precio que se informará al cliente, será el valor que corresponda al último precio informado por la Bolsa de Comercio de Santiago, para el instrumento objeto de la orden.</string>
+    <string name="monto_final_venta">Monto final a venta</string>
+    <string name="dias_solicitud_venta">¿Por cuántos días desea mantener su solicitud de venta?</string>
+    <string name="valor">Valor</string>
+    <string name="monto_vender_estimado">Monto a vender estimado</string>
+    <string name="tipo_de_precio">Tipo de Precio</string>
+    <string name="comision_corredora">Comisión Corredora</string>
+    <string name="derecho_bolsa">Derecho Bolsa</string>
+    <string name="iva">IVA</string>
+    <string name="gasto_total_estimado">Gasto total estimado</string>
+    <string name="monto_estimado_recibir">Monto Estimado a Recibir</string>
+    <string name="terminos_y_condiciones">Términos y condiciones</string>
+    <string name="he_leido_y_acepto_terminos">He leído y aceptado términos y condiciones</string>
+    <string name="ver_terminos_condiciones">Ver detalle de términos y condiciones</string>
+    <string name="informacion_contacto">Información Contacto</string>
+    <string name="telefono">Teléfono</string>
+    <string name="telefono_hint">Ingrese teléfono</string>
+    <string name="resultado_venta_acciones">Resultado venta de acciones</string>
+    <string name="monto_estimado_vender">Monto estimado a vender</string>
+    <string name="accion">Accion</string>
+    <string name="cuenta_abono">Cuenta Abono</string>
+    <string name="terminos_y_condiciones_title">Términos y Condiciones</string>
+    <string name="terminos_y_condiciones_text">"&lt;div class=Section1>
+ &lt;p class=MsoNormal style='BACKGROUND:white'>&lt;/p>
+ &lt;p class=MsoNormal style='BACKGROUND:white'>&lt;b>&lt;span style='FONT-SIZE:9pt;
+TEXT-TRANSFORM:uppercase;
+COLOR:red;
+FONT-FAMILY:Verdana'>I.- Compra y venta&lt;/span>&lt;/b>&lt;/p>
+ &lt;p style='BACKGROUND:white;MARGIN-BOTTOM:0pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'>Compra
+y venta de acciones con liquidación directa a las 48 horas hábiles en su cuenta
+corriente. &lt;/span>&lt;/p>
+ &lt;p style='MARGIN-TOP:0cm;BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'>Condiciones generales
+para las órdenes de compra/venta de acciones a través de internet de SANTANDER
+S.A. CORREDORES DE BOLSA.&lt;/span>&lt;/p>
+ &lt;p class=MsoNormal style='BACKGROUND:white'>&lt;b>&lt;span style='FONT-SIZE:9pt;
+TEXT-TRANSFORM:uppercase;
+COLOR:red;
+FONT-FAMILY:Verdana'>II.- Documentación a
+Firmar&lt;/span>&lt;/b>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-FAMILY:Verdana'>&lt;/span>&lt;/h3>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>FICHA
+DE CLIENTE&lt;/span>&lt;/h3>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Según la Norma de Carácter General n° 12 de la Superintendencia
+de Valores y Seguros (SVS) que rige a los Corredores de Bolsa, obliga a tener
+una FICHA DE CLIENTE por cada persona natural o jurídica que opere con estas
+instituciones.&lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>CONTRATO&lt;/span>&lt;span style='FONT-FAMILY:Verdana'>&lt;/span>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>DE&lt;/span>&lt;span style='FONT-FAMILY:Verdana'>&lt;/span>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>CUSTODIA&lt;/span>&lt;/h3>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>De acuerdo a resolución N° 072 de fecha 02
+de Marzo de 1999, emanada por la Superintendencia de Valores y Seguros, todos los
+Corredores de Bolsa deberán mantener un Contrato de Custodia con todos los
+clientes que mantengan valores a su nombre.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>De acuerdo a los puntos anteriores, en caso
+que usted aún no tenga firmada la Ficha de Cliente y/o el Contrato para la Custodia de Acciones y
+otros Valores &lt;span class=GramE>deberá&lt;/span> imprimirlos, firmarlos y
+entregarlos dentro de los próximos 5 días en la sucursal del Banco Santander
+más cercana o directamente en SANTANDER S.A. CORREDORES DE BOLSA.
+(Bandera 140, piso 12) de lo contrario el sistema lo bloqueará automáticamente.&lt;/span>&lt;/p>
+ &lt;p class=MsoNormal style='BACKGROUND:white'>&lt;b>&lt;span style='FONT-SIZE:9pt;
+TEXT-TRANSFORM:uppercase;
+COLOR:red;
+FONT-FAMILY:Verdana'>III.- Costos&lt;/span>&lt;/b>&lt;/p>
+ &lt;p class=MsoNormal style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>COMISIÓN
+DEL CORREDOR: &lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>Operaciones por VOX Inversiones o Internet tienen una comisión de 0,35% + IVA.
+&lt;br/>
+&lt;br/>
+Cualquier consulta adicional respecto de la comisión, deberá comunicarse directamente con SANTANDER S.A. CORREDORES DE BOLSA.
+
+&lt;/span>&lt;/p>
+
+ &lt;p class=MsoNormal style='BACKGROUND:white'>&lt;b>&lt;span style='FONT-SIZE:9pt;
+TEXT-TRANSFORM:uppercase;
+COLOR:red;
+FONT-FAMILY:Verdana'>&lt;/span>&lt;/b>&lt;/p>
+ &lt;p class=MsoNormal style='BACKGROUND:white'>&lt;b>&lt;span style='FONT-SIZE:9pt;
+TEXT-TRANSFORM:uppercase;
+COLOR:red;
+FONT-FAMILY:Verdana'>IV.- Órdenes y Vigencia&lt;/span>&lt;/b>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Las transacciones realizadas a través de
+Internet se ajustan a la legislación vigente, por lo que, toda orden por parte
+del cliente queda sujeta a los reglamentos de las respectivas Bolsas de
+Valores.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Todas las operaciones realizadas a través de
+este servicio de compra/venta de acciones son realizadas con SANTANDER
+S.A. CORREDORES DE BOLSA. La aceptación de toda operación está
+sujeta a la decisión de SANTANDER S.A. CORREDORES DE BOLSA.&lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>MONTO
+MÍNIMO DE OPERACIÓN&lt;/span>&lt;/h3>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Para los clientes nuevos, que operan por
+primera vez o que al momento de ingresar una orden no mantienen custodia con
+SANTANDER S.A. CORREDORES DE BOLSA, el monto mínimo para una
+transacción será de $100.000.- Para estas operaciones, la corredora se reserva
+el derecho de aceptar o rechazar órdenes por montos inferiores, dependiendo de
+las condiciones de mercado.&lt;/span>&lt;/p>
+ &lt;b>
+ &lt;span style=FONT-SIZE:8pt;COLOR:#67829a;FONT-FAMILY:Verdana;mso-fareast-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';mso-ansi-language:ES;mso-fareast-language:ES;mso-bidi-language:AR-SA>
+ &lt;br clear=all style='PAGE-BREAK-BEFORE:always'>
+ &lt;/span>&lt;/b>
+ &lt;p class=MsoNormal>&lt;b>&lt;span style='FONT-SIZE:8pt;COLOR:#67829a;FONT-FAMILY:Verdana'>&lt;/span>&lt;/b>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>MONTO
+MÁXIMO DE OPERACIÓN&lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>El monto máximo por transacción de compra
+será de $ 50.000.000 (Cincuenta millones de pesos). &lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Cualquier contrato o mandato que se
+suscriba, producto de que un cliente desee operar con el sistema de
+compra/venta de acciones en Internet, son de exclusiva responsabilidad de
+SANTANDER S.A. CORREDORES DE BOLSA., y por lo tanto no comprometen
+al Banco Santander.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>El cliente declara conocer y aceptar las
+condiciones y características en las cuales SANTANDER S.A.
+CORREDORES DE BOLSA. &lt;span class=GramE>ofrece&lt;/span> sus servicios a través de
+Internet, como también de las responsabilidades que asume por el uso del mismo.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>El cliente acepta que dadas las condiciones
+de Mercado, SANTANDER S.A. CORREDORES DE BOLSA. &lt;span class=GramE>podría&lt;/span>
+ejecutar órdenes en forma parcial o total.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Toda la información desplegada a través de
+Internet es de carácter &lt;span class=GramE>informativa y queda&lt;/span> sujeta a
+confirmación.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Todas las operaciones de compra y/o venta
+serán liquidadas con cargo y/o abono a la cuenta corriente o línea de crédito
+asociada, que usted seleccione dentro de las que mantenga vigente en el Banco
+Santander.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Todas las operaciones realizadas por esta
+vía serán bajo la condición Contado Normal (CN), lo que implica que su
+liquidación monetaria (cargo o abono a su cuenta corriente) se realizará a las
+48 horas de realizada la operación en la Bolsa de Valores.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;strong>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>El cliente se compromete a firmar la
+documentación requerida por SANTANDER S.A. CORREDORES DE BOLSA.&lt;/span>&lt;/strong>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Las acciones que se transen en Internet
+necesariamente deberán estar en la custodia de SANTANDER S.A.
+CORREDORES DE BOLSA.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>SANTANDER S.A. CORREDORES DE
+BOLSA. &lt;span class=GramE>no&lt;/span> tendrá responsabilidad alguna en caso de no
+poder cumplir las órdenes entregadas, a resultas de cualquier anomalía que
+impida la correcta recepción de las mismas.&lt;/span>&lt;/p>
+ &lt;p class=MsoNormal style='BACKGROUND:white'>&lt;b>&lt;span style='FONT-SIZE:9pt;
+TEXT-TRANSFORM:uppercase;
+COLOR:red;
+FONT-FAMILY:Verdana'>V.- Uso del Sistema&lt;/span>&lt;/b>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>El sistema de Compra/Venta de Acciones
+ofrece a los clientes del Banco Santander la posibilidad de emitir órdenes a
+SANTANDER S.A. CORREDORES DE BOLSA. &lt;span class=GramE>por&lt;/span> la
+compra o la venta de títulos accionarios del mercado chileno.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>En caso de &lt;strong>&lt;span style='FONT-FAMILY:
+Verdana'>compras&lt;/span>&lt;/strong>, la orden podrá incluir cualquiera de las
+acciones que se encuentren listadas en las Bolsas de Valores del país, pudiendo
+el cliente incorporar en su orden tantos títulos como que el monto total de su
+orden no se exceda del límite establecido en Órdenes y Vigencia, en
+el punto Monto Máximo de Operación.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>En caso de ventas, el cliente sólo puede
+incluir títulos sobre los cuales posea custodia con SANTANDER S.A.
+CORREDORES DE BOLSA. En caso de que usted no posea acciones en custodia en la Corredora, sírvase
+acudir a la sucursal del Banco más cercana a firmar el traspaso de acciones
+para la custodia de SANTANDER S.A. CORREDORES DE BOLSA.&lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>TIPO
+DE ORDEN: &lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>Venta o Compra &lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>INSTRUMENTO:
+&lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>Nombre del título a incluir en la
+orden. &lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>CANTIDAD
+SOLICITADA: &lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>Cantidad de Acciones. &lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>TIPO
+PRECIO: &lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;strong>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'>Mercado&lt;/span>&lt;/strong>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'> que es el precio
+vigente al momento de la transacción en la Bolsa de Valores. Este puede ser distinto al
+precio que el cliente vio al ingreso de la orden o &lt;strong>
+ &lt;span style='FONT-FAMILY:Verdana'>precio Límite&lt;/span>&lt;/strong>, en cuyo caso usted
+deberá indicar máximo en compra y mínimo en venta. &lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>PRECIO
+$: &lt;/span>&lt;/h3>
+ &lt;p style='BACKGROUND:white;MARGIN-LEFT:36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'>Si elige &lt;strong>&lt;span style='FONT-FAMILY:Verdana'>Mercado&lt;/span>&lt;/strong>, el del momento en que
+usted ingresa la orden es un precio referencial, no necesariamente el precio
+final al cual se cerrará la compra o venta de los títulos. El llenado de este
+campo es automático.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;MARGIN-LEFT:36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'>Si elige &lt;strong>&lt;span style='FONT-FAMILY:Verdana'>Límite&lt;/span>&lt;/strong>, usted deberá ingresar en
+este campo el precio límite máximo al cual usted aceptará comprar el título
+seleccionado o el valor mínimo al cual está dispuesto a vender la acción
+indicada.&lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>TOTALES
+$: &lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>Indica el valor total referencial
+correspondiente a los títulos y precios seleccionados. &lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>DÍAS
+DE VIGENCIA: &lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>En este campo usted podrá determinar
+cuántos días corridos de vigencia tendrá su orden. Cumplido este plazo su orden
+quedará nula. &lt;/span>&lt;/p>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>&lt;/span>&lt;/p>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;b>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'>IMPORTANTE:&lt;/span>&lt;/b>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'> La vigencia
+considera días corridos, venciendo a las 24:00 horas del día correspondiente.
+Las transacciones se realizan dentro del horario bursátil: primavera/verano
+9:30 a 17:00, otoño/invierno 9:30 a 16:00. El día 1 corresponde a HOY. El día 2
+sería mañana y así sucesivamente&lt;/span>&lt;/p>
+ &lt;p class=MsoNormal>&lt;span style=FONT-SIZE:10pt;COLOR:black;FONT-FAMILY:'Century Gothic'>&lt;/span>&lt;/p>
+ &lt;h3 style='BACKGROUND:white'>&lt;span style='FONT-SIZE:8pt;FONT-FAMILY:Verdana'>TOTAL
+ORDEN COMPRA $: &lt;/span>&lt;/h3>
+ &lt;p class=MsoNormal style='BACKGROUND:white;MARGIN:0cm 0cm 6pt 36pt;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:
+7.5pt;COLOR:
+#333333;FONT-FAMILY:
+Verdana'>Corresponde al monto total aproximado
+de su orden de compra (sólo considera compra, no venta). Este monto total debe
+estar bajo el límite establecido en Órdenes y Vigencia, en el punto
+Monto Máximo de Operación. &lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white'>&lt;span style='FONT-SIZE:7.5pt;COLOR:#333333;FONT-FAMILY:Verdana'>Una vez completada su orden, usted deberá Cursarla.&lt;/span>&lt;/p>
+ &lt;p style='BACKGROUND:white;TEXT-ALIGN:justify'>&lt;span style='FONT-SIZE:7.5pt;
+COLOR:#333333;
+FONT-FAMILY:Verdana'>Es necesario recordar que la ejecución de
+una orden no es inmediata, por lo que, los resultados de la misma pueden variar
+en precio y cantidad dependiendo de las condiciones del mercado.&lt;/span>&lt;/p>
+ &lt;p class=MsoNormal>&lt;/p>
+ &lt;/div>
+"</string>
+    <string name="listado_dap_cobrables">Listado de Depósitos a plazo cobrables</string>
+    <string name="seleccione_accion_comprar">Selecciones Acción a Comprar</string>
+    <string name="seleccione_accion">Seleccione Acción</string>
+    <string name="seleccione_monto_cantidad_comprar">Seleccione monto o cantidad que desea comprar</string>
+    <string name="ingrese_n_acciones">Ingrese nº acciones</string>
+    <string name="buscar_acciones">Buscar acciones</string>
+    <string name="monto_estimado_comprar">Monto estimado a comprar</string>
+    <string name="dias_vigencia_solicitud">Días vigencia solicitud</string>
+    <string name="resultado_compra_acciones">Resultado compra de acciones</string>
+    <string name="confirmacion_operacion">Confirmación operación</string>
+    <string name="moneda_sin_puntos">Moneda</string>
+    <string name="seleccione_cuenta_abono">Seleccione la cuenta de abono</string>
+    <string name="enviar_comprobante_cobro">Enviar comprobante de cobro</string>
+    <string name="comprobante_cobro_deposito_plazo">Comprobante cobro depósito a plazo</string>
+    <string name="monto_cobrado">Monto cobrado</string>
+    <string name="intereses_ganados">Intereses Ganados</string>
+    <string name="fecha_cobro">Fecha cobro</string>
+    <string name="bis57">"Estimado cliente, recuerde que está rescatando un depósito a plazo que está acogido al Beneficio Tributario 57 Bis.
+Para mayor información contáctenos en BOX Inversiones 600 320 3001."</string>
+    <string name="dias_solicitud_compra">¿Por cuántos días desea mantener su solicitud de compra?</string>
+    <string name="monto_estimado_pagar">Monto Estimado a Pagar</string>
+    <string name="ERROR_COMPRA_ACCIONES_LIMITE_INFERIOR">El monto mínimo para realizar una compra de acciones es de $100.000.</string>
+    <string name="ERROR_COMPRA_ACCIONES_LIMITE_SUPERIOR">El monto máximo para realizar una compra de acciones es de $50.000.000.</string>
+    <string name="titulo_certificado_privado">El certificado de seguridad del sitio no es de confianza</string>
+    <string name="contenido_certificado_privado">Hemos detectado que el servidor al que intenta acceder no corresponde al Banco Santander Chile, por su seguridad cerraremos esta sesión, ya que podría ser víctima de suplantación por parte de un atacante que esté interceptando su comunicación.</string>
+    <string name="titulo_certificado_publico">El certificado de seguridad del sitio no es de confianza</string>
+    <string name="contenido_certificado_publico">Hemos detectado que el servidor al que intenta acceder no corresponde al Banco Santander Chile, por su seguridad no podrá acceder a esta funcionalidad, ya que podría ser víctima de suplantación por parte de un atacante que esté interceptando su comunicación.</string>
+    <string name="boton_salir_certificado">Salir</string>
+    <string name="precio">Precio</string>
+    <string name="title_error_monto_limite">El precio límite debe ser mayor a 0</string>
+    <string name="solicitar_ahora">Solicitar ahora</string>
+    <string name="solicitud_inversion_1">"Estimado Cliente:
+ Informamos a usted que su solicitud se hará efectiva el día"</string>
+    <string name="solicitud_inversion_2">"Le enviaremos un mail a la dirección que indique informando de su Inversión. 
+
+ ¿Desea Continuar?"</string>
+    <string name="comprobante_deposito_plazo_solicitud">Comprobante Solicitud depósito a plazo</string>
+</resources>

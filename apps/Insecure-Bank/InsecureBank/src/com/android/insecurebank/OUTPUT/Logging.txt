@@ -1,0 +1,7 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\DataHelper.java:71:	         Log.w("Example", "Upgrading database, this will drop tables and recreate.");
+C:\OWASP\InsecureBank\src\com\android\insecurebank\PostLogin.java:72:         Log.i(TAG, statementdirectory);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\PostLogin.java:158:            Log.i(TAG, "Transferred $" + amount2 + " from account " +from2+" to account " +to2);
+C:\OWASP\InsecureBank\src\com\android\insecurebank\PostLogin.java:198:	        Log.d("EXAMPLE", "names size - " + names.size());
+C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:87:            Log.e(TAG, "HTTP request failed on: " + urlString + " With error code: "
+C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:103:        Log.e(TAG, "Login tried as: " + username_text + " with password: "
+C:\OWASP\InsecureBank\src\com\android\insecurebank\RestClient.java:123:         Log.e(TAG, "Transfered Amount " + amount + " from account: "+ fromAccount+" to account"+toAccount);

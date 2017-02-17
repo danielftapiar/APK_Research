@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff1e2938" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="300.0dip" android:weightSum="1.0" android:layout_alignRight="@id/linearLayout3" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/imgViewPrey2" android:layout_width="201.0dip" android:layout_height="311.0dip" android:src="@drawable/native_protected" android:layout_alignBottom="@id/textView2" android:layout_alignParentTop="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:layout_above="@id/linearLayout2">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/iso_mono_b" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1_1" android:layout_width="250.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="#ffefeae8" android:id="@id/textView3_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/protect_button_title_1" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffdacfca" android:id="@id/textView3_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:text="@string/protect_button_subtitle_1" />
+        </LinearLayout>
+        <ImageView android:id="@id/imgViewPreyAccount" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/isok2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="100.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/icon_cog" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2_1" android:layout_width="250.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="#ffefeae8" android:id="@id/textView4_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/protect_button_title_2" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffdacfca" android:id="@id/textView4_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:text="@string/protect_button_subtitle_2" />
+        </LinearLayout>
+        <ImageView android:id="@id/imgViewSetup" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/isok2" />
+    </LinearLayout>
+</RelativeLayout>

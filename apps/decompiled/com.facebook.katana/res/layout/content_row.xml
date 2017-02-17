@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/content_row_image" android:layout_width="@dimen/ozone_green_size" android:layout_height="@dimen/ozone_green_size" android:layout_marginLeft="@dimen/ozone_teal_size" android:layout_marginRight="@dimen/ozone_orange_size" android:layout_alignParentLeft="true" />
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/TextAppearance.OzoneUi.ContentRow.AccessoryText" android:id="@id/content_row_accessory_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ozone_teal_size" android:layout_alignParentRight="true" />
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/TextAppearance.OzoneUi.ContentRow.Title" android:id="@id/content_row_body_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/content_row_accessory_text" android:layout_toRightOf="@id/content_row_image" />
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/TextAppearance.OzoneUi.ContentRow.Subtitle" android:id="@id/content_row_body_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/content_row_image" android:layout_below="@id/content_row_body_title" />
+</merge>

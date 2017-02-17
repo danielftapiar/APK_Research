@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.FbScrollView android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.resources.ui.FbTextView android:id="@id/page_create_call_to_action_info" android:paddingBottom="@dimen/fbui_padding_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PageCTAInfoTextMedium" />
+        <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:id="@id/page_create_call_to_action_types_container" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/page_create_call_to_action_info" fb:dividerPaddingStart="@dimen/fbui_content_view_horizontal_padding" fb:dividerPaddingEnd="@dimen/fbui_content_view_horizontal_padding" style="@style/PageCTAVerticalSegmentedList" />
+    </com.facebook.widget.CustomRelativeLayout>
+</com.facebook.widget.FbScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/instantshopping_footer_container" android:background="@drawable/instantshopping_footer_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/instant_shopping_footer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/instant_shopping_header_title_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/footer_button" android:background="@drawable/instant_shopping_acsent_button" android:layout_width="fill_parent" android:layout_height="@dimen/instant_shopping_footer_button_height" android:text="@string/add_to_cart" android:layout_centerInParent="true" style="@style/richdocument_block"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

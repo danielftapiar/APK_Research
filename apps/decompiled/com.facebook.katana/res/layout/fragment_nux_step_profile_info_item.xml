@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/user_account_nux_step_profile_info_question_item_placeholder_text_color" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/profile_info_item_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <ViewStub android:layout_gravity="center|right" android:id="@id/profile_info_item_clear_icon" android:visibility="gone" android:layout="@layout/fragment_nux_step_profile_info_item_clear_icon" android:inflatedId="@id/fragment_nux_step_profile_info_item_clear_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/d_root" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0dip" android:textColor="#ffff0000" android:id="@id/tv_seleccion_title" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/seleccione_desde" />
+    <LinearLayout android:orientation="vertical" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <DatePicker android:id="@id/dp_fecha_seleccionada" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <LinearLayout android:gravity="center" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_seleccion_cancelar" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancelar" android:layout_weight="1.0" />
+                <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_seleccion_ok" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_seleccion_ultimos" android:tag="bold" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/ultimos_movimientos" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

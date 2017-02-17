@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textStyle="bold" android:textColor="@color/feed_text_body_color" android:id="@id/group_commerce_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/group_commerce_price_and_pickup_note" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.feed.rows.views.ContentTextView android:textColor="@color/feed_text_body_color" android:id="@id/group_commerce_item_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</merge>

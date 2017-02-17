@@ -1,0 +1,6 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\..\..\..\..\res\layout\loginscreen.xml:34:<Button android:layout_height="wrap_content" android:text="Login" android:id="@+id/login_button" android:layout_gravity="center" android:layout_width="match_parent"></Button>
+C:\OWASP\InsecureBank\src\com\android\insecurebank\..\..\..\..\res\layout\loginscreen.xml:36:<Button android:layout_height="wrap_content" android:text="Fill Data" android:id="@+id/fill_data" android:layout_width="match_parent"></Button>
+C:\OWASP\InsecureBank\src\com\android\insecurebank\..\..\..\..\res\layout\loginscreen.xml:38:<Button
+C:\OWASP\InsecureBank\src\com\android\insecurebank\..\..\..\..\res\layout\main.xml:7:<Button
+C:\OWASP\InsecureBank\src\com\android\insecurebank\..\..\..\..\res\layout\postlogin.xml:50:    <Button android:id="@+id/transfer_button" android:text="Transfer" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+C:\OWASP\InsecureBank\src\com\android\insecurebank\..\..\..\..\res\layout\postlogin.xml:51:    <Button android:layout_width="match_parent" android:id="@+id/rawhistory" android:text="Raw History" android:layout_height="wrap_content"></Button>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left|top" android:layout_gravity="center|left|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" fb:anchor="inner_top" fb:anchorPosition="start"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.video.player.VideoLiveIndicator android:layout_gravity="center|left|top" android:id="@id/video_live_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.resources.ui.FbTextView android:textSize="11.5sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center|left" android:id="@id/live_viewer_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#aa000000" android:shadowRadius="1.0" />
+</LinearLayout>

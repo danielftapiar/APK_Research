@@ -1,0 +1,3 @@
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_weakencryption.txt:2:C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java:118:	    String base64password =new String(Base64.encodeToString(mypassword.getBytes(),4));
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_weakencryption.txt:3:C:\OWASP\InsecureBank\src\com\android\insecurebank\LoginScreen.java:119:	    editor.putString("encryptedpassword",base64password );
+C:\OWASP\InsecureBank\src\com\android\insecurebank\OUTPUT\Temp_weakencryption.txt:4:C:\OWASP\InsecureBank\src\com\android\insecurebank\DataHelper.java:46:	        null, null, null, null, "name desc");

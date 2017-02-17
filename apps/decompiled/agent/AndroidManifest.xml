@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:versionCode="5" ns0:versionName="2.3.3" package="com.mwr.dz">
+    <uses-permission ns0:name="android.permission.INTERNET"/>
+    <application ns0:allowBackup="false" ns0:debuggable="true" ns0:icon="@drawable/ic_launcher" ns0:label="@string/app_name" ns0:theme="@style/AppTheme">
+        <activity ns0:label="@string/title_about" ns0:name=".activities.AboutActivity" ns0:parentActivityName="com.mwr.dz.activities.SettingsActivity"/>
+        <activity ns0:label="@string/title_activity_main" ns0:name=".activities.MainActivity">
+            <intent-filter>
+                <action ns0:name="android.intent.action.MAIN"/>
+                <category ns0:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity ns0:label="@string/title_activity_endpoint" ns0:name=".activities.EndpointActivity"/>
+        <activity ns0:label="@string/endpoint_new" ns0:name=".activities.EndpointSettingsActivity"/>
+        <activity ns0:label="@string/title_activity_server" ns0:name=".activities.ServerActivity"/>
+        <activity ns0:label="@string/title_activity_settings" ns0:name=".activities.SettingsActivity"/>
+        <receiver ns0:exported="true" ns0:name=".receivers.Receiver" ns0:process=":remote">
+            <intent-filter>
+                <action ns0:name="com.mwr.dz.PWN"/>
+            </intent-filter>
+        </receiver>
+        <service ns0:name=".services.ClientService" ns0:process=":remote"/>
+        <service ns0:name=".services.ServerService" ns0:process=":remote"/>
+        <service ns0:name="com.mwr.dz.services.SessionService" ns0:process=":remote"/>
+    </application>
+</manifest>

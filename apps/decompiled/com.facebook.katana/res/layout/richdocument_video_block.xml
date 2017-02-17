@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.richdocument.view.widget.MediaFrame android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/richdocument_media"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.richdocument.view.widget.RichDocumentVideoPlayer android:id="@id/inline_video_player" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.facebook.richdocument.view.widget.MediaFrame>

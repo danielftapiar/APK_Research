@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fbui_padding_standard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbButton android:textSize="@dimen/fbui_text_size_xlarge" android:gravity="left" android:layout_gravity="center" android:id="@id/country_selector_button" android:layout_width="fill_parent" android:layout_height="@dimen/fbui_image_button_size_medium" android:layout_margin="@dimen/fbui_padding_standard" android:text="@string/registration_search_country_default_text" style="?android:attr/spinnerStyle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.resources.ui.FbButton android:textSize="@dimen/fbui_text_size_xlarge" android:textColor="@color/fbui_grey_50" android:gravity="center" android:layout_gravity="center" android:id="@id/dialing_code" android:paddingLeft="@dimen/fbui_padding_standard" android:paddingTop="@dimen/fbui_padding_standard" android:paddingBottom="@dimen/fbui_padding_standard" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <com.facebook.resources.ui.FbAutoCompleteTextView android:textSize="@dimen/fbui_text_size_xlarge" android:ellipsize="end" android:id="@id/phone_input" android:padding="@dimen/fbui_padding_standard" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fbui_padding_half_standard" android:hint="@string/registration_step_contact_phone_input" android:maxLines="1" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionDone" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,1203 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: nl/DtR972nRpjey6ocvNKvmjvw8=
+Created-By: 1.6.0_41 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: 3oeIHGEBzQWQ4YxlQseeelMW5DA=
+
+Name: res/drawable-xxxhdpi-v4/icon.png
+SHA1-Digest: 5Igfq7r6HUNnj+fWe6AA1oCcs9s=
+
+Name: res/drawable-xxhdpi-v4/image_icon_push.png
+SHA1-Digest: 8sIafmydFJRtGCPQbnkULSdHYd8=
+
+Name: res/drawable-nodpi-v4/img_logopoi_cv_pressed.png
+SHA1-Digest: AcBbvasc9tQ7/HEzgG9HdCzWrzE=
+
+Name: res/drawable-nodpi-v4/img_logo_header_bk.png
+SHA1-Digest: tbwZ/QTMshlXn+cxCEKnLR6YDi8=
+
+Name: res/drawable-nodpi-v4/img_logopoi_serviestado.png
+SHA1-Digest: ZXmEZhb8WzdjYN0FFtLLJsFrtks=
+
+Name: res/drawable-nodpi-v4/img_consultar_productos_pressed.png
+SHA1-Digest: KMb0sACAkW72TWOGRJfQiJtUO78=
+
+Name: org/spongycastle/x509/CertPathReviewerMessages_de.properties
+SHA1-Digest: JEtZ3RAGGTVEFFC7U8WRwNNTJXU=
+
+Name: res/drawable-nodpi-v4/img_call_on_pressed.png
+SHA1-Digest: 6jKFkjdMY1ccfRmdZXMklAt0LTk=
+
+Name: res/drawable-nodpi-v4/img_enviar.png
+SHA1-Digest: GAMa17loA24kavCZLEmOrsRmphU=
+
+Name: res/drawable-nodpi-v4/img_flecha_l.png
+SHA1-Digest: c+yXDp0Bwb/rcuS9BurX+FTM91U=
+
+Name: res/drawable-nodpi-v4/img_marker_sucursal.png
+SHA1-Digest: 4j7+3PUEA89KZ4oOzHRZrdAZzU8=
+
+Name: res/xml-v19/aid_list.xml
+SHA1-Digest: ZuytSDDFjYIYthLiFEI9kvJNV98=
+
+Name: res/drawable-nodpi-v4/img_qr1.png
+SHA1-Digest: rZDWUzS+r7pi2j4A9Kx9cqwInYw=
+
+Name: res/drawable-nodpi-v4/img_carga_bip_pressed.png
+SHA1-Digest: il2RfsXj+GfbKB8A/KHt+bPohNU=
+
+Name: res/drawable-nodpi-v4/img_deposito_dinero.png
+SHA1-Digest: Ig3ZVmTAK9/Z3YhU3avvGIiu1fk=
+
+Name: res/drawable-nodpi-v4/img_fono.png
+SHA1-Digest: RSB4aygE/9WJHbNpBnSeUG/OwHs=
+
+Name: res/drawable-nodpi-v4/img_consultar_productos.png
+SHA1-Digest: ICTDyLU7J1JwtR+9rPSrFuNkB3Q=
+
+Name: res/drawable-nodpi-v4/img_logopoi_se_pressed.png
+SHA1-Digest: C0UmfHvEVeEjGv+5Q/LNM1B5YSw=
+
+Name: assets/jquery.flot.symbol.min.js
+SHA1-Digest: Ec/+YwhOsKUeRvc3Gtan5k+f0GM=
+
+Name: res/drawable-nodpi-v4/img_mensaje_phone.png
+SHA1-Digest: sTtIuwa/cHvTbiB6zuIvHr/rnU0=
+
+Name: res/drawable-nodpi-v4/img_menu_principal_pago_movil_pressed.png
+SHA1-Digest: SFWrs6DntLX7yx7GXODUIFdSklo=
+
+Name: res/drawable-nodpi-v4/img_defensoria.png
+SHA1-Digest: LXz6i4fTpvup05HBTSjY1JNAgUw=
+
+Name: res/drawable-nodpi-v4/img_contacto2.png
+SHA1-Digest: l8RHvX8u+Z8SOpcdgz2hClmtj84=
+
+Name: res/drawable-nodpi-v4/img_rb_off.png
+SHA1-Digest: oSnhbNkTbpzEOIEoTwQiICGs1f0=
+
+Name: res/drawable-nodpi-v4/img_chat_pressed.png
+SHA1-Digest: A7XzpEcdTbIqSxCP7nHZt7hOj9A=
+
+Name: res/drawable-nodpi-v4/img_marker_caja_vecina.png
+SHA1-Digest: 4qRpv58Ktk0tQFc582YnMUWHDSQ=
+
+Name: res/drawable-nodpi-v4/img_logo_titl.png
+SHA1-Digest: ZKsDJ5clFaur9jhS78xSobqljy0=
+
+Name: res/drawable-nodpi-v4/img_boton_verde.png
+SHA1-Digest: 2sakjy8VFH4punymRMKY6QVS+fs=
+
+Name: res/drawable-nodpi-v4/img_geo_on.png
+SHA1-Digest: xjE7vU/5gDeIXMAjgNVT4dJpwvc=
+
+Name: res/drawable-nodpi-v4/img_flecha_m_left_2_pressed.png
+SHA1-Digest: KWQgrv8UMMwQLPKMLN/D4VFdWkY=
+
+Name: res/drawable-nodpi-v4/img_sincronizar_token_pressed.png
+SHA1-Digest: hRYfQ7rHvD1Je5yORv2/b/IeTTw=
+
+Name: res/drawable-nodpi-v4/img_flecha_r.png
+SHA1-Digest: VVNnmd2lq38+m+KPfiMBo7xOjW8=
+
+Name: res/drawable-nodpi-v4/img_usuario_old.png
+SHA1-Digest: NXjvri83XJaKHtabjq94WjTS6F0=
+
+Name: res/drawable-nodpi-v4/img_notif_si_pressed.png
+SHA1-Digest: 66TbQIc/AsyC+Qh+RNZ8Jzxr2I4=
+
+Name: org/osmdroid/marker_default.png
+SHA1-Digest: SjUtVq1zYph0FIWFjlHnB2jW9wk=
+
+Name: res/drawable-nodpi-v4/img_header_saldorut.png
+SHA1-Digest: /rIqzdE+KIbZi+wyGnM0tJbgYm4=
+
+Name: res/drawable-nodpi-v4/img_num_1.png
+SHA1-Digest: Tcj6HDjhRlVbPjD2J4wOQamGZdM=
+
+Name: assets/jquery.flot.orderbars.min.js
+SHA1-Digest: ynbUvl4/dyH/Lkh9a8s9X0uQjMM=
+
+Name: res/drawable-mdpi-v4/image_icon_push.png
+SHA1-Digest: faAGraIpVc7r7ltD793+keJhSIU=
+
+Name: res/drawable-nodpi-v4/img_enviar_off.png
+SHA1-Digest: WR1OAjBhZV6xjd8JIBsZhtKyzWE=
+
+Name: res/drawable-nodpi-v4/img_fp_auth.png
+SHA1-Digest: C0XfEBV574J0unXsAYpQI8nOcas=
+
+Name: res/drawable-nodpi-v4/img_marker_cv.png
+SHA1-Digest: rH4q6ateL05xEZXHTqfGzgwa7Xw=
+
+Name: res/drawable-nodpi-v4/img_cobro_cheques_pressed.png
+SHA1-Digest: wSKQFNNP8pd5YoHAH9eHOmSfo7E=
+
+Name: res/drawable-nodpi-v4/img_delete_avatar.png
+SHA1-Digest: i0nhb+c3aSBVe9QKul9ccolPceQ=
+
+Name: res/drawable-xhdpi-v4/icon_push.png
+SHA1-Digest: Azyr/SEeIlNcAt9YERqsQ6mqLQc=
+
+Name: res/drawable-nodpi-v4/img_btn_recibir_pago_old.png
+SHA1-Digest: GQocCb94EA2GkFXZ7C8pHtO3Bms=
+
+Name: res/drawable-nodpi-v4/img_btn_saldo_rut.png
+SHA1-Digest: EPBiQy0FqSTUzumLnHsMSWAMiLw=
+
+Name: res/drawable-nodpi-v4/img_lateral_pago_servicios.png
+SHA1-Digest: shBfBbL+dog7ILRxk6GvELDzrQE=
+
+Name: res/drawable-nodpi-v4/img_lista_off_pressed.png
+SHA1-Digest: /FG/gxI8mdE3NYEucrzui3oUN/g=
+
+Name: res/drawable-nodpi-v4/img_menu_principal_contactenos.png
+SHA1-Digest: T3QGmwl9VSY+eNjelA1eXjyrjZ0=
+
+Name: res/drawable-nodpi-v4/img_btn_saldo_rut_pressed.png
+SHA1-Digest: R8tXFq4nrbvdmfb1FSU+ilKJWr4=
+
+Name: res/drawable-nodpi-v4/img_logopoi_suc.png
+SHA1-Digest: VM89n7vD4l/yQ5HQ9EDKaknRf4w=
+
+Name: res/drawable-nodpi-v4/img_operacion_realizada.png
+SHA1-Digest: aJRvWYCCvzo4oJ9MqLjqZ6322n4=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: Dse3tcwWqCpuoGc6SaZ154ybWYY=
+
+Name: res/layout/bookmark_picker_list_item.xml
+SHA1-Digest: hBqrHkpOikBan9QxyzzjExuCfhA=
+
+Name: res/layout/history_list_item.xml
+SHA1-Digest: VEOeBa0fk5cWOjT4wqQpXwQBO/A=
+
+Name: res/drawable-nodpi-v4/img_cerrar_pressed.png
+SHA1-Digest: l8aYc5wwJrszTM0Bpv8/0tRB3BQ=
+
+Name: res/drawable-nodpi-v4/img_contacto.png
+SHA1-Digest: 2vgMVMHtw1JXkZ8E8IVfgY20Qbs=
+
+Name: res/drawable-xhdpi-v4/image_icon.png
+SHA1-Digest: noNdp+HemHggsUSHwve9C2t8ok4=
+
+Name: res/drawable-nodpi-v4/img_actualizar.png
+SHA1-Digest: op41G1sjn589FiYzAGJpJBjjbiU=
+
+Name: res/drawable-nodpi-v4/img_menu.png
+SHA1-Digest: 1JfsUvzjHgmLc4Gzn287+UsAGH8=
+
+Name: res/drawable-nodpi-v4/img_logopoi_atm_pressed.png
+SHA1-Digest: w0yoogKbPpgru1vazHTqKh2Or7A=
+
+Name: res/drawable-nodpi-v4/img_auto_off.png
+SHA1-Digest: aAOXg6LVZrvGcaIrHRwMcTGG9YU=
+
+Name: res/drawable-nodpi-v4/img_bici_on.png
+SHA1-Digest: Vy6LeOV70lMWl4/9PMHm7/WOuJ4=
+
+Name: res/drawable-nodpi-v4/img_header_bancamovil.png
+SHA1-Digest: RkknYmXUXbD9hcEQAeutizg7/Gc=
+
+Name: res/drawable-xxhdpi-v4/icon_push.png
+SHA1-Digest: Osx/AJh6A/BsV8YzNDV2ItdrlBE=
+
+Name: res/drawable-nodpi-v4/img_tarjeta_clave_transferencia_pressed.pn
+ g
+SHA1-Digest: eJnHb+JR4uDG08KtgWw9A80/KMs=
+
+Name: res/drawable-nodpi-v4/img_lupa_off.png
+SHA1-Digest: XPheVwv3VIrK6/gVIYM6Of3CIpA=
+
+Name: res/drawable-nodpi-v4/img_marker_se_pressed.png
+SHA1-Digest: E+66H9aoK+t+k5/oZxfYdVPfrNg=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: tYiGDUvOwHeh/pZhFgJ5InuO0zk=
+
+Name: res/drawable-nodpi-v4/img_marker_serviestado.png
+SHA1-Digest: PXB9YSF2KFQHf6T3+pn/ZYvV4Rs=
+
+Name: res/drawable-nodpi-v4/img_call_on.png
+SHA1-Digest: yTTM6tiGkl6cM4yCyG2pvkXMmPk=
+
+Name: res/layout/app_picker_list_item.xml
+SHA1-Digest: C17g/U8udQkZG+yFfvjZphS0jUQ=
+
+Name: res/drawable-nodpi-v4/img_btn_banca_movil_old_pressed.png
+SHA1-Digest: bGj+t+Nl8llyW2KjZppz+7/v7t0=
+
+Name: assets/jquery.flot.stack.min.js
+SHA1-Digest: mwHx2QgNu1talCG4Wx7BTi9O7i4=
+
+Name: res/drawable-nodpi-v4/img_tarjeta_clave_transferencia.png
+SHA1-Digest: pzGFX/OLONffrMtUqWRUbSDnP+Y=
+
+Name: res/drawable-hdpi-v4/launcher_icon.png
+SHA1-Digest: XsICEt3dT8t6aWDIcNQgVFG4DyI=
+
+Name: res/drawable-nodpi-v4/img_cobro_cheques.png
+SHA1-Digest: Sc7+pO4I+TYtIh82ZWJW7g/9DlI=
+
+Name: res/drawable-nodpi-v4/img_marker_se.png
+SHA1-Digest: q4soCGY8Vq3b4yR2NnEH1pnZOmo=
+
+Name: res/drawable-nodpi-v4/img_pato.png
+SHA1-Digest: /Pt+IrE/2/T4FPGLRSYTSkavq/k=
+
+Name: res/drawable-nodpi-v4/img_sombra_b.png
+SHA1-Digest: +VuAwSZlvUhPcnsp2v/RYGwDEH4=
+
+Name: res/drawable-nodpi-v4/img_marker_atm.png
+SHA1-Digest: WpTiPm+caqGx3pWCPa6xBtnc02Y=
+
+Name: res/drawable-nodpi-v4/img_btn_comprobantes_pago.png
+SHA1-Digest: snungiZ3Twbf5whcKk7dOYL86cQ=
+
+Name: res/drawable-xxhdpi-v4/launcher_icon.png
+SHA1-Digest: Sn7nuuDfkp5VxWRwiX6jZw3O7XE=
+
+Name: res/drawable-nodpi-v4/img_geo_off.png
+SHA1-Digest: fG+jVUAbMqCDipMSqDCrdx5Pfl4=
+
+Name: res/drawable-nodpi-v4/img_estado_frame_r.png
+SHA1-Digest: wQOmHXHzSW03EAqtlAUKbnTqTDc=
+
+Name: res/drawable-nodpi-v4/img_chat.png
+SHA1-Digest: G2pkAp26hLT80t7vYdwLzQM0/20=
+
+Name: res/drawable-nodpi-v4/img_boton_normal.png
+SHA1-Digest: l5z0ofqkxqedMrmxtbre3gfdq/s=
+
+Name: res/drawable-nodpi-v4/img_notif_no_pressed.png
+SHA1-Digest: 9LzUFD9HrTqobzDG2+pvR2gG1Jw=
+
+Name: res/drawable-xhdpi-v4/launcher_icon.png
+SHA1-Digest: bO140kXhICmJTHku9+qwgMYlcbk=
+
+Name: res/drawable-nodpi-v4/img_lateral_pago_rut_pressed.png
+SHA1-Digest: Q4Vn9Go7rSXtiTMJTDvgISVnK6Y=
+
+Name: res/drawable-nodpi-v4/img_web_movil.png
+SHA1-Digest: KjULZ9g46cnhOG/WmZPsCmfDmPI=
+
+Name: res/layout/search_book_contents.xml
+SHA1-Digest: c6nIKb7yT+a0BIps65oAQ+X4BI8=
+
+Name: res/drawable-nodpi-v4/img_flecha_m_right_2_off.png
+SHA1-Digest: 9egbc5KuAkXF3WE0weUzF5dbG0w=
+
+Name: res/drawable-nodpi-v4/img_bnt_checkbox.png
+SHA1-Digest: r/B3qx9+IbdFP4AP2JRp05ql3Yk=
+
+Name: res/drawable-nodpi-v4/img_emergencias_pressed.png
+SHA1-Digest: dBoQCpZ351XZsirhz8/wE4pvRzA=
+
+Name: res/layout-v17/fingerprint.xml
+SHA1-Digest: 3ZfsnrOnJtcKBTJ4z9d8Hmmb7b8=
+
+Name: res/drawable-nodpi-v4/img_filtro_off.png
+SHA1-Digest: 9TruU5J14kN2MiekRnamZHli1Es=
+
+Name: res/drawable-nodpi-v4/img_filtro_on_pressed.png
+SHA1-Digest: cy/FCri2IUttfQN/y/DzlBqIvvo=
+
+Name: res/drawable-nodpi-v4/img_web_movil_pressed.png
+SHA1-Digest: CVtTANLXze2BRulNsUjKfVrUF+g=
+
+Name: res/layout-v13/fingerprint.xml
+SHA1-Digest: Ct2x7WN2TNehEfY2zd9BseCPPIc=
+
+Name: res/drawable-nodpi-v4/img_usuario.png
+SHA1-Digest: ql+Lj3hCTDTA27Shao+/4hT60GA=
+
+Name: res/drawable-nodpi-v4/img_reposicion.png
+SHA1-Digest: c7TygB3SBfaNAEBKi2STdcJgvLU=
+
+Name: res/drawable-nodpi-v4/img_detalle_on.png
+SHA1-Digest: L7RkPomOzk0h7tRMauiHd7jjLLs=
+
+Name: res/drawable-mdpi-v4/icon_push.png
+SHA1-Digest: ZLIAIr08yLnb/EbEwgDC676OpLs=
+
+Name: res/drawable-nodpi-v4/img_asistencia_telefonica_pressed.png
+SHA1-Digest: iRUiptAe6d0zXcnjGnXy8dcldcc=
+
+Name: res/drawable-nodpi-v4/img_camara_pressed.png
+SHA1-Digest: IEPWyVV+Z8jwEuLA+cmy70G+/vY=
+
+Name: org/osmdroid/ic_menu_compass.png
+SHA1-Digest: VcnuS89BiheeF4KZqhRToX6VTX0=
+
+Name: res/drawable-nodpi-v4/img_notif_no.png
+SHA1-Digest: IFLoK9/kHS8ms8uqmbziekyY/f4=
+
+Name: assets/jquery.flot.threshold.min.js
+SHA1-Digest: aufj9QIuEQlyg3vwluBDbGXwhTs=
+
+Name: res/drawable-nodpi-v4/img_btn_banca_movil_old.png
+SHA1-Digest: POVFz4sS+rDgvYl6bC9N/fj/pc8=
+
+Name: res/drawable-nodpi-v4/img_btn_pagar_old.png
+SHA1-Digest: HH1qO3370xgKxS/elSDBICQP5Do=
+
+Name: res/drawable-nodpi-v4/img_pagar_servicios.png
+SHA1-Digest: v22RkLiyZNaYogcDOa1BHWOkEmc=
+
+Name: res/drawable-nodpi-v4/img_twitter.png
+SHA1-Digest: qXcLKiNzV2KKYWt0CwWZUA8Brj0=
+
+Name: res/drawable-nodpi-v4/img_bnt_checkbox_on.png
+SHA1-Digest: M6NGPkuQPuvctweteIBsl0Z2aHM=
+
+Name: res/drawable-nodpi-v4/img_info_pressed.png
+SHA1-Digest: 2ms2W+jFzDKkmsi19CkePORRoq0=
+
+Name: res/drawable-nodpi-v4/img_qr_activar.png
+SHA1-Digest: de1dUrfXg2Qzwwfi551N8aDt2Rg=
+
+Name: res/drawable-nodpi-v4/combo.9.png
+SHA1-Digest: vOa7NXNbh+lfK6F36ZRnlGCSggw=
+
+Name: res/drawable-nodpi-v4/img_menu_principal_notificaciones.png
+SHA1-Digest: xtleLDkKx4NyydQpEuM/F0xZZtA=
+
+Name: org/osmdroid/previous.png
+SHA1-Digest: 5/NC2gR25vcq1GLy1S34aW0u2xc=
+
+Name: assets/jquery.flot.axislabels.min.js
+SHA1-Digest: jOh1lWqFzqYK3B4ZTMVa9kBW6Y8=
+
+Name: res/drawable-ldpi-v4/icon_push.png
+SHA1-Digest: hsNis5r8PKTfPREB24dNgzjWNXo=
+
+Name: res/drawable-nodpi-v4/img_btn_compro_pago_pressed.png
+SHA1-Digest: P/1NelTrndOyTmTOuyQKZeLjq9g=
+
+Name: res/drawable-nodpi-v4/img_estado_frame_bl.png
+SHA1-Digest: 3D/wKPncnewRi1lCMC5t0N7RR0A=
+
+Name: res/drawable-nodpi-v4/img_icon_mensaje_ok.png
+SHA1-Digest: b3kOWQoGFCxkPI3lXJ5GsdgWwss=
+
+Name: res/drawable-nodpi-v4/img_recargar_celular_pressed.png
+SHA1-Digest: qXH1Md0YUCVIDpU2RgTE7HZKqyE=
+
+Name: res/drawable-nodpi-v4/img_btn_paga_alirto_pressed.png
+SHA1-Digest: ESBprDz6jlTr/YEgjEzN5aha4Xg=
+
+Name: res/drawable-nodpi-v4/img_rb_on.png
+SHA1-Digest: GNKLiDdyqBasZ3PvLQfF0dD1JY8=
+
+Name: AndroidManifest.xml
+SHA1-Digest: UHIZxOh/oZdcL4qQgmzOCHzAQiE=
+
+Name: res/drawable-xxxhdpi-v4/image_icon_push.png
+SHA1-Digest: w+yf9taJQ5axZgUEmse/Y/gWEV4=
+
+Name: res/drawable-nodpi-v4/img_soporte_movil_pressed.png
+SHA1-Digest: cvNFCWC/rwWxydlNdJqWoyEgGUg=
+
+Name: res/drawable-nodpi-v4/img_enviar_on_pressed.png
+SHA1-Digest: /beuzHG7QO1GhmG7qFXyRNiAb6M=
+
+Name: res/drawable-nodpi-v4/img_pagar_productos.png
+SHA1-Digest: Ugjl7hpO9LNNgYX79H9w6lBMMd4=
+
+Name: classes.dex
+SHA1-Digest: euTv06FMG9rnh5ZuvUkyhdOel1k=
+
+Name: org/osmdroid/direction_arrow.png
+SHA1-Digest: OJPLJsz/ra7t2xaHf+JOHZktiTA=
+
+Name: res/drawable-xxxhdpi-v4/icon_push.png
+SHA1-Digest: mvX/vVS4z9VV21EV5p8xCWY5WIQ=
+
+Name: org/osmdroid/ic_menu_mylocation.png
+SHA1-Digest: kaor/gSkV9Up1nNf4MfIYJUw8mc=
+
+Name: res/drawable-nodpi-v4/img_marker_serviestado_pressed.png
+SHA1-Digest: scZ59TQA8xK040M0oQs8s5G+CYA=
+
+Name: res/drawable-nodpi-v4/img_ok.png
+SHA1-Digest: 8pGdKVzfK7OPJ/8x/7WZij1m9gg=
+
+Name: res/drawable-nodpi-v4/img_lateral_pago_servicios_pressed.png
+SHA1-Digest: peOCJNLuOFUyCN+U94EwGtr1/8E=
+
+Name: res/drawable-nodpi-v4/img_auto_on.png
+SHA1-Digest: CSoD3/HLfC4wDWlAL7irScySiZ0=
+
+Name: res/drawable-nodpi-v4/img_estado_frame_b.png
+SHA1-Digest: 0fLkt2h7dCot36q4PlWQdTg8z0o=
+
+Name: res/drawable-nodpi-v4/img_cambio_equipo.png
+SHA1-Digest: a6rXSVx+uIky/yVI3nrO9hi4f5Q=
+
+Name: res/drawable-nodpi-v4/img_facebook_pressed.png
+SHA1-Digest: LMzUMdNRXSrg7STMylTQ5EoiQiI=
+
+Name: org/osmdroid/person.png
+SHA1-Digest: VQURPYLPCXtQO4/kcVT4ltUuX+Y=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: IJAnO0SGv/Adu63D/0Txux1AbvM=
+
+Name: res/drawable-nodpi-v4/img_lista_on.png
+SHA1-Digest: 5hug5eoQqcInHb1Zae5qtHOLS3Y=
+
+Name: res/drawable-nodpi-v4/img_geo_on_pressed.png
+SHA1-Digest: SEyfK0+uy9/H2aHrz9fP0fKAaqY=
+
+Name: res/drawable-hdpi-v4/icon_push.png
+SHA1-Digest: M+uPzXrym8WjYuqRYD4ARy0jl7M=
+
+Name: res/layout/list_mobile.xml
+SHA1-Digest: VAmzYycoqASUMOG5NalyG1CLJyU=
+
+Name: res/drawable-nodpi-v4/img_boton_mitad.png
+SHA1-Digest: S7n8nV+Ojy4PXtNSJPVPRkqbcx4=
+
+Name: res/drawable-nodpi-v4/img_soporte_movil.png
+SHA1-Digest: LzieLzdtU1uCAw8MjJ2na9LHHdA=
+
+Name: res/drawable-nodpi-v4/img_flecha_m_left_2.png
+SHA1-Digest: Q7VUqUCADJt3QREd2kIQcLKHyMk=
+
+Name: assets/jquery.flot.crosshair.min.js
+SHA1-Digest: I0FzjrF6GN5pQ8Ol2qKMZZq3LZA=
+
+Name: assets/jquery.flot.categories.min.js
+SHA1-Digest: 7NYaLnLtbUy8BTAhqVCtiWAsKv4=
+
+Name: res/drawable-nodpi-v4/img_geolocalizacion_pressed.png
+SHA1-Digest: Dz5V4DP3Bqp7J2mafJbeVYfQT7U=
+
+Name: res/drawable-nodpi-v4/img_estado_frame_tl.png
+SHA1-Digest: PmZtSjhscPZsTUm6m6ZAeoMR7sQ=
+
+Name: res/drawable-nodpi-v4/img_bnt_checkbox_m.png
+SHA1-Digest: ZHeA28FyrUTnmkR3EvxW3IuzYUA=
+
+Name: res/drawable-nodpi-v4/img_boton_normal_pressed.png
+SHA1-Digest: O+sc2vxjzeKt87FtKlrNxYPH14k=
+
+Name: res/drawable-xhdpi-v4/image_icon_push.png
+SHA1-Digest: U3mDx4aBt5vCwjwMzM4Lx/FdcWY=
+
+Name: res/drawable-nodpi-v4/img_icon_mensaje_pregunta.png
+SHA1-Digest: RPPFAou+cZuXCSl7nYk+L/Jp9Hs=
+
+Name: res/drawable-nodpi-v4/img_logopoi_serviestado_pressed.png
+SHA1-Digest: zAE8lIe2M8rIrQELpmwR3UIpcBg=
+
+Name: res/drawable-nodpi-v4/img_num_2.png
+SHA1-Digest: JpAuzH4WgSZOcYn5gfrEZQhrI9U=
+
+Name: res/drawable-nodpi-v4/img_btn_contactenos_pressed.png
+SHA1-Digest: 28YMH7gD4pKQ+4F3+ZUJeWQqiVo=
+
+Name: res/drawable-nodpi-v4/img_num_1_m.png
+SHA1-Digest: hAbjQTVjIVAxT5GAB7Mm3bUEtlQ=
+
+Name: res/drawable-nodpi-v4/img_icon_mensaje_error.png
+SHA1-Digest: DHsKUufIEAbNNItHM84KYnc3bIo=
+
+Name: assets/chart.html
+SHA1-Digest: zGIxDLej/1UWyamlq8sAXEWD0C0=
+
+Name: res/drawable-nodpi-v4/img_btn_banca_movil_pressed.png
+SHA1-Digest: Rvnu79H7J3JKdl54KZt0CBMeGqY=
+
+Name: res/drawable-nodpi-v4/img_lateral_notificaciones.png
+SHA1-Digest: MWU+HlNaMk+eeetXa9LxE+iA1CY=
+
+Name: META-INF/INDEX.LIST
+SHA1-Digest: ErzDpI4zajSIvLWq12rUmmo6tpQ=
+
+Name: res/drawable-nodpi-v4/img_bici_off_pressed.png
+SHA1-Digest: 8TgBdnxmtv8b3zW7+TWcIRUXzN8=
+
+Name: res/drawable-nodpi-v4/img_icon_mensaje_info.png
+SHA1-Digest: EnFUcRTvPAbp4RxKRRKLmQS7il8=
+
+Name: res/drawable-nodpi-v4/img_conozca_pago_movil_pressed.png
+SHA1-Digest: nvJwdk2CICQ3kh5wCFfmLn0hkjE=
+
+Name: res/drawable-nodpi-v4/img_btn_compro_pago.png
+SHA1-Digest: EsryI5Xi0kADa3JhHuHKI+CcMLk=
+
+Name: org/osmdroid/ic_menu_mapmode.png
+SHA1-Digest: buT0r9heRFd8LQLqAKGBcG3Abvk=
+
+Name: res/drawable-nodpi-v4/img_btn_token_coordenada_pressed.png
+SHA1-Digest: XWhsCRBIzOkuyIKDD+cEqZPH960=
+
+Name: res/drawable-nodpi-v4/img_lateral_notificaciones_pressed.png
+SHA1-Digest: JV4iHLXaGuyIubftlDuuJIkjuqs=
+
+Name: res/drawable-nodpi-v4/img_saldo_pressed.png
+SHA1-Digest: fKrXAa6W/eUs7ghc4qNQDdjbY50=
+
+Name: res/drawable-nodpi-v4/img_personalizar_menu.png
+SHA1-Digest: 8opePKaBpSweNbE7ZWZ2aoK4ibs=
+
+Name: res/drawable-nodpi-v4/img_caminar_off_pressed.png
+SHA1-Digest: 5+TjV6xDv79y5HPSbAx6B71/cQ0=
+
+Name: res/drawable-nodpi-v4/img_saldo.png
+SHA1-Digest: V0dJZ3JjK7mSFWJJVmJ/R4vlIa0=
+
+Name: res/drawable-nodpi-v4/img_mb_logo_tcrv.png
+SHA1-Digest: mFdYNXS5sLJ4Eihjz+dtG7B1MPM=
+
+Name: res/drawable-nodpi-v4/img_mapa_marker_3.png
+SHA1-Digest: MImnZpe/rgu66mEP/nUZse0RxGQ=
+
+Name: res/drawable-nodpi-v4/img_logopoi_caja_vecina_pressed.png
+SHA1-Digest: yneX5jtgcKIKN8M46GJla/j3j38=
+
+Name: res/drawable-nodpi-v4/img_logo_splash_2.png
+SHA1-Digest: pLuQtnXgZUU1MRA9qCh24x5H5D4=
+
+Name: res/drawable-nodpi-v4/img_enviar_on.png
+SHA1-Digest: zrIHpQOkLm6k9+hgujgXDi4szQA=
+
+Name: res/drawable-nodpi-v4/img_lateral_pago_rut.png
+SHA1-Digest: NIM+Qyqtp/OYzmw3LPmkqRyL/H8=
+
+Name: res/drawable-nodpi-v4/img_logo_splash.png
+SHA1-Digest: PcLcFG4jF6yrakVdfRmRI6XC7fw=
+
+Name: res/drawable-nodpi-v4/img_menu_principal_pago_movil.png
+SHA1-Digest: lLQFL62nIVIVXzQeX1/GcyXtM4U=
+
+Name: res/drawable-nodpi-v4/img_boton_normal_off.png
+SHA1-Digest: WvmEp+Ra56qt40veuXokubtTxTo=
+
+Name: res/drawable-nodpi-v4/img_recargar_celular.png
+SHA1-Digest: 9eGvb5POQo14e8GyAbuzWGSasVw=
+
+Name: res/drawable-nodpi-v4/img_huella_pressed.png
+SHA1-Digest: qWcs7GQawakbzy556MGU6LwRQL8=
+
+Name: res/drawable-nodpi-v4/img_btn_geolocalizacion_pressed.png
+SHA1-Digest: ef4JV9HUdD5xGe/oJC4s+WSerhg=
+
+Name: res/drawable-nodpi-v4/img_detalle_off_pressed.png
+SHA1-Digest: 5Aag+eY69XGhxR9hSPdLBjDZgJ8=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: eRpUs1/xKAOQPVmbamVN8bS7FwA=
+
+Name: res/drawable-nodpi-v4/img_btn_recibir_pago.png
+SHA1-Digest: 8DGxdxUYQ6vILiRr119RGcQumC8=
+
+Name: res/drawable-nodpi-v4/img_cambiar_equipo_pressed.png
+SHA1-Digest: xAR86Zwq0NGCOT0UFJoa1NZN/Ws=
+
+Name: res/drawable-nodpi-v4/img_btn_notificacion_pressed.png
+SHA1-Digest: J9vQ1V3wu52CFoB8sTqcN4WyjIA=
+
+Name: res/drawable-nodpi-v4/img_header_geo.png
+SHA1-Digest: k0dZCAXBjwTwJ5B50loWt6cLLF4=
+
+Name: res/drawable-nodpi-v4/img_delete_off.png
+SHA1-Digest: pfhmQbghU4yDVfjq8VNZQ0DCMdU=
+
+Name: res/drawable-nodpi-v4/img_header_contactanos.png
+SHA1-Digest: OWAxbUQECRx9jNoy3yuJgHcd3zc=
+
+Name: res/drawable-nodpi-v4/img_sombra_a.png
+SHA1-Digest: VDxc+aEmCqIu/FRiJc3TnQQEYQ8=
+
+Name: res/drawable-nodpi-v4/img_mb_logo_otra.png
+SHA1-Digest: KsMJqdiYK/j7QGsvFWTHdkTx3NQ=
+
+Name: res/layout/fingerprint.xml
+SHA1-Digest: M9czBAzwNuR3haXhFWXOd0uj8IA=
+
+Name: res/drawable-hdpi-v4/image_icon.png
+SHA1-Digest: cIQbOBLU/YPQycgYF9ASaYm6Ocw=
+
+Name: res/drawable-nodpi-v4/img_bici_off.png
+SHA1-Digest: Xc/tP6nBY8qqxIP070/Nw5zQ59Y=
+
+Name: res/drawable-nodpi-v4/img_user_profile_old.png
+SHA1-Digest: 4lxCF6NvsKWQ8XNY0unMPPQlNE8=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: 3LjWSTDaK+LzxXCMhp8d8TFwiHg=
+
+Name: res/layout/share.xml
+SHA1-Digest: HnfDgremt5RHAm6N+u3q5N7n4uE=
+
+Name: res/drawable-nodpi-v4/img_lateral_transferir.png
+SHA1-Digest: 0XfR8qRBZlJ57YAHckttOJrv7Mw=
+
+Name: res/drawable-nodpi-v4/img_cuenta.png
+SHA1-Digest: mg4LIyXegkgo1Xmal15udx89JEU=
+
+Name: res/drawable-nodpi-v4/img_filtro_notif.png
+SHA1-Digest: mKWRc1FKRcpR7Q1D38R47XyBLUs=
+
+Name: res/drawable-nodpi-v4/img_estado_frame_l.png
+SHA1-Digest: Pvv63tJo6psLONBT4pQYBa2isZc=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: J1ZedTpnS4aS4l5o9avbuXpvR4c=
+
+Name: res/drawable-nodpi-v4/img_marker_caja_vecina_pressed.png
+SHA1-Digest: F0cI9hPNPe9ZhVzdmw3DtBP3fg0=
+
+Name: res/drawable-nodpi-v4/img_marker_suc.png
+SHA1-Digest: R5BB2xyTXzUiYKL68rCPwP2JRiU=
+
+Name: res/drawable-nodpi-v4/img_boton_border_pressed.png
+SHA1-Digest: zl87nzhZ+jCVR+TtDd287SAm9DM=
+
+Name: res/drawable-nodpi-v4/img_qr_phone.png
+SHA1-Digest: V2KqVveIXj4PDigBHj1plcttP14=
+
+Name: res/drawable-nodpi-v4/img_num_3.png
+SHA1-Digest: U+jcV/6hLrHCcJckBFpv3MxgIhs=
+
+Name: res/drawable-nodpi-v4/img_delete_avatar_pressed.png
+SHA1-Digest: 0oK1g2efedu81wopt5fgoxfTwyQ=
+
+Name: res/drawable-nodpi-v4/img_asistencia_telefonica.png
+SHA1-Digest: XlFAKFKGKFrnhtdvQUoWRJ3gqD8=
+
+Name: res/drawable-nodpi-v4/img_delete.png
+SHA1-Digest: WKuVCTphOL6gwhtvAW+n7NYGwe8=
+
+Name: res/drawable-nodpi-v4/img_num_2_m.png
+SHA1-Digest: R6dPbGxgThpJ07ycHbxK4nB2Dek=
+
+Name: res/drawable-nodpi-v4/img_logopoi_atm.png
+SHA1-Digest: wZ19zfx6zxmOxWy4Ytvj7m2HoTs=
+
+Name: org/osmdroid/marker_default_focused_base.png
+SHA1-Digest: DyVhVQKpxeZm9WCg8WiUpbyX8ks=
+
+Name: res/drawable-nodpi-v4/img_notif_si.png
+SHA1-Digest: qZbkRrNaywZCLQRl6kzi8yqqQY8=
+
+Name: org/osmdroid/center.png
+SHA1-Digest: ok8ELH/5YHzIXjDA5rFZvAX72i8=
+
+Name: res/drawable-nodpi-v4/img_boton_info_pressed.png
+SHA1-Digest: JkJgYnajOQlL0BhcH+mJUD2ONZk=
+
+Name: org/spongycastle/x509/CertPathReviewerMessages.properties
+SHA1-Digest: J41SvstF2si4wHzfzilAP7QU0lQ=
+
+Name: res/drawable-nodpi-v4/img_fono_pressed.png
+SHA1-Digest: +99uTwEdh7+WnyXAbWivDQlv42w=
+
+Name: res/drawable/share_via_barcode.png
+SHA1-Digest: xueox/aadYoTyPW0Irz+cTgnKA0=
+
+Name: res/drawable-nodpi-v4/img_flecha_r_pressed.png
+SHA1-Digest: 40gTFaAM/fxU+cIiNGtQm48SvCM=
+
+Name: res/drawable-nodpi-v4/img_carga_bip.png
+SHA1-Digest: uWN2XqvgJainJDJnWkf3H3BDdGQ=
+
+Name: res/drawable-nodpi-v4/img_boton_mitad_pressed.png
+SHA1-Digest: Kq/N9HgBAM3CfvvF5dfankd7OGA=
+
+Name: res/drawable-nodpi-v4/img_boton_pregunta.png
+SHA1-Digest: 0bIiqUmbtnGss98iF5kqb9s+yF4=
+
+Name: res/drawable-nodpi-v4/img_pagar_productos_pressed.png
+SHA1-Digest: sFrbeEkQPT//fIP8zZcQQA7PO/g=
+
+Name: res/drawable-nodpi-v4/img_boton_rojo.png
+SHA1-Digest: qdS6xgESmPhojpt+m+rg695zpnA=
+
+Name: res/drawable-nodpi-v4/img_consulta_cuenta.png
+SHA1-Digest: qkTU5dS6+yT2nRfAbRT3B2Ha2Qw=
+
+Name: res/drawable-nodpi-v4/img_marker_sucursal_pressed.png
+SHA1-Digest: QA/TONQvQrR1lUgtW9X2CBc4/vU=
+
+Name: res/drawable-nodpi-v4/img_flecha_m_left.png
+SHA1-Digest: QzsAdy82G1Ni2AW/lCab/yDsNtw=
+
+Name: res/drawable-xxxhdpi-v4/image_icon.png
+SHA1-Digest: +zgnW2674HQC7jZN1v/3s1w+qoI=
+
+Name: res/drawable-nodpi-v4/img_flecha_m_right.png
+SHA1-Digest: IylHMhnYVtStWb4MXBejTy80JLY=
+
+Name: res/drawable-nodpi-v4/img_solicitar_claves_pressed.png
+SHA1-Digest: a6Vw/2VRzSEdSxp3fF3sVfr3Lio=
+
+Name: res/drawable-nodpi-v4/img_detalle_off.png
+SHA1-Digest: e9uyWG0605WU+jzz3zvmpFOv+nE=
+
+Name: assets/jquery.flot.pie.min.js
+SHA1-Digest: nsynel7sMJpEQ8AKI3IEyquJ7Js=
+
+Name: res/drawable-nodpi-v4/img_logopoi_suc_pressed.png
+SHA1-Digest: 0vvi9LdDcwrX9IHNUaV72BjWlHM=
+
+Name: res/drawable-nodpi-v4/img_salir_pressed.png
+SHA1-Digest: GLWAoQ5AMPxO0bW3PnUjc/CjuSk=
+
+Name: assets/jquery.flot.navigate.min.js
+SHA1-Digest: zBPvPJW8DzQBFgXI34qJUucNiBQ=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: 0enK5hn1UCMiPpJuufExS0Xx0GA=
+
+Name: res/drawable-nodpi-v4/img_info.png
+SHA1-Digest: F/h+zJLrwCWYB6C8TJY67a7ypy4=
+
+Name: res/drawable-nodpi-v4/img_menu_pressed.png
+SHA1-Digest: G6/I7fqikgfVWqNSk+nzicVEUho=
+
+Name: res/drawable-nodpi-v4/img_logopoi_se.png
+SHA1-Digest: qw0kLT/jZXTKvmFX/sWEHqrOhq8=
+
+Name: res/drawable-nodpi-v4/img_btn_notificacion.png
+SHA1-Digest: dF/+FSs3sjc/dJEZMVVjiDaQp+c=
+
+Name: res/drawable-nodpi-v4/img_estado_frame_t.png
+SHA1-Digest: AEA/AhD6M/7piflCHOFyKaDb4xc=
+
+Name: assets/jquery.flot.tickrotor.min.js
+SHA1-Digest: 0wRJHp4YZCRm/gmq3eRQos/gWN8=
+
+Name: res/drawable-nodpi-v4/img_btn_paga_altiro.png
+SHA1-Digest: jXyaUuZokScg5fqK6gih5wy5EwQ=
+
+Name: res/drawable-nodpi-v4/img_down.png
+SHA1-Digest: UUl4q7x4P4nftC+jY+ojMNmgs2E=
+
+Name: res/drawable-nodpi-v4/img_btn_comprobantes_pago_pressed.png
+SHA1-Digest: R5J035lxGckTexIgn/lQCyMA69o=
+
+Name: res/drawable-nodpi-v4/img_chk_on.png
+SHA1-Digest: PJnVgds5fddJwaMC71Yn65Qihvk=
+
+Name: res/anim/shake.xml
+SHA1-Digest: wwrJ/aL4IQZRpfkYLo1XJvj5ku0=
+
+Name: org/osmdroid/navto_small.png
+SHA1-Digest: +LbN5pm6WwPSuMgdb+uYfs4jIc8=
+
+Name: res/drawable-hdpi-v4/image_icon_push.png
+SHA1-Digest: ABZ6bH3VHS6qsqiw3jI121CTZ8Y=
+
+Name: res/drawable-nodpi-v4/img_boton_error.png
+SHA1-Digest: LUGGL5o2IEX3BhxEvWYnqkMSl5M=
+
+Name: res/drawable-nodpi-v4/img_cambiar_clave.png
+SHA1-Digest: XfeGsaKVPkErtXW1eLu9OrMRS+k=
+
+Name: res/xml/aid_list.xml
+SHA1-Digest: 1oKRmujJOtYsrgTMZVxEyNgMLls=
+
+Name: res/drawable-nodpi-v4/img_btn_contactenos.png
+SHA1-Digest: E9IcWlndTEew6BeDIcSZlpw7rP8=
+
+Name: res/drawable-nodpi-v4/img_icon_mensaje_actualizar.png
+SHA1-Digest: OkHaQqfg1zhMQ7lcsUJE/+b56fs=
+
+Name: res/drawable-nodpi-v4/img_notif_no_inac.png
+SHA1-Digest: Vxul46AM7hHYDLJ6d6MH1h8/biE=
+
+Name: res/drawable-nodpi-v4/img_boton_azul.png
+SHA1-Digest: I/1gvcfUV28Ywj3fKAl9PCKpZuU=
+
+Name: res/drawable-nodpi-v4/img_bnt_radiobtn.png
+SHA1-Digest: n0pitBZVNzMNR9xE9luaNmjQFXY=
+
+Name: res/drawable-nodpi-v4/img_filtro_on.png
+SHA1-Digest: 71fk6I1/CZjg56+zh15SChLxWhs=
+
+Name: res/drawable-nodpi-v4/img_header_pagorut.png
+SHA1-Digest: d49scGzm7Av4NQWnSiVFKuT/yJg=
+
+Name: res/drawable-nodpi-v4/img_solicitar_claves.png
+SHA1-Digest: 3XmVUzkKLU0becUh02Iik1oN8QE=
+
+Name: res/drawable-nodpi-v4/img_logopoi_caja_vecina.png
+SHA1-Digest: 0eV0mp/D8aCwpFoj+rn9fugLNhQ=
+
+Name: assets/jquery.flot.errorbars.min.js
+SHA1-Digest: 6CpsOvkel3lfSyykPch2k5Mr+NM=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: GFpkUwdwSgeuKEee3KvUYJaenRs=
+
+Name: res/drawable-nodpi-v4/img_geolocalizacion.png
+SHA1-Digest: 7hW1g4I3lh6xmaBLeiTPoLPiPt4=
+
+Name: res/drawable-nodpi-v4/img_flecha_m_left_2_off.png
+SHA1-Digest: FXIAtkCZwVW9fG5sxHzdralZChQ=
+
+Name: res/drawable-nodpi-v4/img_contacto_pressed.png
+SHA1-Digest: 0c2W/iQmH2Jwe3wjNrSsqXKetpA=
+
+Name: res/layout/encode.xml
+SHA1-Digest: VriyzLq6hfIulVmzMoEaqQqxpKc=
+
+Name: res/drawable-nodpi-v4/img_lupa_on_pressed.png
+SHA1-Digest: XZXIbtRzS+/pHTZB12FF8AvxTO4=
+
+Name: res/drawable-nodpi-v4/img_reposicion_pressed.png
+SHA1-Digest: GpMjgYUs2z+9aloop+Y+fryntVo=
+
+Name: res/layout/search_book_contents_header.xml
+SHA1-Digest: 4xn0VMXQcvYE626t5N4Mu7tnXqw=
+
+Name: res/drawable-nodpi-v4/img_facebook.png
+SHA1-Digest: 1G6B/6H0HVp3waDqjIeH4jF0wsU=
+
+Name: res/layout/search_book_contents_list_item.xml
+SHA1-Digest: rigH6uNe2X9uZnqPd1tBX+avnqA=
+
+Name: res/layout/help.xml
+SHA1-Digest: oizKo41J68PkMZOZgFgqr1d8Fqs=
+
+Name: res/drawable-nodpi-v4/img_boton_border.png
+SHA1-Digest: L2Q7i3IOGqvucOMzY9Q6aHI9gpw=
+
+Name: res/drawable-nodpi-v4/img_huella.png
+SHA1-Digest: 1pDV1GrpaaO2VQ8NyukgPk3qbuM=
+
+Name: res/drawable-nodpi-v4/img_btn_pagar_old_pressed.png
+SHA1-Digest: FpvN1YoZOJjw/Hb+JViFtlwX95E=
+
+Name: assets/jquery.flot.image.min.js
+SHA1-Digest: UcQc/JbFlWXfFmMYLp/wpHaL4/g=
+
+Name: res/drawable-nodpi-v4/img_menu_principal_notificaciones_pressed.
+ png
+SHA1-Digest: 3KjfNTEzKQKemfRua6p2rJ75TUk=
+
+Name: res/drawable-nodpi-v4/img_logo_header.png
+SHA1-Digest: k9HnRZV7DAksKdU/x0K7Ax+Bm1M=
+
+Name: res/drawable-nodpi-v4/img_salir.png
+SHA1-Digest: 98x0avDAWyy7y8yKo5o42esN0Nw=
+
+Name: res/drawable-nodpi-v4/img_cerrar.png
+SHA1-Digest: 9zl5U69fH2bcLZd3SjECtVP8a+Q=
+
+Name: res/menu/main.xml
+SHA1-Digest: aSiIVGItWoqunVrKUz3C5GS5TIM=
+
+Name: res/drawable-ldpi-v4/image_icon_push.png
+SHA1-Digest: kZnwdXmmZJ08/A+Ouz4+pzMIny0=
+
+Name: res/drawable-nodpi-v4/img_marker_atm_pressed.png
+SHA1-Digest: DOfrKVVoF1qQeF3W6b80FyzA/1Q=
+
+Name: res/drawable-xxhdpi-v4/image_icon.png
+SHA1-Digest: zgI6GqNQKjMDmTllaU4jhJtigqQ=
+
+Name: res/drawable-nodpi-v4/img_part_frame_d.png
+SHA1-Digest: ++61PO3HS02BkuZF3/pRDV6YDNA=
+
+Name: res/drawable-nodpi-v4/img_menu_principal_contactenos_pressed.png
+SHA1-Digest: gxo/aEDHnxl4QoNwVDpiKB9stGY=
+
+Name: res/layout/map_marker.xml
+SHA1-Digest: 4UlyqDy7uS/6BVrPEqKgxXyIu04=
+
+Name: res/drawable-nodpi-v4/img_estado_frame_br.png
+SHA1-Digest: PnfdkwYYI/CWzdccpNYkao1M95M=
+
+Name: res/drawable-nodpi-v4/img_cambiar_equipo.png
+SHA1-Digest: QAGB+UciPoS7qeQhbg2cjX4DZAM=
+
+Name: res/drawable-nodpi-v4/img_btn_recibir_pago_old_pressed.png
+SHA1-Digest: rP0Mxh7WcQxPnWsqARQY3pVu1vA=
+
+Name: res/drawable-nodpi-v4/img_header_notificaciones.png
+SHA1-Digest: r0cIg8xqcaGK+EM6EMs2vFVaEsY=
+
+Name: assets/jquery.flot.resize.min.js
+SHA1-Digest: BdYtm/c8w2JSVk1CdcGgZyCyEGI=
+
+Name: res/drawable-nodpi-v4/img_btn_pagar_pressed.png
+SHA1-Digest: W8A2lFHhcQkkg5hQkWeJWSj9AR4=
+
+Name: res/layout/splash.xml
+SHA1-Digest: +fCg63JQcOie1Sg4b/L2FTo5API=
+
+Name: res/drawable-nodpi-v4/img_boton_ok.png
+SHA1-Digest: kf4drPFva5TQsMzj9fsAZmg8o/s=
+
+Name: res/drawable-nodpi-v4/img_btn_paga_altiro_pressed.png
+SHA1-Digest: h1bH+G+zaERWhsN7GPkQYzz6fds=
+
+Name: res/drawable-nodpi-v4/img_menu_principal.png
+SHA1-Digest: AhykxCJSgySN2OSrYYDY3DbCHew=
+
+Name: res/drawable-nodpi-v4/img_cambio_equipo_pressed.png
+SHA1-Digest: sUpo8EmGQjfMnfHO3Be7H6gfiE0=
+
+Name: res/drawable-nodpi-v4/img_actualizar_pressed.png
+SHA1-Digest: E8y+XbPviPROqw6UvNupOkE57cU=
+
+Name: res/drawable-nodpi-v4/img_logo_header_bk_pressed.png
+SHA1-Digest: 5p0AlPrwPaCPAReTrLuSh5+FVDE=
+
+Name: org/osmdroid/ic_menu_offline.png
+SHA1-Digest: TboJTRXPQA/LBE4PkVct/1/CnNk=
+
+Name: res/drawable-nodpi-v4/img_lupa_on.png
+SHA1-Digest: /eixFKs08Z9HoWv9itJ6pMpZSTo=
+
+Name: res/layout/config_info.xml
+SHA1-Digest: eYYscz0TUwHhZbt4AbUFkKr5ahA=
+
+Name: res/drawable-nodpi-v4/img_sincronizar_token.png
+SHA1-Digest: IJ1pJRsqHWjG8dA1OJvWGDZl95E=
+
+Name: res/drawable-nodpi-v4/img_marker_suc_pressed.png
+SHA1-Digest: Pa5eWj8zFdqZddG5LU3n26/xewk=
+
+Name: res/drawable-nodpi-v4/img_btn_token_coordenada.png
+SHA1-Digest: q7NDgELfQQ5NNSIfhTYvh+qfrCA=
+
+Name: res/drawable-nodpi-v4/img_filtro_off_pressed.png
+SHA1-Digest: cQc+zdiVPhvz6403sO64qtNwVU4=
+
+Name: assets/jquery.flot.canvas.min.js
+SHA1-Digest: icI9K+1GLCfhlEvCbmrwz4ifcvo=
+
+Name: res/drawable/launcher_icon.png
+SHA1-Digest: z1xWFNSb8Bo8KEe+CDnSVYhd7Bk=
+
+Name: res/drawable-nodpi-v4/img_lista_off.png
+SHA1-Digest: Ta9NK7OwDCyFhb8l9kCYhDyt7BM=
+
+Name: resources.arsc
+SHA1-Digest: 6CSlcxQaiJ/fso0H0leCM2oU/5g=
+
+Name: res/drawable-nodpi-v4/img_logopoi_sucursal_pressed.png
+SHA1-Digest: iQAyyJ4+DzSuUnlVjKfF/LUvtFU=
+
+Name: assets/jquery.flot.min.js
+SHA1-Digest: bStBjEebufhj7BaKBK5PR1KlqUc=
+
+Name: res/drawable-nodpi-v4/img_popup_icon_opciones_filtro.png
+SHA1-Digest: eZ44P4hSxNpQTIq5ZgN7nd9/vCU=
+
+Name: res/drawable-nodpi-v4/img_auto_off_pressed.png
+SHA1-Digest: CLcSm/Yk2KTTSPXZyTNqTrGHylI=
+
+Name: res/drawable-nodpi-v4/img_lateral_transferir_pressed.png
+SHA1-Digest: Ine8gyvvY/vV6NXn4DhZV5OEoVg=
+
+Name: res/drawable-nodpi-v4/img_geo_off_pressed.png
+SHA1-Digest: mdmG9SDlBA5jZFZYfXzqJ5miQ3E=
+
+Name: res/drawable-nodpi-v4/img_retiro_dinero_pressed.png
+SHA1-Digest: kMC8KbQdas02E6cJcLOrdcDnfRk=
+
+Name: res/drawable-nodpi-v4/img_fondo_avatar.png
+SHA1-Digest: CxGIhMXSU9ctCBuyeOkc0WAMWwg=
+
+Name: res/drawable-nodpi-v4/img_icon_mensaje_time_out.png
+SHA1-Digest: dZy6aG3iYUuTnrlVV23znS1b8uE=
+
+Name: res/drawable-nodpi-v4/img_galeria_pressed.png
+SHA1-Digest: Plvm9SiK9rhXvx5O0SkUED4kP8A=
+
+Name: res/drawable-mdpi-v4/image_icon.png
+SHA1-Digest: bMEMd9C9razslihkRcle5q0bjak=
+
+Name: assets/jquery.flot.time.min.js
+SHA1-Digest: BXpBNVRXprWO5whs4DTqwL2kfuo=
+
+Name: org/spongycastle/mail/smime/validator/SignedMailValidatorMessage
+ s_de.properties
+SHA1-Digest: DscWSVRhkC4THMppc4uEk1bJk6o=
+
+Name: res/drawable-nodpi-v4/img_estado_frame_tr.png
+SHA1-Digest: hPSGHqiRQs0L28JTT2RGb1YWEpI=
+
+Name: res/drawable-nodpi-v4/img_caminar_on.png
+SHA1-Digest: T0+PC/66Vsy+J67lnZN96fMXkbc=
+
+Name: res/drawable-nodpi-v4/img_bnt_radiobtn_on.png
+SHA1-Digest: wTe0l0sW8dDXRmClJI61NgTvN9U=
+
+Name: res/drawable-nodpi-v4/img_up.png
+SHA1-Digest: lot1ziBJoR92LBqbwsqA/zeqrcQ=
+
+Name: res/anim/cycle_7.xml
+SHA1-Digest: Nfszhf0p43UCn6uZrMLoaFSfYQM=
+
+Name: res/drawable-nodpi-v4/img_btn_pagar.png
+SHA1-Digest: qX+mftGaRs4fcm5pUuRCUsVoVm0=
+
+Name: res/drawable-nodpi-v4/img_header_saldorut_2.png
+SHA1-Digest: GEV+dSLWYQ0ZSHKHpfXHaIbbGMY=
+
+Name: res/layout/footer.xml
+SHA1-Digest: dIxx+Kju74EV+bTsmqJ4UPnmfDE=
+
+Name: res/layout/capture.xml
+SHA1-Digest: 0WNtVSTRBfrYsAaVZREVIX67x30=
+
+Name: res/drawable-nodpi-v4/img_personalizar_menu_pressed.png
+SHA1-Digest: XBU+PJBFqufiB0Zi8O2lKhKAb+w=
+
+Name: res/drawable-nodpi-v4/img_deposito_dinero_pressed.png
+SHA1-Digest: ujEofVi9YAsFl6SjHxoK1BOu9hQ=
+
+Name: res/drawable-nodpi-v4/img_flecha_m_right_2.png
+SHA1-Digest: cM+kbAWl05KJW7QBE8SlAdT8R7A=
+
+Name: res/drawable-nodpi-v4/img_caminar_off.png
+SHA1-Digest: JNHsDfnekJi0EiREVAyLlGF+wHM=
+
+Name: res/drawable-nodpi-v4/img_menos_icon.png
+SHA1-Digest: xMPXn9svPnEEwA4l3DN3qLmbslw=
+
+Name: res/drawable-nodpi-v4/img_btn_recibir_pago_pressed.png
+SHA1-Digest: lVMclVYMT7XZdWDV2zekQfgTZs8=
+
+Name: res/drawable-ldpi-v4/image_icon.png
+SHA1-Digest: FZLVznz9FsppipnHHqln6s8zScQ=
+
+Name: res/drawable-nodpi-v4/img_camara.png
+SHA1-Digest: Gwj14r7zbE6x1sxRNBF38PlHjyU=
+
+Name: res/drawable-nodpi-v4/img_contacto2_pressed.png
+SHA1-Digest: bIGbOktIXkK1QECEpCA/2w4uj/Y=
+
+Name: res/raw/configuration.mp3
+SHA1-Digest: +meFw6fPeSaBxH8NVKWRI23lhK0=
+
+Name: res/drawable-nodpi-v4/img_mb_logo_tcrm.png
+SHA1-Digest: Mnxhc/VvgO+HH5b07DIjfqGCUMA=
+
+Name: res/drawable-nodpi-v4/img_emergencias.png
+SHA1-Digest: xFamVGovyJcNJJ0wU9HOYGcZ+Mw=
+
+Name: res/layout/main.xml
+SHA1-Digest: c5VEJHRLafiPOknp3VvdmvIcdog=
+
+Name: res/drawable-nodpi-v4/img_mas_icon.png
+SHA1-Digest: K9ont3QMpslVmIOiuC3mt62sY6I=
+
+Name: org/osmdroid/next.png
+SHA1-Digest: mnQ8AqgUUJQuectaoH/96ffxjm8=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: A33f/6Xb1ogZl4jZlmsi6//HTbE=
+
+Name: res/drawable-nodpi-v4/img_galeria.png
+SHA1-Digest: uUqf5KIfNwhBR8yvSJX3l7+RF14=
+
+Name: res/drawable-nodpi-v4/img_pagar_servicios_pressed.png
+SHA1-Digest: LTaAMML7W0VJDLx27Gd25JJw5+Y=
+
+Name: res/drawable-nodpi-v4/img_logopoi_sucursal.png
+SHA1-Digest: CDikSveunoA4yaUt2KMN/oTEGyw=
+
+Name: res/drawable-nodpi-v4/img_cambiar_clave_pressed.png
+SHA1-Digest: KMC0BY4vgQ2GOJJvvBw6A/yRz/s=
+
+Name: res/drawable-nodpi-v4/img_header_saldo.png
+SHA1-Digest: VYmyYKpN4Lffx/6IsBxtJz069uA=
+
+Name: res/drawable-nodpi-v4/img_flecha_m_right_2_pressed.png
+SHA1-Digest: o0ks1EKWtE+YKpJR+OshjNPiJhQ=
+
+Name: res/drawable-nodpi-v4/img_boton_error_pressed.png
+SHA1-Digest: uiBtH+IUMT6VxtZmWPj6iotk4po=
+
+Name: assets/jquery.flot.selection.min.js
+SHA1-Digest: cTThO//dh7ePbCbwanpjolU7W8Y=
+
+Name: res/drawable-nodpi-v4/img_boton_info.png
+SHA1-Digest: onjk5p8TSxhdg9bcqmkoS/dKVC0=
+
+Name: res/drawable-nodpi-v4/img_btn_banca_movil.png
+SHA1-Digest: 7zgvjP5sKInq5B0tJc9t7P2FyKQ=
+
+Name: res/drawable-nodpi-v4/img_boton_ok_pressed.png
+SHA1-Digest: MG+6o66E1Cibga/PnMoUkTmVUo8=
+
+Name: res/drawable-nodpi-v4/img_qr_activar_pressed.png
+SHA1-Digest: NOQVKzPLm0kT7sZ87t+w7Xx6y2M=
+
+Name: res/drawable-nodpi-v4/img_flecha_l_pressed.png
+SHA1-Digest: jcAUy3ixSH6pkn8hOkPNMzbipWs=
+
+Name: assets/jquery.flot.fillbetween.min.js
+SHA1-Digest: 33cWYZTjZUmoknRxbXTym4+RDM8=
+
+Name: res/drawable-nodpi-v4/img_enviar_pressed.png
+SHA1-Digest: iPj/jUckENVdRRq1euxF8EMZlo8=
+
+Name: res/drawable-nodpi-v4/img_1x20px_sombra.png
+SHA1-Digest: 8GcNsDAdFF5blE0MC8xDCdYGKO4=
+
+Name: res/drawable-nodpi-v4/img_num_3_m.png
+SHA1-Digest: sqPmYPOO8vlmhZW6tErvTIA9VzQ=
+
+Name: org/spongycastle/mail/smime/validator/SignedMailValidatorMessage
+ s.properties
+SHA1-Digest: GJp/x0709ZO6Jo2206wiWIycYOo=
+
+Name: res/drawable-nodpi-v4/img_retiro_dinero.png
+SHA1-Digest: mhifnijustKK8dMWETmfCzIHxu4=
+
+Name: res/drawable-nodpi-v4/img_flecha.png
+SHA1-Digest: 3gKVwAdG2KoZnP1puhxUT6EYOPk=
+
+Name: res/drawable-nodpi-v4/img_conozca_pago_movil.png
+SHA1-Digest: o/ru/wnnCnByHbIyXz5YYmoOKow=
+
+Name: res/drawable-nodpi-v4/img_btn_geolocalizacion.png
+SHA1-Digest: DVXuc0pkxYPJvzupZ/Ny4Dbm7YU=
+
+Name: res/drawable-nodpi-v4/img_boton_pregunta_pressed.png
+SHA1-Digest: 3IldHb7dmFX7JaXOM3Ta1z8sw4s=
+
+Name: res/layout/header.xml
+SHA1-Digest: hWas32SddM8s0vlu51uXUej/XWU=
+
+Name: res/drawable-nodpi-v4/img_logopoi_cv.png
+SHA1-Digest: 3bqLbEczaMBRmE1lf0LhK0gAkNw=
+
+Name: res/drawable-nodpi-v4/fingerprint_dialog_bg.xml
+SHA1-Digest: b8C2NDmuNSPXswUYFSWEIVXV5K0=
+
+Name: assets/jquery.colorhelpers.min.js
+SHA1-Digest: GtYIDnwGwDPanWaKn/h8wtygpfE=
+
+Name: assets/jquery.min.js
+SHA1-Digest: yA+3D6DmI4hxDuFtMQwdNAFlidw=
+
+Name: res/drawable-nodpi-v4/img_marker_cv_pressed.png
+SHA1-Digest: bWCytztEEhB9se1J0YHuSNxOgus=
+
+Name: res/drawable-nodpi-v4/img_call_off.png
+SHA1-Digest: Nc4jth8qoX5Yw70sTlfpK7q4y1k=
+
+Name: res/drawable-nodpi-v4/img_twitter_pressed.png
+SHA1-Digest: HArsWRP8MPZj9oyz8OBjRMifBxQ=
+
+Name: res/drawable-nodpi-v4/img_delete_pressed.png
+SHA1-Digest: QIWrl6H+yg+0g5sOajv8M4IKjyU=
+
+Name: res/drawable-nodpi-v4/img_delete_notif.png
+SHA1-Digest: 4fWOIXEwf+xP47zupXGzpNjOdss=
+
+Name: res/drawable-nodpi-v4/img_chk_off.png
+SHA1-Digest: LhdtWOzziF7HbAjX7JVpYpJFF/k=
+
+Name: res/drawable-nodpi-v4/img_user_profile_ok.png
+SHA1-Digest: bWOmqlXyQTXKoU7N/92pp2sgqUQ=
+

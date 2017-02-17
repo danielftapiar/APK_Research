@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff666666" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cl.santander.smartphone.CustomScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_tarjeta_tipo_producto" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="-" />
+                    <TextView android:textSize="10.0dip" android:textColor="#ff000000" android:id="@id/tv_tarjeta_numero_producto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="-" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0dip" android:textColor="#ffff0000" android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/detalle_movimiento" />
+                    <LinearLayout android:orientation="vertical" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ly_tarjeta_detalles" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/TextView06" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/fecha" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_tarjeta_detalle_mov_fecha" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/TextView09" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/monto" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ffff0000" android:gravity="right" android:id="@id/tv_tarjeta_detalle_mov_monto" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/TextView06" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/nombre_comercio" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_tarjeta_detalle_mov_nombre_comercio" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/TextView05" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/tipo_transaccion" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_tarjeta_detalle_mov_tipo_transaccion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/TextView02" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/rubro_comercio" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_tarjeta_detalle_mov_rubro_comercio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#fff0f0f0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/TextView01" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/ciudad" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_tarjeta_detalle_mov_ciudad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/TextView10" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/tipo_beneficiario" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="2.0">
+                            <TextView android:textSize="11.0sp" android:textColor="#ff333333" android:gravity="right" android:id="@id/tv_tarjeta_detalle_mov_tipo_beneficiario" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_det_mov_documentos" android:background="@drawable/box1_transfer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <android.support.v4.view.ViewPager android:id="@id/vp_movimientos_detalle_documentos" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+                <com.viewpagerindicator.CirclePageIndicator android:id="@id/vpi_movimientos_detalle_documentos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/box_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/textView1" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/informar_movimiento" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff333333" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/informar_movimiento_text" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <RadioButton android:textStyle="bold" android:textColor="#ff333333" android:id="@id/rb_detalle_mov_mail" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/bt_radio" android:text="@string/enviar_mail" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/ly_contenido_rb_mail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <EditText android:textColor="#ff333333" android:textColorHint="#ff666666" android:id="@id/et_detalle_mov_mail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ingrese_email" android:lines="1" android:inputType="textEmailAddress" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/ly_divisor_mail" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <RadioButton android:textStyle="bold" android:textColor="#ff333333" android:id="@id/rb_detalle_mov_split" android:tag="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/bt_radio" android:text="@string/dividir_monto" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/ly_contenido_rb_split" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textColor="#ff666666" android:id="@id/textView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cuanta_gente_compartir" />
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <EditText android:gravity="center" android:id="@id/et_split_cuantos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:maxLength="4" android:layout_weight="1.0" android:inputType="number" android:imeOptions="actionNext" />
+                            <TextView android:textColor="#ff666666" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/cada_uno" android:layout_weight="1.0" />
+                            <TextView android:textColor="#ff000000" android:id="@id/tv_split_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        </LinearLayout>
+                        <EditText android:textColor="#ff333333" android:textColorHint="#ff666666" android:id="@id/et_detalle_mov_mail_split" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:hint="@string/ingrese_email" android:lines="1" android:inputType="textEmailAddress" />
+                        <TextView android:textSize="10.0dip" android:textColor="#ff666666" android:gravity="center" android:id="@id/textView7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/separar_varios" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/bt_detalle_mov_aceptar" android:tag="bold" android:background="@drawable/button_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/aceptar" />
+        </LinearLayout>
+    </cl.santander.smartphone.CustomScrollView>
+</LinearLayout>

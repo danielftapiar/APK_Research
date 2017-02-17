@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff666666" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/box1_transfer" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/bt_dia" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/indicators_day" android:layout_weight="1.0" />
+        <Button android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/bt_alzas" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/indicadores_alzas" android:layout_weight="1.0" />
+        <Button android:textSize="12.0dip" android:textColor="@color/grey_texts" android:id="@id/bt_bajas" android:background="@drawable/button_select_not_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/indicadores_bajas" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:background="#eeffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TableLayout android:id="@id/tl_tabla_indicadores" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:stretchColumns="2" android:shrinkColumns="0,4,6" android:layout_weight="1.0">
+                <TableRow android:id="@id/tr_cabecera" android:background="#ff333333" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_table_fecha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/date" />
+                    <LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_table_indicador" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/indicator" />
+                    <LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_table_valor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/value" />
+                    <LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_table_var" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/var" />
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:id="@id/TableRow01" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_row_month" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="AGO" />
+                        <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_row_day" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="17" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:background="#ffaaaaaa" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+                    <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:id="@id/tv_row_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="IPSA" />
+                    <LinearLayout android:orientation="vertical" android:background="#ffaaaaaa" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+                    <TextView android:textStyle="bold" android:textColor="@color/grey_texts" android:gravity="center" android:id="@id/tv_row_valor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="4214,72" />
+                    <LinearLayout android:orientation="vertical" android:background="#ffaaaaaa" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+                    <TextView android:textStyle="bold" android:textColor="@color/green" android:gravity="center" android:id="@id/tv_row_var" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0,72%" />
+                </TableRow>
+            </TableLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ly_tasas_captacion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textColor="@color/grey_texts" android:id="@id/tv_tasa_captacion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/tasas_captacion" />
+                <LinearLayout android:orientation="vertical" android:background="#ff666666" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="5.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/grey_texts" android:id="@id/tv_30dias" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="30 días ($):" />
+                        <TextView android:textColor="@color/green" android:id="@id/tv_30dias_valor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="0,37%" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/grey_texts" android:id="@id/tv_90dias" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="90 días (UF + $):" />
+                        <TextView android:textColor="@color/green" android:id="@id/tv_90dias_valor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="0,37%" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

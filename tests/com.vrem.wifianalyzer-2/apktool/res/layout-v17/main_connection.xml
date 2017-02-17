@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/connection" android:background="@color/connected_background" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/connectionDetail" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="@color/connected" android:id="@id/linkSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_view_item_horizontal_tab" android:layout_marginRight="@dimen/list_view_item_horizontal_spacer" android:layout_marginStart="@dimen/list_view_item_horizontal_tab" android:layout_marginEnd="@dimen/list_view_item_horizontal_spacer" />
+            <TextView android:textStyle="bold" android:textColor="@color/connected" android:id="@id/ipAddress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_view_item_horizontal_spacer" android:layout_marginEnd="@dimen/list_view_item_horizontal_spacer" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/nodata" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:textColor="@color/error_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_data" android:textAlignment="center" />
+        <TextView android:textColor="@color/warning_color" android:gravity="center" android:id="@id/nodatageo" android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_data_geo_warning" android:textAlignment="center" />
+        <TextView android:gravity="center" android:autoLink="web" android:id="@id/nodatageourl" android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_data_geo_url" />
+    </LinearLayout>
+</LinearLayout>

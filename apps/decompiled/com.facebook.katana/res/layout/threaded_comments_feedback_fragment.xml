@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.feedback.ui.FlyoutLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:showDividers="middle" fb:dividerPadding="@dimen/feedback_sections_divider_padding" fb:divider="@color/light_separator_color" fb:dividerThickness="@dimen/one_px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/threaded_comments_feedback_header_view" />
+    <include layout="@layout/feedback_fragment_content" />
+</com.facebook.feedback.ui.FlyoutLinearLayout>

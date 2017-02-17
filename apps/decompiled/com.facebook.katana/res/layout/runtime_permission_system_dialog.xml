@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/runtime_permissions_dialog_content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.contentview.ContentView android:id="@id/runtime_permissions_dialog_contentview" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:thumbnailPadding="10.0dip" fb:thumbnailSize="small" fb:maxLinesFromThumbnailSize="false" />
+    <CheckBox android:id="@id/checkbox_never_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/runtime_premissions_never_show" />
+</LinearLayout>

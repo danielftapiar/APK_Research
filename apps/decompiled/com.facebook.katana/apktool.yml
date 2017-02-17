@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.facebook.katana.apk
+compressionType: false
+doNotCompress:
+- assets/secondary-program-dex-jars/secondary-5.dex.jar.xzs.tmp~.meta
+- assets/secondary-program-dex-jars/secondary.dex.jar.xzs
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '14956019'
+  versionName: 46.0.0.26.153

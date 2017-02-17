@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView1" android:background="@drawable/fondo_app_saldo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#ff000000" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/INGRESE_CODIGO_BIP" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" style="@style/PantallaLED">
+            <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cl.birdie.transantiagomaster.elements.CustomFontLabel android:id="@id/customFontLabel1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/TxtSaldo" style="@style/TxtLED" />
+                <cl.birdie.transantiagomaster.elements.CustomFontLabel android:id="@id/txtSaldoBip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TxtLED" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cl.birdie.transantiagomaster.elements.CustomFontLabel android:id="@id/customFontLabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/TxtFecha" style="@style/TxtLEDFecha" />
+                <cl.birdie.transantiagomaster.elements.CustomFontLabel android:id="@id/txtFechaSaldo" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TxtLEDFecha" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:id="@id/trBip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ff000000" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N° Bip!" android:layout_weight="1.0" />
+                <EditText android:textColor="#ff000000" android:id="@id/edtBipNumero" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/HINT_CODIGO_BIP" android:ems="10" android:inputType="number">
+                    <requestFocus />
+                </EditText>
+            </TableRow>
+            <TableRow android:id="@id/trRut" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RUT" android:layout_weight="1.0" />
+                <EditText android:id="@id/edtRut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/HINT_RUT_BIP" android:ems="10" android:inputType="number" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:id="@id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <Button android:layout_gravity="center" android:id="@id/btnSaldoBip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BIP_SEARCH" style="@style/BtnIngresoManual" />
+            <Button android:layout_gravity="center" android:id="@id/btnScanBarcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/BtnEscanear" />
+        </LinearLayout>
+        <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/SALDOBIP_INFORMACION_REFERENCIAL" />
+    </LinearLayout>
+</ScrollView>

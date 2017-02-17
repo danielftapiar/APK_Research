@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_white" android:ellipsize="end" android:id="@id/now_composer_row_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="1.0dip" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_bluegrey_40" android:ellipsize="end" android:id="@id/now_composer_row_view_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/now_divebar_composer_prompt" android:maxLines="1" android:lineSpacingExtra="1.0dip" />
+    <com.facebook.now.icons.NowIconView android:layout_gravity="center_vertical" android:id="@id/now_composer_row_view_right_icon" android:layout_width="@dimen/now_composer_icon_size_total" android:layout_height="@dimen/now_composer_icon_size_total" android:scaleType="fitCenter" fb:layout_useAsAuxView="true" fb:iconSize="@dimen/now_composer_icon_size_internal" fb:backgroundCornerRadius="@dimen/now_icon_view_corner_radius" />
+</merge>

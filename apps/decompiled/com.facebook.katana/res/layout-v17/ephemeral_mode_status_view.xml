@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textColor="@color/orca_neue_text_grey" android:id="@id/ephemeral_mode_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/ephemeral_mode_off" android:layout_marginEnd="10.0dip" />
+    <com.facebook.widget.text.BetterTextView android:textColor="@color/orca_neue_primary" android:id="@id/ephemeral_mode_toggler" android:background="@drawable/text_button_background_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_ephemeral_mode" />
+</merge>

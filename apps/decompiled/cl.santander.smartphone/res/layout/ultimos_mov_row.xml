@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/UltimosMovRow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0dip" android:textColor="@color/black_texts" android:gravity="center" android:id="@id/tv_row_ultimosmov_month" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="AGO" />
+            <TextView android:textStyle="bold" android:textColor="@color/black_texts" android:gravity="center" android:id="@id/tv_row_ultimosmov_day" android:tag="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="17" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="#ffaaaaaa" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <TextView android:textSize="11.0sp" android:textColor="@color/black_texts" android:id="@id/tv_row_ultimosmov_concept" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Retirada en cajero" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="#ffaaaaaa" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="4.0">
+            <TextView android:textSize="11.0sp" android:textColor="@color/black_texts" android:gravity="right" android:id="@id/tv_row_ultimosmov_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="$800.000" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

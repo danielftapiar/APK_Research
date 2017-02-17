@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.richdocument.view.widget.ShareBar android:id="@id/share_bar" android:background="@android:color/black" android:paddingLeft="@dimen/richdocument_sharebar_horizontal_padding" android:paddingRight="@dimen/richdocument_sharebar_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/richdocument_sharebar_height" />
+    <com.facebook.richdocument.view.widget.IARecyclerView android:id="@id/recycler_view" android:scrollbars="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/richdocument_recycler"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

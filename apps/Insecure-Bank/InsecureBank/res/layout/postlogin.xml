@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Account: " 
+        android:orientation="vertical" 
+        android:textStyle="bold" android:textSize="15dp"
+		
+		android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/from_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"  >
+
+        <requestFocus 
+            />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Account: " 
+        android:orientation="vertical" 
+        android:textStyle="bold" android:textSize="15dp"
+		android:textColor="#FFFFFF" />
+
+    <EditText android:id="@+id/to_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" ></EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: " 
+        android:textStyle="bold" android:textSize="15dp"
+		android:textColor="#FFFFFF"/>
+
+    <EditText android:id="@+id/amount_txt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    </EditText>
+    
+    <Button android:id="@+id/transfer_button" android:text="Transfer" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+    <Button android:layout_width="match_parent" android:id="@+id/rawhistory" android:text="Raw History" android:layout_height="wrap_content"></Button>
+    <TextView android:layout_width="wrap_content" android:id="@+id/out_text" android:layout_height="wrap_content" android:text=""></TextView>
+
+</LinearLayout>

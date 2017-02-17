@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:id="@id/place_question_title" android:tag="@string/reaction_content_view_tag" android:layout_width="@dimen/reaction_content_fixed_width" android:layout_height="wrap_content" style="@style/PlaceQuestionTitle" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/place_question_details" android:tag="@string/reaction_content_view_tag" android:layout_width="@dimen/reaction_content_fixed_width" android:layout_height="wrap_content" style="@style/PlaceQuestionDetails" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/place_question_subtitle" android:tag="@string/reaction_content_view_tag" android:layout_width="@dimen/reaction_content_fixed_width" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/PlaceQuestionSubtitle" />
+    <View android:id="@id/reaction_card_expansion_filler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <View android:id="@id/place_questions_actions_container_divider" android:tag="@string/reaction_content_view_tag" android:background="@color/fbui_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/place_question_answer_horizontal_padding" android:layout_marginRight="@dimen/place_question_answer_horizontal_padding" />
+    <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="horizontal" android:id="@id/place_question_actions_container" android:tag="@string/reaction_content_view_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showDividers="middle" fb:divider="@color/fbui_divider" fb:dividerThickness="1.0px" />
+</merge>

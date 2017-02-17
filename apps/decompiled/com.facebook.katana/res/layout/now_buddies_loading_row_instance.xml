@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/now_progress_bar_view" android:paddingTop="@dimen/now_standard_padding" android:paddingBottom="@dimen/now_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/now_composer_icon_size" android:maxHeight="@dimen/now_composer_icon_size" android:minWidth="@dimen/now_composer_icon_size" android:minHeight="@dimen/now_composer_icon_size" style="@style/FbProgressCircular" />
+</FrameLayout>

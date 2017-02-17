@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.inlineactionbar.InlineActionBar android:layout_gravity="center_horizontal" android:id="@id/groups_feed_composer_action_bar" android:layout_width="fill_parent" android:layout_height="@dimen/groups_feed_bar_height" fb:menu="@menu/groups_feed_composer_bar_menu" style="@style/InlineActionBar.Small" />
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.now.ui.BuddyHeaderRowView android:background="@color/now_divebar_medium_background_color" android:padding="@dimen/now_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/now_presence_row"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
